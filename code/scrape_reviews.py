@@ -33,7 +33,7 @@ dict_reviews = []
 
 for i in range(587):
     for j in range(50):
-        response = requests.get(str(df["business_info"][i]["url"]) + "&start="+ str(j) + str(0))
+        response = requests.get(str(df["business_info"][i+12]["url"]) + "&start="+ str(j) + str(0))
         soup = BeautifulSoup(response.content, "lxml")
 
         reviews = []
@@ -42,14 +42,14 @@ for i in range(587):
 
         for ii in range(len(reviews)):
             x = {
-                "restaurant_name" : df["business_info"][i]["name"],
+                "restaurant_name" : df["business_info"][i+12]["name"],
                 "number" : ii+1+(j*10),
                 "review" : re.sub('[^a-zA-Z0-9-_.]', ' ', reviews[ii].replace("<br/>", " ").replace("---", ""))
             }
             dict_reviews.append(x)
 
 
-    with open(os.path.join("artifacts", "yelp_all_reviews_" + df["business_info"][i]["name"] + ".csv"), 'w', encoding = "utf-8", newline='') as output_file:
+    with open(os.path.join("artifacts", "yelp_all_reviews_" + df["business_info"][i+12]["name"] + ".csv"), 'w', encoding = "utf-8", newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames=["restaurant_name", 'number', 'review'])
         dict_writer.writeheader()
         dict_writer.writerows(dict_reviews)
