@@ -1,6 +1,7 @@
 import os
 import csv
 import requests
+import re
 from bs4 import BeautifulSoup
 import pandas as pd
 from dotenv import load_dotenv
@@ -28,16 +29,25 @@ df = pd.DataFrame(query.fetchall())
 
 
 
-all_restaurant_info = []
+restaurant_attributes = []
 
 for i in range(len(df)):
-    x = df["business_info"][i]
-    all_restaurant_info.append(x)
     response = requests.get(str(df["business_info"][i]["url"]))
     soup = BeautifulSoup(response.content, "lxml")
 
-with open(os.path.join("artifacts", "restaurant_info.csv"), "w", encoding = "utf-8", newline="") as output_file:
-    dict_writer = csv.DictWriter(output_file, fieldnames=["id", "alias", "name", "image_url", "is_closed", "url", "review_count", "categories", "rating", "coordinates", "transactions", "price", "location", "phone", "display_phone", "distance"])
-    dict_writer.writeheader()
-    dict_writer.writerows(all_restaurant_info)
+    attributes = []
+    for attribute in soup.find("yelp-react-root").find("main").find_all("span", {"class": "css-1p9ibgf", "data-font-weight": "semibold"}):
+        attributes.append(attribute.text)
 
+    for ii in range(len(attributes)):
+        x = {
+            "restaurant_name" : df["business_info"][i]["name"],
+            "id" : df["business_info"][i]["id"],
+            "attributes" : attributes[ii]
+        }
+        restaurant_attributes.append(x)
+
+    with open(os.path.join("artifacts", "yelp_attributes.csv"), 'w', encoding = "utf-8", newline='') as output_file:
+        dict_writer = csv.DictWriter(output_file, fieldnames=["restaurant_name", 'id', 'attributes'])
+        dict_writer.writeheader()
+        dict_writer.writerows(restaurant_attributes)
