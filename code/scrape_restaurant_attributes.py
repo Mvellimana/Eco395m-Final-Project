@@ -35,18 +35,36 @@ for i in range(len(df)):
     soup = BeautifulSoup(response.content, "lxml")
 
     attributes = []
-    for attribute in soup.find("yelp-react-root").find("main").find_all("span", {"class": "css-1p9ibgf", "data-font-weight": "semibold"}):
-        attributes.append(attribute.text)
+    for ii in range(0,4):
+        try:
+            attr = soup.find("yelp-react-root").find("main").find_all("span", {"class": "css-1p9ibgf", "data-font-weight": "semibold"})[ii].decode_contents()
+            if attr.startswith('<a class="css-1um3nx" href'):
+                attr2 = "Heath Score: " + str(soup.find("yelp-react-root").find("main").find_all("span", {"class": "label-spacing-v2__09f24__RiEXv css-ux5mu6", "data-font-weight": "bold"})[0].decode_contents())
+                attributes.append(attr2)
+            else:
+                attributes.append(attr)
 
-    for ii in range(len(attributes)):
-        x = {
-            "restaurant_name" : df["business_info"][i]["name"],
-            "id" : df["business_info"][i]["id"],
-            "attributes" : attributes[ii]
-        }
-        restaurant_attributes.append(x)
+        except (AttributeError, IndexError):
+            continue
 
-    with open(os.path.join("artifacts", "yelp_attributes.csv"), 'w', encoding = "utf-8", newline='') as output_file:
+    for j in range(0,4):
+        try:
+            attri = soup.find("yelp-react-root").find("main").find_all("span", {"class": "css-qyp8bo", "data-font-weight": "semibold"})[j].decode_contents()
+            attributes.append(attri)
+
+        except (AttributeError, IndexError):
+            continue
+
+    x = {
+        "restaurant_name" : df["business_info"][i]["name"],
+        "id" : df["business_info"][i]["id"],
+        "attributes" : attributes
+    }
+    restaurant_attributes.append(x)
+
+    with open(os.path.join("updated_artifacts", "full_yelp_attributes.csv"), 'w', encoding = "utf-8", newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames=["restaurant_name", 'id', 'attributes'])
         dict_writer.writeheader()
         dict_writer.writerows(restaurant_attributes)
+
+

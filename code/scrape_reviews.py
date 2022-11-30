@@ -30,7 +30,7 @@ df = pd.DataFrame(query.fetchall())
 
 dict_reviews = []
 
-for i in range(1):
+for i in range(0, 588):
     for j in range(50):
         response = requests.get(str(df["business_info"][i]["url"]) + "&start="+ str(j) + str(0))
         soup = BeautifulSoup(response.content, "lxml")
@@ -39,8 +39,9 @@ for i in range(1):
         try:
             for review in soup.find("yelp-react-root").find_all("p", {"class" : "comment__09f24__gu0rG css-qgunke"}):
                 reviews.append(review.find("span").decode_contents())
-        except AttributeError:
-            continue
+        except (AttributeError, IndexError):
+            review = "no review"
+            reviews.append(review)
 
 
         ratings = []
@@ -49,7 +50,8 @@ for i in range(1):
                 xx = soup.find("yelp-react-root").find("main").find_all("div", {"class" : "five-stars__09f24__mBKym five-stars--regular__09f24__DgBNj display--inline-block__09f24__fEDiJ border-color--default__09f24__NPAKY", "role" : "img"})[ik]["aria-label"]
                 ratings.append(xx)
             except (AttributeError, IndexError):
-                continue
+                xx = "no rating"
+                ratings.append(xx)
 
         elite_status = []
         for ij in range(1, 11):
@@ -57,7 +59,7 @@ for i in range(1):
                 status = soup.find("yelp-react-root").find("main").find_all("div", {"class" : "user-passport-info border-color--default__09f24__NPAKY"})[ij].find("span", {"class" : "css-1adhs7a"}).decode_contents()
                 elite_status.append(status)
 
-            except AttributeError:
+            except (AttributeError, IndexError):
                 status2 = "none"
                 elite_status.append(status2)
 
@@ -67,7 +69,7 @@ for i in range(1):
                 num_photo = len(soup.find("yelp-react-root").find("main").find_all("div", {"class" : "review__09f24__oHr9V border-color--default__09f24__NPAKY"})[ip].find_all("div", {"class" : "photo-container-small__09f24__obhgq border-color--default__09f24__NPAKY"})) + len(soup.find("yelp-react-root").find("main").find_all("div", {"class" : "review__09f24__oHr9V border-color--default__09f24__NPAKY"})[ip].find_all("div", {"class" : "photo-container-large__09f24__fUgaj border-color--default__09f24__NPAKY"}))
                 number_of_photos.append(num_photo)
 
-            except AttributeError:
+            except (AttributeError, IndexError):
                 num_photo2 = 0
                 number_of_photos.append(num_photo2)
 
@@ -75,17 +77,17 @@ for i in range(1):
         for ir in range(0, 10):
             try:
                 useful = soup.find("yelp-react-root").find("main").find_all("div", {"class" : "review__09f24__oHr9V border-color--default__09f24__NPAKY"})[ir].find_all("span", {"class" : "css-12i50in"})[0].find("span", {"class" : "css-1lr1m88"}).decode_contents().replace("<!-- -->", "")
-            except AttributeError:
+            except (AttributeError, IndexError):
                 useful = 0
             
             try:
                 funny = soup.find("yelp-react-root").find("main").find_all("div", {"class" : "review__09f24__oHr9V border-color--default__09f24__NPAKY"})[ir].find_all("span", {"class" : "css-12i50in"})[1].find("span", {"class" : "css-1lr1m88"}).decode_contents().replace("<!-- -->", "")
-            except AttributeError:
+            except (AttributeError, IndexError):
                 funny = 0
 
             try: 
                 cool = soup.find("yelp-react-root").find("main").find_all("div", {"class" : "review__09f24__oHr9V border-color--default__09f24__NPAKY"})[ir].find_all("span", {"class" : "css-12i50in"})[2].find("span", {"class" : "css-1lr1m88"}).decode_contents().replace("<!-- -->", "")
-            except AttributeError:
+            except (AttributeError, IndexError):
                 cool = 0
 
             dict_attr = {
