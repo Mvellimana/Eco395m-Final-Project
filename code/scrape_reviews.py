@@ -30,8 +30,8 @@ df = pd.DataFrame(query.fetchall())
 
 dict_reviews = []
 
-for i in range(0, 588):
-    for j in range(50):
+for i in range(0, 587):
+    for j in range(25):
         response = requests.get(str(df["business_info"][i]["url"]) + "&start="+ str(j) + str(0))
         soup = BeautifulSoup(response.content, "lxml")
 
@@ -115,7 +115,7 @@ for i in range(0, 588):
 
 
 
-    with open(os.path.join("updated_artifacts", str(df["business_info"][i]["name"]) + ".csv"), "w", encoding = "utf-8", newline="") as output_file:
+    with open(os.path.join("artifacts", "mexican_reviews.csv"), "w", encoding = "utf-8", newline="") as output_file:
         dict_writer = csv.DictWriter(output_file, fieldnames=["id", "restaurant_name", "number", "review", "rating", "elite_status", "number_of_photos_included", "review_attributes"])
         dict_writer.writeheader()
         dict_writer.writerows(dict_reviews)

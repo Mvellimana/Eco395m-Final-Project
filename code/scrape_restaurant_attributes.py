@@ -62,8 +62,8 @@ for i in range(len(df)):
     }
     restaurant_attributes.append(x)
 
-    with open(os.path.join("updated_artifacts", "full_yelp_attributes.csv"), 'w', encoding = "utf-8", newline='') as output_file:
-        dict_writer = csv.DictWriter(output_file, fieldnames=["restaurant_name", 'id', 'attributes'])
+    with open(os.path.join("artifacts", "mexican_restaurant_attributes.csv"), "w", encoding = "utf-8", newline="") as output_file:
+        dict_writer = csv.DictWriter(output_file, fieldnames=["restaurant_name", "id", "attributes"])
         dict_writer.writeheader()
         dict_writer.writerows(restaurant_attributes)
 
