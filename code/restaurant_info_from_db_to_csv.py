@@ -33,10 +33,9 @@ all_restaurant_info = []
 for i in range(len(df)):
     x = df["business_info"][i]
     all_restaurant_info.append(x)
-    response = requests.get(str(df["business_info"][i]["url"]))
-    soup = BeautifulSoup(response.content, "lxml")
 
-with open(os.path.join("artifacts", "restaurant_info.csv"), "w", encoding = "utf-8", newline="") as output_file:
+
+with open(os.path.join("updated_artifacts", "full_restaurant_info.csv"), "w", encoding = "utf-8", newline="") as output_file:
     dict_writer = csv.DictWriter(output_file, fieldnames=["id", "alias", "name", "image_url", "is_closed", "url", "review_count", "categories", "rating", "coordinates", "transactions", "price", "location", "phone", "display_phone", "distance"])
     dict_writer.writeheader()
     dict_writer.writerows(all_restaurant_info)
