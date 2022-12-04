@@ -1,7 +1,7 @@
 import json
 
 from create_tables import create_tables
-from crud import pop_business_id_without_reviews, insert_one_review
+from crud import pop_business_id_without_reviews, insert_one_review, insert_one_non_review_business
 from yelp_requests import get_reviews
 
 if __name__ == "__main__":
@@ -11,7 +11,6 @@ if __name__ == "__main__":
     while True:
         print("checking for business reviews")
         business_id = pop_business_id_without_reviews()
-        print("Checked business reviews")
         
         if not business_id:
             print("All businesses have associated reviews.")
@@ -20,11 +19,10 @@ if __name__ == "__main__":
         print("getting reviews for business id:" + str(business_id))
         reviews = get_reviews(business_id)
         if len(reviews) == 0:
-            print("no reviews found for " + str(business_id))
+            print("no reviews found on Yelp for " + str(business_id) + ". Skipping.")
             insert_one_non_review_business(business_id)
             continue
 
-        print("num of reviews = " + str(len(reviews)))
         for review in reviews:
 
             review_id = review["id"]

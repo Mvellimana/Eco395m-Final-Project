@@ -55,16 +55,13 @@ def insert_one_business(business):
     with engine.connect() as connection:
         connection.exec_driver_sql(insert_template, business)
 
-def insert_one_non_review_business(business):
-    """Takes a dict with keys id"""
+def insert_one_non_review_business(business_id):
+    """Takes a dict with key id"""
 
-    insert_template = """
-        insert into businesses_with_no_review (id)
-        values (%(id)s);
-    """
+    insert_template = "insert into businesses_with_no_review (id) values ('" + str(business_id) + "');"
 
     with engine.connect() as connection:
-        connection.exec_driver_sql(insert_template, business)
+        connection.exec_driver_sql(insert_template)
 
 def insert_one_review(review):
     """Takes a dict with keys id, business_id and review_info and inserts the review."""
@@ -75,12 +72,7 @@ def insert_one_review(review):
     """
 
     with engine.connect() as connection:
-        try:
-            connection.exec_driver_sql(insert_template, review)
-        except:
-            print("something went wrong")
-        finally:
-            print("the try except is finished")
+        connection.exec_driver_sql(insert_template, review)
 
 def pop_business_id_without_reviews():
     query = """
