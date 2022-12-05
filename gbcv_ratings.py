@@ -20,8 +20,8 @@ from sklearn.naive_bayes import MultinomialNB
 """Import the Dataset"""
 yelp_data = pd.read_csv(r'/Users/rajsitee/Downloads/Eco395m-Final-Project-jordan/artifacts/mexican_reviews.csv')
 
-"""Convert polarity into a binary classification. 
-For all values < 0, polarity = 0. For all values >= 0, polarity = 1. """
+"""Convert rating into a binary classification. 
+For all ratings <= 3, rating_binary = 0. For all ratings >= 4, rating_binary = 1. """
 def star_rating(x):
 
     if x.rating == '3 star rating':
