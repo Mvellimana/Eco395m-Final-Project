@@ -5,12 +5,19 @@ import nltk
 from nltk.corpus import stopwords
 from textblob import Word
 from textblob import TextBlob
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 #nltk.download("stopwords")
 #nltk.download('omw-1.4')
 
-os.chdir('/Users/Mai/Documents/ECO385M/Eco395m-Final-Project-jordan/artifacts') #update directory
-df = pd.read_csv('yelp_all_reviews_combined.csv') 
+os.chdir('/Users/Mai/Documents/ECO385M/Eco395m-Final-Project-jordan/artifacts')#update directory
+df = pd.read_csv('mexican_reviews.csv')
+Food_lexicons = pd.read_csv('food.csv',header=None,names=['food']) 
+
+FOOD_LEXICONS = Food_lexicons.food.values.tolist()
+FOOD_LEXICONS = set([x.lower() for x in FOOD_LEXICONS])
+
 
 df.shape
 
@@ -35,7 +42,7 @@ pd.set_option('display.max_rows', 500)
 print(freq)
 
 # Remove other necessary stop words
-other_stopwords = ['get','also', 'back','us','go','would','even','went','say','day']
+other_stopwords = ['get','also', 'back','us','go','would','even','went','say','day','ive','im']
 df['review_nopunc_nostop_nocommon'] = df['review_nopunc_nostop'].apply(lambda x: "".join(" ".join(x for x in x.split() if x not in other_stopwords)))
 
 # Lemmatization
@@ -60,3 +67,70 @@ df2.to_csv("Cleaned_reviews.csv",index=False)
 # Polarity and Subjectivety by restaurant
 df2.groupby(['restaurant_name'])['polarity'].mean()
 df2.groupby(['restaurant_name'])['subjectivity'].mean()
+
+
+
+# Extract food from reviews based on food lexicon file
+from nltk.stem.porter import PorterStemmer
+
+
+def _extract_ngrams(data: str, num: int):
+    n_grams = TextBlob(data).ngrams(num)
+    return [' '.join(grams).lower() for grams in n_grams]
+
+def _delete_duplicate_food_n_grams(text: str, foods: list[str]) -> list[str]:
+    foods.sort(key=lambda x: -len(x.split()))  # Sort desc by number of words
+    result_foods = []
+    for food in foods:
+        if food in text:
+            text = text.replace(food, '')
+            result_foods.append(food)
+    return result_foods
+
+def extract_foods(x: str) -> list[str]:
+    foods = set()
+    stemmer = PorterStemmer()
+    for n in range(6, 0, -1):
+        n_grams = _extract_ngrams(x.cleaned_review, n)
+        n_grams_stemmed = [stemmer.stem(n_gram) for n_gram in n_grams]
+        n_grams_set = set(n_grams).union(n_grams_stemmed)
+        foods = foods.union(n_grams_set.intersection(FOOD_LEXICONS))
+    foods = list(foods)
+    foods = _delete_duplicate_food_n_grams(x.cleaned_review, foods)
+    return list(foods)
+
+
+df['food'] = df.apply(extract_foods,axis =1)
+
+# To choose categories for entity analysis
+food_list = df.food.values.tolist()
+
+food_dict = {}
+
+for words in food_list:
+    for word in words:
+        if word in food_dict:
+            food_dict[word] += 1
+        else:
+            food_dict[word] = 1
+            
+food_counts_list = [(k, v) for k, v in food_dict.items()]
+sorted_food_counts = sorted(food_counts_list,key=lambda i: -i[1])
+
+# WordCloud for reviews
+cleaned_review_raw = df.cleaned_review.values.tolist()
+cleaned_review_raw2 = [item for sublist in cleaned_review_raw for item in sublist]
+cleaned_review_list = ''.join(cleaned_review_raw2)
+
+wordcloud_reviews = WordCloud(width = 3000, height = 2000,random_state=1).generate(cleaned_review_list)
+plt.imshow(wordcloud_reviews)
+plt.axis("off")
+plt.show()
+
+# WordCloud for food
+
+wordcloud_food = WordCloud(width = 3000, height = 2000,random_state=1).generate_from_frequencies(food_dict)
+plt.imshow(wordcloud_food)
+plt.axis("off")
+plt.show()
+
