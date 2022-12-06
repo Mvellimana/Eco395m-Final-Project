@@ -62,11 +62,13 @@ df['subjectivity'] = df['cleaned_review'].apply(lambda x: TextBlob(x).sentiment[
 
 # Filter neceassry columns for csv
 df2 = df.loc[:,['restaurant_name','number','cleaned_review','polarity','subjectivity']]
-df2.to_csv("Cleaned_reviews.csv",index=False)
+df2.to_csv("Cleaned_reviews&SentimentScore.csv",index=False)
 
-# Polarity and Subjectivety by restaurant
-df2.groupby(['restaurant_name'])['polarity'].mean()
-df2.groupby(['restaurant_name'])['subjectivity'].mean()
+# Polarity by restaurant
+Rest_score = pd.DataFrame()
+Rest_score['Restaurant_name'] = df.groupby(['restaurant_name','id'])['restaurant_name'].unique()
+Rest_score['Polarity'] = df.groupby(['restaurant_name','id'])['polarity'].mean()
+Rest_score.to_csv("SentimentScore_by_Rest.csv",index=False)
 
 
 
