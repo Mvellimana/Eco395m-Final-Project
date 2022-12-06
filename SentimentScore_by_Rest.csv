@@ -12,19 +12,14 @@ Restaurant_name,Polarity
 ['Aparicios'],0.28968223492588074
 ['Arturos taco truck'],0.23590317566420507
 ['Asadas Grill'],0.25714109100411
-['Asador'],0.05954475308641976
-['Asador'],0.31786115761109784
+['Asador'],0.2791136969323961
 ['Austin Taco Project'],0.29096912206175524
 ['Autenticos Michoacanos'],0.30598705990843084
-['Azul Tequila'],0.2553969188570859
-['Azul Tequila'],0.2622829192673968
+['Azul Tequila'],0.25966730670844146
 ['BIG Frank’s Taco Food Truck'],0.3303125300625301
-['Baby Acapulco'],0.3296557137533644
-['Baby Acapulco'],0.1935949500429702
-['Baby Acapulco'],0.21527568819149154
+['Baby Acapulco'],0.26424284678488297
 ['Bennu Coffee'],0.24447523493974857
-"[""Beto's Mexican Restaurant""]",0.30596769361384984
-"[""Beto's Mexican Restaurant""]",0.2340220167644955
+"[""Beto's Mexican Restaurant""]",0.28298504684252834
 ['Beto’s Restaurant & Bar'],0.19366669141272264
 ['Big Boss Foods'],0.260297619047619
 ['Big Delicious Food'],0.542962962962963
@@ -42,15 +37,12 @@ Restaurant_name,Polarity
 ['Burrito Factory'],0.32897771962821554
 ['Burrito Mexicano'],0.4459393939393939
 ['CJ’s Tacos'],0.4360159549192868
-"[""Cabo Bob's Burritos""]",0.3296696988640709
-"[""Cabo Bob's Burritos""]",0.27307629319199606
-"[""Cabo Bob's Burritos""]",0.2882039296166418
+"[""Cabo Bob's Burritos""]",0.30322952910682943
 ['Calle Taqueria'],0.12403302177352421
 ['Capital Taco'],0.31092178136146464
 ['Carnitas el Guero'],0.28728180045529184
 ['Casa Chapala Mexican Cuisine & Tequila Bar'],0.31033435825069333
-['Casa Jaliscienses'],0.046861962537249904
-['Casa Jaliscienses'],0.17815734989648033
+['Casa Jaliscienses'],0.059991501273172945
 ['Casa Maria'],0.2751544185066559
 "[""Casa Moreno's""]",0.20404066459414463
 ['Casa Vallarta'],0.2564522113516952
@@ -62,22 +54,9 @@ Restaurant_name,Polarity
 ['Chicanas Tacos'],0.19508594846302668
 ['Chicken Bowl'],0.2764724874419935
 ['Chilangos'],0.24
-['Chipotle Mexican Grill'],0.1406430226336251
-['Chipotle Mexican Grill'],0.07083879901738079
-['Chipotle Mexican Grill'],0.04515200586084598
-['Chipotle Mexican Grill'],0.09521693370315625
-['Chipotle Mexican Grill'],0.14639587854901534
-['Chipotle Mexican Grill'],-0.14467027989647038
-['Chipotle Mexican Grill'],0.1271786307534985
-['Chipotle Mexican Grill'],0.008000320497589105
-['Chipotle Mexican Grill'],0.14029244757667378
-['Chipotle Mexican Grill'],0.05524681457829321
-['Chipotle Mexican Grill'],0.1286820027418767
-['Chipotle Mexican Grill'],0.08501474969353259
+['Chipotle Mexican Grill'],0.08210756028529104
 ['Chupacabra Cantina Y Tacqueria'],0.22971285415718687
-"[""Chuy's""]",0.25343644990988345
-"[""Chuy's""]",0.2809234675602054
-"[""Chuy's""]",0.274498084015372
+"[""Chuy's""]",0.2695433614152856
 "[""Cilantro's""]",0.3089579372834693
 "[""Cisco's Restaurant Bakery & Bar""]",0.28365600560223353
 ['Comedor'],0.3296249849644299
@@ -112,8 +91,7 @@ Restaurant_name,Polarity
 ['El Buen Sazon Michoacano'],0.0724489795918368
 ['El Caribe Mexican Restaurant'],0.2140254127623695
 ['El Chile Café Y Cantina'],0.2695471485768615
-['El Chilito'],0.22801447394348287
-['El Chilito'],0.21856790210993202
+['El Chilito'],0.22507078300384947
 ['El Huarache 2 Food Truck'],0.33820006613756615
 ['El Kioskito Cakes'],0.2913926681783825
 ['El Mana'],0.485
@@ -126,28 +104,17 @@ Restaurant_name,Polarity
 ['El Nuevo Mexico- Austin'],0.2991846398255074
 ['El Perrito'],0.37458309446212673
 ['El Pollo Regio'],0.09138488839203125
-['El Pollo Rico'],0.10521592956040673
-['El Pollo Rico'],0.08930021342483135
-['El Pollo Rico'],0.09246354488273825
-['El Pollo Rico'],-0.0010959122202508374
-['El Pollo Rico'],0.12114164957919177
-['El Pollo Rico'],0.02506854701256876
-['El Pollo Rico'],0.17486160095781358
+['El Pollo Rico'],0.09991367220419461
 ['El Primo'],0.35009075804978923
 ['El Rapido'],0.0903486394557823
 ['El Rey Del Taco'],0.5333333333333333
 ['El Rinconcito Del Sabor'],0.257911005613082
-['El Secreto De Abuela'],0.34644823232323235
-['El Secreto De Abuela'],0.3416119676087954
+['El Secreto De Abuela'],0.3418806489818197
 ['El Secreto de la Abuela 2'],0.2835735276693336
 ['El Super Taco'],0.2937638834035831
 ['El Super Taco 3'],0.2551282051282051
 ['El Taco Real'],0.0
-['El Tacorrido'],0.21894248938891797
-['El Tacorrido'],0.24947379618319845
-['El Tacorrido'],0.22832208768554832
-['El Tacorrido'],0.2702687890812891
-['El Tacorrido'],0.269587003929646
+['El Tacorrido'],0.2434842295556795
 ['El Tapatio'],0.015000000000000006
 ['El Taquito'],0.24264663999894384
 ['El Taquito Aviles'],0.3590779532967033
@@ -165,18 +132,14 @@ Restaurant_name,Polarity
 ['Fonda San Miguel'],0.3411993687234411
 ['Food Fight Cafe'],0.39992559523809523
 ['FoodHeads'],0.294612137327379
-['Freebirds World Burrito'],0.17933765263618723
-['Freebirds World Burrito'],0.2237223118394437
-['Freebirds World Burrito'],0.20514941513258872
-['Freebirds World Burrito'],0.16084539145120583
+['Freebirds World Burrito'],0.19378226083126265
 "[""Fresa's - South 1st""]",0.2566611357616
 "[""Fresa's Chicken al Carbon""]",0.13649471952060813
 ['Frida’s Cocina'],0.31916301406926406
 ['Fruteria Pekitas'],0.3089066168873862
 "[""Gabriela's Downtown""]",0.3245988116645237
 ['Gloria’s Latin Cuisine'],0.2818370000452572
-"[""Granny's Tacos""]",0.363349551010558
-"[""Granny's Tacos""]",0.3347486776166964
+"[""Granny's Tacos""]",0.360330854176501
 "[""Greens 'n Grill""]",0.41136992288457597
 "[""Grizzelda's""]",0.2873532509482463
 ['Guatemalteca'],0.2807857142857143
@@ -184,30 +147,13 @@ Restaurant_name,Polarity
 ['Habanero Mexican Cafe'],0.3106295698313876
 ['Hacienda Jalisco'],0.09276538477112457
 ['Have A Taco'],-0.06233301688917631
-['Hecho En Mexico'],0.2885285954225503
-['Hecho En Mexico'],0.25605507570111
+['Hecho En Mexico'],0.26114788739435446
 ['Hot Tacos'],0.2924201933160662
 ['Hula Hut'],0.27778268277162504
 "[""I Love Taco's""]",0.08802169184981685
 ['IBM Cafeteria'],0.09499999999999997
 ['Iron Cactus Mexican Restaurant and Margarita Bar'],0.2733934543019424
-['Jack in the Box'],0.022010802744433695
-['Jack in the Box'],0.08563056177982918
-['Jack in the Box'],-0.13552697611030948
-['Jack in the Box'],-0.05707997526495978
-['Jack in the Box'],-0.021761911988759278
-['Jack in the Box'],0.10149005242288091
-['Jack in the Box'],0.016232343192869505
-['Jack in the Box'],-0.08139670514670515
-['Jack in the Box'],-0.007776124303690903
-['Jack in the Box'],0.012660209344032862
-['Jack in the Box'],0.01171717171717172
-['Jack in the Box'],-0.07587536967592404
-['Jack in the Box'],-0.016912502730955105
-['Jack in the Box'],-0.04496706672505252
-['Jack in the Box'],0.020860389610389607
-['Jack in the Box'],-0.014954813874850632
-['Jack in the Box'],-0.13469469416996155
+['Jack in the Box'],-0.01725766952232769
 ['Jaliscienses Mexican Restaurant'],0.23820909696115292
 "[""Jasmine's Mexican Restaurant""]",0.30463717961932246
 "[""Jasmine's Restaurant""]",0.3302824259974611
@@ -251,8 +197,7 @@ Restaurant_name,Polarity
 ['La Santa Barbacha'],0.0
 ['La Sirena'],0.22884197973890957
 ['La Terraza'],0.199153363997114
-['La Traila'],0.338764880952381
-['La Traila'],0.28873737373737374
+['La Traila'],0.2998545975629309
 ['La Traila #6'],0.3670138888888889
 ['La Traila at Mesa'],0.3219600939855304
 ['La Tunita 512'],0.33422047646919717
@@ -279,14 +224,12 @@ Restaurant_name,Polarity
 ['Los Pepes'],0.2436435855810856
 ['Los Potrillos'],0.15344661278642183
 ['Love C Spot'],0.3574066787292707
-['Lupe Tortilla'],0.2480173837156248
-['Lupe Tortilla'],0.25323606306559904
+['Lupe Tortilla'],0.25109443521914737
 ['Lyly’s Tacos'],0.14651442307692306
 ['Machetes Doña Leova'],0.11916355431061314
 ['Makenka Hot Truck'],0.14856150793650794
 "[""Mama'S Tacos""]",0.5163636363636364
-['Man vs Fries'],0.2857142857142857
-['Man vs Fries'],0.07777777777777777
+['Man vs Fries'],0.18174603174603174
 ['Mango Feliz'],0.36386270414511873
 "[""Manuel's""]",0.26966656932805155
 "[""Marcelino's""]",0.3574937029527393
@@ -321,9 +264,7 @@ Restaurant_name,Polarity
 ['Nyam Sunshine Cuisine'],0.31281270550484946
 ['Ole Taco'],0.3644886363636364
 ['Olél Taco Food Truck'],0.3333333333333333
-['OneTaco'],0.2630863433200874
-['OneTaco'],0.24923723369055906
-['OneTaco'],0.3152908791440553
+['OneTaco'],0.26383506290376063
 ['OneTaco Taquería'],0.33173971136887803
 ['Oye Taquito'],0.3611938230485575
 ['Oz. Tap House'],0.38592148570776713
@@ -339,8 +280,7 @@ Restaurant_name,Polarity
 ['Pinches Tacos'],0.7
 ['Pio Pio Tacos'],0.34639099326599326
 ['Pollo Caliente'],0.25556190476190477
-['Pollo Regio'],0.11509739281352988
-['Pollo Regio'],0.114771665333955
+['Pollo Regio'],0.11494270944423406
 ['Pollo Rico #8'],0.15351584022038567
 ['Pollos Asados El Norteno'],0.0
 ['Pollos Asados El Norteño '],0.3242947765866808
@@ -386,49 +326,20 @@ Restaurant_name,Polarity
 ['TaConMaye Mexican Foodtruck'],0.30730996374909103
 "[""Taco 'N Mama""]",0.25728968253968254
 ['Taco Baby'],0.23919740152104532
-['Taco Bell'],-0.03662081184202458
-['Taco Bell'],0.08498190390078894
-['Taco Bell'],0.04259880215638876
-['Taco Bell'],0.019918285771484943
-['Taco Bell'],-0.03846965671662229
-['Taco Bell'],-0.03674669791027654
-['Taco Bell'],0.012146124000715844
-['Taco Bell'],0.01597150716347146
-['Taco Bell'],-0.011761672942163804
-['Taco Bell'],0.08288640913779495
-['Taco Bell'],0.1059586248828937
-['Taco Bell'],-0.04013739806069352
-['Taco Bell'],0.012629957380512898
+['Taco Bell'],0.015818088715046804
 ['Taco Break'],0.27187856125356125
 ['Taco Bronco'],0.2886356255177684
 ['Taco Brother'],0.3350303071800553
-['Taco Cabana'],0.021087964332381814
-['Taco Cabana'],-0.026752342220908092
-['Taco Cabana'],-0.0785945337731052
-['Taco Cabana'],-0.030360559186587845
-['Taco Cabana'],0.0021886940216422008
-['Taco Cabana'],-0.034376462785824485
-['Taco Cabana'],-0.016883909992139866
-['Taco Flats'],0.2924868377382308
-['Taco Flats'],0.2519149844907401
-['Taco Flats'],0.34523809523809523
+['Taco Cabana'],-0.014267300316279301
+['Taco Flats'],0.28716399295043715
 ['Taco Fresco'],0.5079179067460318
-['Taco Joint'],0.34227949116697964
-['Taco Joint'],0.32409199494352353
+['Taco Joint'],0.3334380875557826
 ['Taco Luna'],0.3207388510959939
-['Taco More'],0.27991456918011376
-['Taco More'],0.3242008116211179
+['Taco More'],0.3063244712338023
 ['Taco Pegaso'],0.30593843656343656
-['Taco Shack'],0.18343637426590215
-['Taco Shack'],0.1567327174393746
-['Taco Shack'],0.2051573679082388
+['Taco Shack'],0.1827305770896375
 ['Taco-Mex'],0.2799555259032812
-['Tacodeli'],0.3132219869835728
-['Tacodeli'],0.2776441301962918
-['Tacodeli'],0.2738984589384178
-['Tacodeli'],0.28640674721709697
-['Tacodeli'],0.29553197613274534
-['Tacodeli'],0.28613935980488747
+['Tacodeli'],0.28882531863823124
 ['Tacoly Moly'],0.2804015189154817
 ['Tacos Dolores Hidalgo'],0.17407407407407408
 ['Tacos Doña Rosita'],0.28924863021544944
@@ -452,9 +363,7 @@ Restaurant_name,Polarity
 ['Taqueria 7 Estrellas'],0.20113888903099722
 "[""Taqueria Alayna's""]",0.04428927553927555
 ['Taqueria Anyeli'],0.3543646967768818
-['Taqueria Arandas'],0.21056242637096267
-['Taqueria Arandas'],0.24739768929176398
-['Taqueria Arandas'],0.2379961755033573
+['Taqueria Arandas'],0.2384220312695764
 ['Taqueria Ceibas'],0.17411738351254477
 ['Taqueria Chapala'],0.30231314248203495
 ['Taqueria Chapala #1'],0.2587806850187048
@@ -465,8 +374,7 @@ Restaurant_name,Polarity
 ['Taqueria Guadalajara'],0.22711335009212957
 ['Taqueria Guerrero'],0.4140625
 ['Taqueria Jazmin’s Cafe'],0.6583333333333333
-['Taqueria Jefes'],0.32599168888642577
-['Taqueria Jefes'],0.11293294971122353
+['Taqueria Jefes'],0.24351733823796037
 ['Taqueria Johnny Tacos'],0.2526217321003417
 ['Taqueria La Canaria'],0.2774344739150815
 ['Taqueria La Chiapaneca'],0.4217857142857143
@@ -491,10 +399,7 @@ Restaurant_name,Polarity
 ['Taqueria Monterrey'],0.0
 ['Taqueria Morelos'],0.3603602942919117
 ['Taqueria Olivas'],0.3117539682539683
-['Taqueria Piedra Grande'],0.2542921767028229
-['Taqueria Piedra Grande'],0.3263227513227513
-['Taqueria Piedra Grande'],0.07590127465127465
-['Taqueria Piedra Grande'],0.1186111111111111
+['Taqueria Piedra Grande'],0.2557907213832147
 ['Taqueria Rogel'],-0.225
 ['Taqueria San Luis'],0.27559496479951023
 ['Taqueria Su Destino'],0.27395833333333336
@@ -503,11 +408,8 @@ Restaurant_name,Polarity
 ['Taqueria el Torito'],0.34470145697167753
 ['Taqueria la Guera #2'],0.16
 ['Taqueria los Regios'],0.3367233064554493
-['Taquerias Arandinas'],0.1600991445726157
-['Taquerias Arandinas'],0.20870376849109723
-['Taquerias Arandinas'],0.22987484737885408
-['Taquero Mucho'],0.2862198249769715
-['Taquero Mucho'],0.24286813390249923
+['Taquerias Arandinas'],0.21564665510879596
+['Taquero Mucho'],0.27701978764283913
 ['Taquería La Luna'],0.2770833333333333
 ['Taquito Aviles'],0.3276711468403162
 ['Taquizas Mariana'],0.26490684662559666
@@ -525,14 +427,7 @@ Restaurant_name,Polarity
 "[""Three B's Tacos""]",0.12348335791192935
 ['Tierra Linda Taqueria'],0.35072741988335565
 ['Tomgro Grocery'],0.23549392736892738
-"[""Torchy's Tacos""]",0.26679544690697776
-"[""Torchy's Tacos""]",0.23390721832822675
-"[""Torchy's Tacos""]",0.2397670032562316
-"[""Torchy's Tacos""]",0.24486491168812358
-"[""Torchy's Tacos""]",0.21974187277671314
-"[""Torchy's Tacos""]",0.28883097030500005
-"[""Torchy's Tacos""]",0.18017011302304045
-"[""Torchy's Tacos""]",0.20945070830106433
+"[""Torchy's Tacos""]",0.2328452869629037
 ['Torres Taqueria #2'],0.2133653846153846
 ['Tortas El Guero'],0.3423522355798095
 ['Tortas Tampico 512 ATX'],0.26554621848739507
@@ -550,20 +445,13 @@ Restaurant_name,Polarity
 "[""Tyson's Tacos""]",0.20532203262132562
 ['Un Mundo De Sabor'],0.3824152068445344
 ['Un Taco Mas'],0.321596393355322
-['Vaquero Taquero'],0.3128155411809853
-['Vaquero Taquero'],0.3263209531672509
+['Vaquero Taquero'],0.315140243244195
 "[""Vaquero's Cafe and Cantina""]",0.2726170433841251
 "[""Vaquero's Grill""]",0.5292613636363636
 ['Variedades Marquez'],0.25
-['Vazquez Restaurant'],0.2950029336186725
-['Vazquez Restaurant'],0.2844539543094887
-['Velvet Taco'],0.31591492611807365
-['Velvet Taco'],0.24769476697799234
-['Veracruz All Natural'],0.31181319973667154
-['Veracruz All Natural'],0.29122861991893667
-['Veracruz All Natural'],0.28655973527573575
-['Veracruz All Natural'],0.24269157668754365
-['Veracruz All Natural'],0.2876958694006395
+['Vazquez Restaurant'],0.2905066473557417
+['Velvet Taco'],0.2767529518700362
+['Veracruz All Natural'],0.29489871642870813
 "[""Victorina's Food""]",0.3923611111111111
 ['Villanueva Taco Truck'],0.3171474358974359
 ['Violet Sky Rooftop Lounge'],0.28659090909090906
@@ -572,8 +460,7 @@ Restaurant_name,Polarity
 ['Wilder Wood Restaurant & Bar'],0.27810451289285726
 ['Yucatan Tacos And More'],0.3793734621663594
 "[""Z'Tejas - Austin 6 STREET""]",0.28325501475165454
-['ZIKI'],0.30336172697787606
-['ZIKI'],0.25858134920634923
+['ZIKI'],0.300941166017253
 ['Zapata Taqueria'],0.16224489795918368
 ['Zombie Taco'],0.21162362553482397
 ['Zuzu Handmade Mexican Food'],0.1638687861814148
