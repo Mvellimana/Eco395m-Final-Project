@@ -1,0 +1,581 @@
+Restaurant_name,Polarity
+['ALLI Mexican Cuisine'],0.33419388153879004
+['ATX Cocina'],0.35346794324880365
+"[""Aguilera's Mexican Restaurant""]",0.24885037228019452
+['Airport Xpress Market'],0.24144660894660896
+['Always Hungry'],0.3661328826402356
+"[""Amaya's Taco Village""]",0.2376665439441845
+['Amorcito Taqueria 2'],0.3083333333333333
+['Angelitos Tacos'],0.1747420634920635
+"[""Angie's Mexican Restaurant""]",0.20736838462997362
+['Antojitos La Huastequita'],0.2634375
+['Aparicios'],0.28968223492588074
+['Arturos taco truck'],0.23590317566420507
+['Asadas Grill'],0.25714109100411
+['Asador'],0.05954475308641976
+['Asador'],0.31786115761109784
+['Austin Taco Project'],0.29096912206175524
+['Autenticos Michoacanos'],0.30598705990843084
+['Azul Tequila'],0.2553969188570859
+['Azul Tequila'],0.2622829192673968
+['BIG Frank’s Taco Food Truck'],0.3303125300625301
+['Baby Acapulco'],0.3296557137533644
+['Baby Acapulco'],0.1935949500429702
+['Baby Acapulco'],0.21527568819149154
+['Bennu Coffee'],0.24447523493974857
+"[""Beto's Mexican Restaurant""]",0.30596769361384984
+"[""Beto's Mexican Restaurant""]",0.2340220167644955
+['Beto’s Restaurant & Bar'],0.19366669141272264
+['Big Boss Foods'],0.260297619047619
+['Big Delicious Food'],0.542962962962963
+['Birria Queen '],0.23705357142857142
+['Birrieria Lopez Cabrera'],0.36079004329004327
+['Blue Gecko'],0.19801767676767676
+['Bomb Tacos'],0.15979514654080335
+['Bongos Authentic Mexican Food'],0.4050000000000001
+['Brazas Taco House'],0.3686019074810858
+['Brendas All Natural'],0.40625
+"[""Buddy's Mexican Grill""]",0.24845030179042074
+['Buenos Sabores'],0.36550168263880956
+['Bulevar'],0.350233667218344
+['Bummer Burrito'],0.35253022281431373
+['Burrito Factory'],0.32897771962821554
+['Burrito Mexicano'],0.4459393939393939
+['CJ’s Tacos'],0.4360159549192868
+"[""Cabo Bob's Burritos""]",0.3296696988640709
+"[""Cabo Bob's Burritos""]",0.27307629319199606
+"[""Cabo Bob's Burritos""]",0.2882039296166418
+['Calle Taqueria'],0.12403302177352421
+['Capital Taco'],0.31092178136146464
+['Carnitas el Guero'],0.28728180045529184
+['Casa Chapala Mexican Cuisine & Tequila Bar'],0.31033435825069333
+['Casa Jaliscienses'],0.046861962537249904
+['Casa Jaliscienses'],0.17815734989648033
+['Casa Maria'],0.2751544185066559
+"[""Casa Moreno's""]",0.20404066459414463
+['Casa Vallarta'],0.2564522113516952
+['Casita Guanajuato'],0.19780487727234336
+['Casita Vizuet'],0.27519841269841266
+['Chapulín Cantina'],0.29278980726488546
+['Cheko’s'],0.27264350420457223
+['Chevron'],0.4033333333333333
+['Chicanas Tacos'],0.19508594846302668
+['Chicken Bowl'],0.2764724874419935
+['Chilangos'],0.24
+['Chipotle Mexican Grill'],0.1406430226336251
+['Chipotle Mexican Grill'],0.07083879901738079
+['Chipotle Mexican Grill'],0.04515200586084598
+['Chipotle Mexican Grill'],0.09521693370315625
+['Chipotle Mexican Grill'],0.14639587854901534
+['Chipotle Mexican Grill'],-0.14467027989647038
+['Chipotle Mexican Grill'],0.1271786307534985
+['Chipotle Mexican Grill'],0.008000320497589105
+['Chipotle Mexican Grill'],0.14029244757667378
+['Chipotle Mexican Grill'],0.05524681457829321
+['Chipotle Mexican Grill'],0.1286820027418767
+['Chipotle Mexican Grill'],0.08501474969353259
+['Chupacabra Cantina Y Tacqueria'],0.22971285415718687
+"[""Chuy's""]",0.25343644990988345
+"[""Chuy's""]",0.2809234675602054
+"[""Chuy's""]",0.274498084015372
+"[""Cilantro's""]",0.3089579372834693
+"[""Cisco's Restaurant Bakery & Bar""]",0.28365600560223353
+['Comedor'],0.3296249849644299
+['Como dijo la Abuela pancha'],0.1388888888888889
+['Con Madre Kitchen'],0.3169669096243573
+['Con Todo'],0.4334418665358106
+['Cosmic Taco'],0.4391791307650682
+['Costa Del Sol Restaurant'],0.279968580581058
+['Crazy Fruits Riverside'],0.17818432203640974
+['Cuantos Tacos'],0.32867788411616833
+"[""Curra's Grill""]",0.2501480584002017
+['Curra’s Hyde Park'],0.30549995277969155
+"[""Dave's Tacos""]",0.32581973369154255
+"[""Daygo's San Diego Taco Shop""]",0.3735102487964883
+['Daygos San Diego Taco Shop'],0.34917051155090373
+['De La O Kitchen'],0.34390688676402964
+['De Nada Cantina'],0.3541634667014441
+['Delicios Luvianos'],0.12458333333333332
+['Delicious Tamales'],0.19863425925925923
+['Discada'],0.32746791460364844
+['Don Juan'],0.3205032240143557
+['Donut 7'],0.3777992840171611
+['Donut Taco Palace'],0.2436774901555342
+['Dos Amigos Mexican Food'],0.32595001810867197
+['Dos Batos'],0.2685966623199099
+['Dos Salsas'],0.2865851061774402
+['Eighteenth Over Austin'],0.2617090188348067
+['El Agazajo’s'],0.35440030793462163
+['El Alma'],0.34397784829154654
+['El Arroyo 5th Street'],0.15359914044684747
+['El Borrego De Oro'],0.2876148870721223
+['El Buen Sazon Michoacano'],0.0724489795918368
+['El Caribe Mexican Restaurant'],0.2140254127623695
+['El Chile Café Y Cantina'],0.2695471485768615
+['El Chilito'],0.22801447394348287
+['El Chilito'],0.21856790210993202
+['El Huarache 2 Food Truck'],0.33820006613756615
+['El Kioskito Cakes'],0.2913926681783825
+['El Mana'],0.485
+['El Mana Authentic Mexican Food Truck'],0.3848272707231041
+['El Mango Feliz'],-0.0010416666666666723
+['El Marisquero Seafood'],0.35181632653061223
+['El Mesón'],0.25993833799854393
+['El Michoacano Mexican Restaurant'],0.3082456269520407
+['El Naranjo South Lamar'],0.3295361198561133
+['El Nuevo Mexico- Austin'],0.2991846398255074
+['El Perrito'],0.37458309446212673
+['El Pollo Regio'],0.09138488839203125
+['El Pollo Rico'],0.10521592956040673
+['El Pollo Rico'],0.08930021342483135
+['El Pollo Rico'],0.09246354488273825
+['El Pollo Rico'],-0.0010959122202508374
+['El Pollo Rico'],0.12114164957919177
+['El Pollo Rico'],0.02506854701256876
+['El Pollo Rico'],0.17486160095781358
+['El Primo'],0.35009075804978923
+['El Rapido'],0.0903486394557823
+['El Rey Del Taco'],0.5333333333333333
+['El Rinconcito Del Sabor'],0.257911005613082
+['El Secreto De Abuela'],0.34644823232323235
+['El Secreto De Abuela'],0.3416119676087954
+['El Secreto de la Abuela 2'],0.2835735276693336
+['El Super Taco'],0.2937638834035831
+['El Super Taco 3'],0.2551282051282051
+['El Taco Real'],0.0
+['El Tacorrido'],0.21894248938891797
+['El Tacorrido'],0.24947379618319845
+['El Tacorrido'],0.22832208768554832
+['El Tacorrido'],0.2702687890812891
+['El Tacorrido'],0.269587003929646
+['El Tapatio'],0.015000000000000006
+['El Taquito'],0.24264663999894384
+['El Taquito Aviles'],0.3590779532967033
+['El Tizon Del Chef'],0.2517505849667308
+['El Vago Cantina'],0.3477685799516998
+['El Xolo Tacos'],0.36423611111111115
+['El-Regio Taqueria'],-0.033333333333333326
+['Eldorado Cafe'],0.34994038497086427
+['Ember Smoke'],0.3891747835497835
+['Ensenada ATX'],0.3389184624352363
+['Envie'],0.08474025974025975
+['Fairways Cantina'],0.40976476234203507
+"[""Flavia's Kitchen""]",0.4194372780058238
+['Flores Mexican Restaurant'],0.19995324056652664
+['Fonda San Miguel'],0.3411993687234411
+['Food Fight Cafe'],0.39992559523809523
+['FoodHeads'],0.294612137327379
+['Freebirds World Burrito'],0.17933765263618723
+['Freebirds World Burrito'],0.2237223118394437
+['Freebirds World Burrito'],0.20514941513258872
+['Freebirds World Burrito'],0.16084539145120583
+"[""Fresa's - South 1st""]",0.2566611357616
+"[""Fresa's Chicken al Carbon""]",0.13649471952060813
+['Frida’s Cocina'],0.31916301406926406
+['Fruteria Pekitas'],0.3089066168873862
+"[""Gabriela's Downtown""]",0.3245988116645237
+['Gloria’s Latin Cuisine'],0.2818370000452572
+"[""Granny's Tacos""]",0.363349551010558
+"[""Granny's Tacos""]",0.3347486776166964
+"[""Greens 'n Grill""]",0.41136992288457597
+"[""Grizzelda's""]",0.2873532509482463
+['Guatemalteca'],0.2807857142857143
+"[""Güero's Taco Bar""]",0.24178447203805567
+['Habanero Mexican Cafe'],0.3106295698313876
+['Hacienda Jalisco'],0.09276538477112457
+['Have A Taco'],-0.06233301688917631
+['Hecho En Mexico'],0.2885285954225503
+['Hecho En Mexico'],0.25605507570111
+['Hot Tacos'],0.2924201933160662
+['Hula Hut'],0.27778268277162504
+"[""I Love Taco's""]",0.08802169184981685
+['IBM Cafeteria'],0.09499999999999997
+['Iron Cactus Mexican Restaurant and Margarita Bar'],0.2733934543019424
+['Jack in the Box'],0.022010802744433695
+['Jack in the Box'],0.08563056177982918
+['Jack in the Box'],-0.13552697611030948
+['Jack in the Box'],-0.05707997526495978
+['Jack in the Box'],-0.021761911988759278
+['Jack in the Box'],0.10149005242288091
+['Jack in the Box'],0.016232343192869505
+['Jack in the Box'],-0.08139670514670515
+['Jack in the Box'],-0.007776124303690903
+['Jack in the Box'],0.012660209344032862
+['Jack in the Box'],0.01171717171717172
+['Jack in the Box'],-0.07587536967592404
+['Jack in the Box'],-0.016912502730955105
+['Jack in the Box'],-0.04496706672505252
+['Jack in the Box'],0.020860389610389607
+['Jack in the Box'],-0.014954813874850632
+['Jack in the Box'],-0.13469469416996155
+['Jaliscienses Mexican Restaurant'],0.23820909696115292
+"[""Jasmine's Mexican Restaurant""]",0.30463717961932246
+"[""Jasmine's Restaurant""]",0.3302824259974611
+['Jazmin’s Cafe'],0.2062145262145262
+['Jefes Street Tacos'],0.2879118707606611
+['Jefes Tacos & Catering'],0.2701913826046114
+"[""Joe's Bakery & Coffee Shop""]",0.31862004540369837
+['Juan In A Million'],0.2790450812675055
+['Juana Taco'],0.31912622771493737
+"[""Julio's Café""]",0.20969921251003357
+"[""Karlita's Tacos""]",0.31428571428571433
+"[""Ken's Subs Tacos & More""]",0.30306931005767845
+['Kesos Tacos'],0.2772106648045546
+['Kings Taqueria Y Mas'],0.0
+['Kins Dining'],0.21373252062670922
+['La Caprichoza'],0.26418650793650794
+['La Catedral Del Marisco #2'],-0.028818163029572092
+['La Catedral Del Marisco #3'],0.13038699395842254
+['La Cathedral Del Marisco'],0.26327767158916354
+['La Chapala'],0.22652682425091963
+['La Chilnguita #2'],0.44000000000000006
+['La Cocina de Consuelo'],0.2867003050888564
+['La Condesa'],0.24752102749870156
+['La Familia Mexican Market'],0.29179011246594977
+['La Flor'],0.3482779158802512
+['La Fruta Feliz'],0.3074625099177107
+['La Hacienda Market'],0.1712490492877006
+['La Hawaiina'],0.28825680272108845
+['La Holly'],0.2610373173012051
+['La Llamarada'],0.285551948051948
+['La Mancha'],0.27645675486764076
+['La Marea Restaurant & Seafood'],0.27249098124098126
+['La Montaña Tacos'],0.31525439458614235
+['La Palapa'],0.21187788092077445
+['La Peña'],0.31183688101133233
+['La Piscina'],0.3430557586400386
+['La Plancha'],0.35183192136417946
+['La Poblanita'],0.3651515151515151
+['La Posada Mexican Restaurant'],0.2958209325836828
+['La Sabroza'],0.352935405643739
+['La Santa Barbacha'],0.0
+['La Sirena'],0.22884197973890957
+['La Terraza'],0.199153363997114
+['La Traila'],0.338764880952381
+['La Traila'],0.28873737373737374
+['La Traila #6'],0.3670138888888889
+['La Traila at Mesa'],0.3219600939855304
+['La Tunita 512'],0.33422047646919717
+['La Yaquesita Food Truck'],0.46522204184704186
+['Lada Ladies'],0.3218095327592081
+['Las Abuelas'],0.24762855002155065
+['Las Cazuelas Mexican Restaurant'],0.19784900258246177
+['Las Palapas'],0.21731804110921757
+['Las Palmas Mexican Restaurant'],0.012499999999999997
+['Las Palomas Restaurant & Bar'],0.2480948689629811
+['Las Perlas'],0.4102703953659232
+['Las Trancas'],0.33600378432056616
+['Lazarus Brewing'],0.3709190194152084
+"[""Ley's Tacos""]",0.19844530469530466
+"[""Licha's Cantina""]",0.3406108559726742
+['Little Mexico Restaurant'],0.20759070004089455
+['Little Plaza Tacos'],0.37094817219817217
+['Loading Zone Grill'],0.35180555555555554
+['Lolita La Tampiqueña'],0.30350128920328195
+['Lopez cabrera sabor y Tradicion'],0.3908333333333333
+['Los Comales Mexican Restaurant'],0.26581747400351025
+['Los Danzantes ATX'],0.3281088499793857
+['Los Jaliscienses'],0.2337245438525506
+['Los Pepes'],0.2436435855810856
+['Los Potrillos'],0.15344661278642183
+['Love C Spot'],0.3574066787292707
+['Lupe Tortilla'],0.2480173837156248
+['Lupe Tortilla'],0.25323606306559904
+['Lyly’s Tacos'],0.14651442307692306
+['Machetes Doña Leova'],0.11916355431061314
+['Makenka Hot Truck'],0.14856150793650794
+"[""Mama'S Tacos""]",0.5163636363636364
+['Man vs Fries'],0.2857142857142857
+['Man vs Fries'],0.07777777777777777
+['Mango Feliz'],0.36386270414511873
+"[""Manuel's""]",0.26966656932805155
+"[""Marcelino's""]",0.3574937029527393
+"[""Margie'z Place""]",0.6103174603174603
+"[""Mario's Seafood""]",0.1684160766895142
+['Marisco Grill'],0.22268942296528504
+['Mariscos Los Jarochos'],0.09279777315175501
+['Mariscos Mazatlan Taqueria Mi Tierra'],0.1734638047138047
+['Mariscos Tampico Bar & Grill'],0.031580643295360436
+"[""Mary's Tacos""]",0.17552083333333335
+['Matamoros Tacos'],0.3033760327631074
+"[""Matt's El Rancho""]",0.277638772333342
+"[""Maudie's North Lamar""]",0.2657544384059506
+['Ma’Coco'],0.31542582569205263
+['Mexico Lindo and Delicious'],0.22
+['Mi Cabana'],0.17525180463599582
+['Mi Lindo Jalisco'],0.4099264971139971
+['Mi Lindo Michoacan'],0.0
+['Mi Tradición'],0.28665019324912233
+['Mi Trailita Y Mas'],0.4366081926406926
+['Micheladas Cafe y Cantina'],0.2170356621412785
+['Mission Street Burrito'],0.29832816120008393
+['Mr Natural'],0.2629095069334284
+['Mí Casa Market'],0.19811614337334785
+['National Taco Championships'],0.2967410327767471
+['Native Grocery'],0.3545431815303139
+['Nissi VegMex Vegan Mexican Cuisine'],0.40163580190471504
+['Nissi Vegmex'],0.3726822808814668
+['Nixta Taqueria'],0.32460230197695134
+['Nonos Tacos'],0.32652648867786854
+['NuclearTacos'],0.1410692951015532
+['Nyam Sunshine Cuisine'],0.31281270550484946
+['Ole Taco'],0.3644886363636364
+['Olél Taco Food Truck'],0.3333333333333333
+['OneTaco'],0.2630863433200874
+['OneTaco'],0.24923723369055906
+['OneTaco'],0.3152908791440553
+['OneTaco Taquería'],0.33173971136887803
+['Oye Taquito'],0.3611938230485575
+['Oz. Tap House'],0.38592148570776713
+"[""Paco's Tacos""]",0.27219183034524563
+"[""Palomino's Food Truck""]",0.48888888888888893
+"[""Papa Joe's Tex-Mex""]",0.41793627306335634
+['Papalote Taco House'],0.3083597627536777
+['Paprika ATX'],0.35908809368669
+['Pelonchas Tacos'],0.22833333333333336
+['Pelons Tex-Mex'],0.27206193168822274
+['Pepe’s Tacos'],0.3251248784408643
+['Pfajita Gib'],0.1584090909090909
+['Pinches Tacos'],0.7
+['Pio Pio Tacos'],0.34639099326599326
+['Pollo Caliente'],0.25556190476190477
+['Pollo Regio'],0.11509739281352988
+['Pollo Regio'],0.114771665333955
+['Pollo Rico #8'],0.15351584022038567
+['Pollos Asados El Norteno'],0.0
+['Pollos Asados El Norteño '],0.3242947765866808
+['Pollos Asados El norteño #1'],0.1726534252050125
+"[""Polvo's DT""]",0.14162503610660243
+['Polvos South'],0.23316628508977527
+['Pueblo Viejo'],0.3138577941965059
+['Pueblo Viejo Meanwhile'],0.3018340216039796
+['Pueblo Viejo Riverside'],0.37563034996719474
+['Pueblo Viejo Traila'],0.3045938036272421
+['Pupuseria La Bendicion'],0.6270833333333333
+['Que Divino'],0.16812925170068027
+['Queen and King Cafe'],0.20490196078431372
+"[""Queen's Tacos""]",0.17043226381461676
+['Quezzas'],0.30317313491497166
+['Quick Fix Cuisine'],0.3832953195665031
+['Quinta Caporales Meat Market'],0.20858373072240258
+['Radio Coffee & Beer'],0.298192538400104
+['Ram Indimex foods'],0.21006766917293232
+"[""Rico's Tacos""]",0.30908714850573404
+"[""Rita's Mexican Restaurant""]",0.18727177992409086
+"[""Rosita's al Pastor""]",0.26615677460266035
+['Rules & Regs'],0.30914018979107416
+['Sabe'],0.42155087287440224
+['Sabor Tapatio'],0.39450373844715575
+['Sabor Veracruz'],0.2947722681359045
+['Salsa Limón'],0.2511271964595655
+['San Juanita Tacos'],0.33965398209431924
+['Santa Rita Tex-Mex Cantina'],0.22891882922202295
+['Sazón'],0.25145948446306504
+['Seareinas'],0.3132930068747989
+['Serranos'],0.2770212467957198
+['Simar Seafood Cocina'],0.40284127364579153
+['Soco Bar & Bites'],0.0
+['Sopa De Fideo'],0.39643004781832814
+['South Austin Trailer Park & Eatery'],0.30434032124159494
+['Suerte'],0.3348140056596197
+['Super Burrito at the Water Tank'],0.28637146100152167
+['Super Burrito on 5th'],0.23808123312540314
+"[""T-Loc's Sonora Hot Dogs""]",0.3572324560317098
+['TAQUERIA  ELITA'],0.19192994505494504
+['Ta-co. Mex'],0.6425000000000001
+['TaConMaye Mexican Foodtruck'],0.30730996374909103
+"[""Taco 'N Mama""]",0.25728968253968254
+['Taco Baby'],0.23919740152104532
+['Taco Bell'],-0.03662081184202458
+['Taco Bell'],0.08498190390078894
+['Taco Bell'],0.04259880215638876
+['Taco Bell'],0.019918285771484943
+['Taco Bell'],-0.03846965671662229
+['Taco Bell'],-0.03674669791027654
+['Taco Bell'],0.012146124000715844
+['Taco Bell'],0.01597150716347146
+['Taco Bell'],-0.011761672942163804
+['Taco Bell'],0.08288640913779495
+['Taco Bell'],0.1059586248828937
+['Taco Bell'],-0.04013739806069352
+['Taco Bell'],0.012629957380512898
+['Taco Break'],0.27187856125356125
+['Taco Bronco'],0.2886356255177684
+['Taco Brother'],0.3350303071800553
+['Taco Cabana'],0.021087964332381814
+['Taco Cabana'],-0.026752342220908092
+['Taco Cabana'],-0.0785945337731052
+['Taco Cabana'],-0.030360559186587845
+['Taco Cabana'],0.0021886940216422008
+['Taco Cabana'],-0.034376462785824485
+['Taco Cabana'],-0.016883909992139866
+['Taco Flats'],0.2924868377382308
+['Taco Flats'],0.2519149844907401
+['Taco Flats'],0.34523809523809523
+['Taco Fresco'],0.5079179067460318
+['Taco Joint'],0.34227949116697964
+['Taco Joint'],0.32409199494352353
+['Taco Luna'],0.3207388510959939
+['Taco More'],0.27991456918011376
+['Taco More'],0.3242008116211179
+['Taco Pegaso'],0.30593843656343656
+['Taco Shack'],0.18343637426590215
+['Taco Shack'],0.1567327174393746
+['Taco Shack'],0.2051573679082388
+['Taco-Mex'],0.2799555259032812
+['Tacodeli'],0.3132219869835728
+['Tacodeli'],0.2776441301962918
+['Tacodeli'],0.2738984589384178
+['Tacodeli'],0.28640674721709697
+['Tacodeli'],0.29553197613274534
+['Tacodeli'],0.28613935980488747
+['Tacoly Moly'],0.2804015189154817
+['Tacos Dolores Hidalgo'],0.17407407407407408
+['Tacos Doña Rosita'],0.28924863021544944
+['Tacos Durango'],0.32154322233657767
+['Tacos El Charly'],0.2984992901026685
+['Tacos Garcilita'],0.39125901875901875
+['Tacos Guerrero'],0.3883764581706626
+['Tacos Ivan'],0.31221012708316825
+['Tacos Juanita'],0.25774937343358395
+['Tacos Las Amazonas'],0.3176914705813181
+['Tacos Lucy'],0.5
+['Tacos Michoacan'],0.247195495248538
+['Tacos Morelos'],0.40937500000000004
+['Tacos Vallecito'],0.6785714285714286
+['Tacos Y Tortas El Chilango'],0.2918488445218705
+['Tacos Yo Soy'],0.35450511573186644
+['Tacos al Chile'],0.14292929292929293
+['Tacos y Pupusas Los Ramos'],0.2720813371400556
+['Takavron'],0.3924507695207883
+['Tamale House East'],0.24639699490244799
+['Taqueria 7 Estrellas'],0.20113888903099722
+"[""Taqueria Alayna's""]",0.04428927553927555
+['Taqueria Anyeli'],0.3543646967768818
+['Taqueria Arandas'],0.21056242637096267
+['Taqueria Arandas'],0.24739768929176398
+['Taqueria Arandas'],0.2379961755033573
+['Taqueria Ceibas'],0.17411738351254477
+['Taqueria Chapala'],0.30231314248203495
+['Taqueria Chapala #1'],0.2587806850187048
+['Taqueria Chapala #5'],0.2740740740740741
+['Taqueria Chelo'],-0.14246031746031748
+['Taqueria Don-Emilio'],0.2588804112554112
+['Taqueria Gardenia'],0.29565852656969105
+['Taqueria Guadalajara'],0.22711335009212957
+['Taqueria Guerrero'],0.4140625
+['Taqueria Jazmin’s Cafe'],0.6583333333333333
+['Taqueria Jefes'],0.32599168888642577
+['Taqueria Jefes'],0.11293294971122353
+['Taqueria Johnny Tacos'],0.2526217321003417
+['Taqueria La Canaria'],0.2774344739150815
+['Taqueria La Chiapaneca'],0.4217857142857143
+['Taqueria La Chilanguita'],0.3605950491996615
+['Taqueria La Escondida'],0.24960984859052832
+['Taqueria La Familia Mexican Restaurant'],0.2567573681604234
+['Taqueria La Guadalupana'],0.42000000000000004
+['Taqueria La Guera'],0.3359305555555555
+['Taqueria La Libertad'],0.3822310287751464
+['Taqueria La Morena'],0.13707407407407407
+['Taqueria La Paloma'],0.34553872053872053
+['Taqueria La Sabrosita'],0.17792771464646465
+['Taqueria La Tapatia'],0.21128208685900995
+['Taqueria Las Chismosas'],0.3847222222222222
+['Taqueria Las Niñas'],0.24222222222222223
+['Taqueria Los Altos'],0.31991084428110733
+['Taqueria Los Jaliscienses'],0.26892553361475063
+['Taqueria Los Jr’s'],0.2989946363160649
+['Taqueria Mejia'],0.25098544973544973
+['Taqueria Mi Zacazonapan'],0.36230489417989425
+['Taqueria Montenegro'],0.3358656832298137
+['Taqueria Monterrey'],0.0
+['Taqueria Morelos'],0.3603602942919117
+['Taqueria Olivas'],0.3117539682539683
+['Taqueria Piedra Grande'],0.2542921767028229
+['Taqueria Piedra Grande'],0.3263227513227513
+['Taqueria Piedra Grande'],0.07590127465127465
+['Taqueria Piedra Grande'],0.1186111111111111
+['Taqueria Rogel'],-0.225
+['Taqueria San Luis'],0.27559496479951023
+['Taqueria Su Destino'],0.27395833333333336
+['Taqueria Tuzantla'],0.5541666666666667
+['Taqueria el Limon'],0.17076364292273383
+['Taqueria el Torito'],0.34470145697167753
+['Taqueria la Guera #2'],0.16
+['Taqueria los Regios'],0.3367233064554493
+['Taquerias Arandinas'],0.1600991445726157
+['Taquerias Arandinas'],0.20870376849109723
+['Taquerias Arandinas'],0.22987484737885408
+['Taquero Mucho'],0.2862198249769715
+['Taquero Mucho'],0.24286813390249923
+['Taquería La Luna'],0.2770833333333333
+['Taquito Aviles'],0.3276711468403162
+['Taquizas Mariana'],0.26490684662559666
+['Taquria El Laurel'],0.15793407043407043
+"[""Tasty Abe's""]",0.2818181818181818
+['Techo Mezcaleria & Agave Bar'],0.27270314422490616
+['Tellus Joe'],0.17714608920491273
+['Texas Honey Ham Company'],0.383981958719203
+['Texas Sushiko'],0.3196730245063578
+['Texican Tacos'],0.2157792207792208
+['The Bakers Rack'],0.34273632369614515
+['The Calimex Cafe'],0.14449179292929293
+['The Park At The Domain'],0.17974344796736397
+['The Peached Tortilla'],0.27806630404620114
+"[""Three B's Tacos""]",0.12348335791192935
+['Tierra Linda Taqueria'],0.35072741988335565
+['Tomgro Grocery'],0.23549392736892738
+"[""Torchy's Tacos""]",0.26679544690697776
+"[""Torchy's Tacos""]",0.23390721832822675
+"[""Torchy's Tacos""]",0.2397670032562316
+"[""Torchy's Tacos""]",0.24486491168812358
+"[""Torchy's Tacos""]",0.21974187277671314
+"[""Torchy's Tacos""]",0.28883097030500005
+"[""Torchy's Tacos""]",0.18017011302304045
+"[""Torchy's Tacos""]",0.20945070830106433
+['Torres Taqueria #2'],0.2133653846153846
+['Tortas El Guero'],0.3423522355798095
+['Tortas Tampico 512 ATX'],0.26554621848739507
+['Tortilleria El Taquito Marisquero'],0.269985014985015
+['Tortilleria La Sabrocita'],0.2457181744115163
+['Tortillería Río Grande'],0.3130558200065521
+['Toyloco'],0.3481153719416752
+['Traila Jalicienses'],0.31933333333333336
+['Tres Amigos'],0.24285468761985674
+['Tres Marias Tacos'],0.3285479797979798
+['Tres Monarcas'],0.4541666666666666
+['Trill foods'],0.34900000000000003
+['Trippy Tacos'],0.36999173743760094
+['Trudy’s Del Mar'],0.36816536251960197
+"[""Tyson's Tacos""]",0.20532203262132562
+['Un Mundo De Sabor'],0.3824152068445344
+['Un Taco Mas'],0.321596393355322
+['Vaquero Taquero'],0.3128155411809853
+['Vaquero Taquero'],0.3263209531672509
+"[""Vaquero's Cafe and Cantina""]",0.2726170433841251
+"[""Vaquero's Grill""]",0.5292613636363636
+['Variedades Marquez'],0.25
+['Vazquez Restaurant'],0.2950029336186725
+['Vazquez Restaurant'],0.2844539543094887
+['Velvet Taco'],0.31591492611807365
+['Velvet Taco'],0.24769476697799234
+['Veracruz All Natural'],0.31181319973667154
+['Veracruz All Natural'],0.29122861991893667
+['Veracruz All Natural'],0.28655973527573575
+['Veracruz All Natural'],0.24269157668754365
+['Veracruz All Natural'],0.2876958694006395
+"[""Victorina's Food""]",0.3923611111111111
+['Villanueva Taco Truck'],0.3171474358974359
+['Violet Sky Rooftop Lounge'],0.28659090909090906
+"[""Wally's Burger Express""]",0.196948229147751
+['Wicked Kitchen'],-0.0630681818181818
+['Wilder Wood Restaurant & Bar'],0.27810451289285726
+['Yucatan Tacos And More'],0.3793734621663594
+"[""Z'Tejas - Austin 6 STREET""]",0.28325501475165454
+['ZIKI'],0.30336172697787606
+['ZIKI'],0.25858134920634923
+['Zapata Taqueria'],0.16224489795918368
+['Zombie Taco'],0.21162362553482397
+['Zuzu Handmade Mexican Food'],0.1638687861814148
+['taco wey'],-0.0322646103896104
+['ñoños tacos'],0.3143998763665266
