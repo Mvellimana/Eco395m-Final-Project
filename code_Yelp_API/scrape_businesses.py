@@ -7,7 +7,7 @@ from yelp_requests import business_search
 if __name__ == "__main__":
 
     LOCATION = "Austin, TX"
-    CATEGORIES = "pizza"
+    CATEGORIES = "asianfusion"
 
     create_tables()
 
