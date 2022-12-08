@@ -37,7 +37,7 @@ stop_words = stopwords.words('english')
 df['review_nopunc_nostop'] = df['review_nopunc'].apply(lambda x: " ".join(x for x in x.split() if x not in stop_words))
 
 # Return frequency of values
-freq= pd.Series(" ".join(df['review_nopunc_nostop']).split()).value_counts()[:100]
+freq= pd.Series(" ".join(df['review_nopunc_nostop']).split()).value_counts()[:50]
 pd.set_option('display.max_rows', 500)
 print(freq)
 
@@ -77,10 +77,16 @@ from nltk.stem.porter import PorterStemmer
 
 
 def _extract_ngrams(data: str, num: int):
+    '''
+    function to return different successive parts of sentence
+    '''
     n_grams = TextBlob(data).ngrams(num)
     return [' '.join(grams).lower() for grams in n_grams]
 
 def _delete_duplicate_food_n_grams(text: str, foods: list[str]) -> list[str]:
+    '''
+    function to delete duplicate food items
+    '''
     foods.sort(key=lambda x: -len(x.split()))  # Sort desc by number of words
     result_foods = []
     for food in foods:
@@ -90,6 +96,9 @@ def _delete_duplicate_food_n_grams(text: str, foods: list[str]) -> list[str]:
     return result_foods
 
 def extract_foods(x: str) -> list[str]:
+    '''
+    function to extract food words from text based on comprehensive food lexicon list
+    '''
     foods = set()
     stemmer = PorterStemmer()
     for n in range(6, 0, -1):
