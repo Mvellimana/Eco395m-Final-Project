@@ -12,8 +12,12 @@ import matplotlib.pyplot as plt
 #nltk.download('omw-1.4')
 
 
-df = pd.read_csv('mexican_reviews.csv')
-Food_lexicons = pd.read_csv('data/food.csv',header=None,names=['food']) 
+PATH1 = os.path.join("artifacts", "mexican_reviews.csv")
+PATH2 = os.path.join("data", "food.csv")
+
+
+df = pd.read_csv(PATH1)
+Food_lexicons = pd.read_csv(PATH2,header=None,names=['food']) 
 
 FOOD_LEXICONS = Food_lexicons.food.values.tolist()
 FOOD_LEXICONS = set([x.lower() for x in FOOD_LEXICONS])
