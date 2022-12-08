@@ -1,6 +1,11 @@
 from google.cloud import language_v1
 
+#define a client instance to be able to use GCP NLP functions
+#i have coded the json file name as this refers to the API key that is private to the user
 client = language_v1.LanguageServiceClient.from_service_account_json("**********.json")
+
+#define a function to get the entity response from GCP NLP 
+#we want a dataframe with only useful information for next part of analysis
 def get_res(x):
     text_content = x.review
     rest_name=x.restaurant_name
