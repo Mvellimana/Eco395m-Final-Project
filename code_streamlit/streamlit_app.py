@@ -241,11 +241,11 @@ if choice=="Sentiment Analysis":
 
 	st.header("Pre-Built Algorthim vs Hand-Built Algorthim")
 	st.markdown("We have conducted 2 different models to assess the sentiment analysis. The first model is a **TextBlob** model which is a *Pre-Built Algorthim* that uses\
-		reviews text as input. The other model is a **Naive Bayes- TF IDF** which is a *Hand-Built Model* that uses rating as input which could be a proxy for reviewers sentiment.\
+		reviews text as input. The other model is a **Naïve Bayes- TF IDF** which is a *Hand-Built Model* that uses rating as input which could be a proxy for reviewers sentiment.\
 		The objective is to compare the accuracy of both models.")
 	col1, col2 = st.columns(2)
 	col1.metric("Pre-Built Algorthim", "89.67% Accuracy", "TextBlob")
-	col2.metric("Hand-Built Algorthim", "83.8% Accuracy", "Naive Bayes- TF IDF")
+	col2.metric("Hand-Built Algorthim", "83.8% Accuracy", "Naïve Bayes- TF IDF")
 	st.markdown("So, we are using the **TextBlob** model results to show them below.")
 	
 
@@ -258,7 +258,7 @@ if choice=="Sentiment Analysis":
 	
 
 	st.header("Find the Best and the worst restaurants from the selectbox")
-	st.markdown("Pick a specific dish to find the top 5 and worst 5 restaurants.")
+	st.markdown("Pick a specific dish to find the top 5 and worst 5 restaurants based on Google Cloud NLP.")
 	df_best = pd.read_csv(PATH8)
 	df_worst = pd.read_csv(PATH9)
 
