@@ -10,4 +10,4 @@ wordcloud==1.8.2.2
 requests==2.27.1
 bs4==0.0.1
 beautifulsoup4==4.11.1
-
+st-annotated-text==3.0.0
