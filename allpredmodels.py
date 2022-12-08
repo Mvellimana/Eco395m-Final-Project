@@ -31,9 +31,23 @@ from sklearn.metrics import confusion_matrix
 
 
 """Import the Dataset"""
-yelp_data = pd.read_csv(r'/Users/rajsitee/Downloads/Eco395m-Final-Project-jordan/artifacts/mexican_reviews.csv')
+df = pd.read_csv(r'/Users/rajsitee/Downloads/Eco395m-Final-Project-jordan/artifacts/mexican_reviews.csv')
 
-"""Convert rating into a binary classification. 
+"""Drop rows with no ratings. """
+yelp_d = df[df.rating != 'no rating']
+
+"""Create two new dataframes to hold all the positive and negative samples. We do this because the positive samples are
+much higher than the nehative samples. So we randomly sample the no. of positive reviews to match the no. of negative reviews. 
+We then create a new dataframe to hold these 2 dfs (using concatenate)."""
+df_positive = yelp_d[yelp_d['rating_binary'] == 1]
+df_positive_sample = df_positive.sample(n=21386)
+
+df_negative = yelp_d[yelp_d["rating_binary"] == 0]
+df_negative_sample = df_negative.sample(n=21386)
+
+yelp_data = pd.concat([df_positive_sample, df_negative_sample], axis=0)
+
+"""One-hot-encoding. 
 For all ratings <= 3, rating_binary = 0. For all ratings >= 4, rating_binary = 1. """
 def star_rating(x):
 
