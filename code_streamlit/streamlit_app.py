@@ -44,7 +44,8 @@ if choice=="Overview":
 	)
 
 	st.header("Introduction")
-	st.markdown("...")
+	st.markdown("This project aims to conduct an opinions mining analysis based on yelp reviews. The projects includes the use of Google Cloud Platform, \
+		SQL, API scraping, sentiment analysis, and Streamlit. We were able to view the results of the sentiment analysis based on yelp reviews.")
 
 
 	st.header("Data Source")
