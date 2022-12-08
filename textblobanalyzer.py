@@ -43,7 +43,7 @@ print(X_train)
 """model validation"""
 sample = pd.DataFrame([X_train, y_train]).transpose()
 sample['desig'] = sample.polarity.apply(lambda x: 'pos' if x == 1 else 'neg')
-# sample['clean_review'].to_list() + 
+
 input_train = []
 for text, d in list(zip(sample['cleaned_review'], sample['desig'])): 
     input_train.append((text, d))
