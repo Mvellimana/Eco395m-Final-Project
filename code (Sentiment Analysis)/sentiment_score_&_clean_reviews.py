@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 #nltk.download("stopwords")
 #nltk.download('omw-1.4')
 
-os.chdir('/Users/Mai/Documents/ECO385M/Eco395m-Final-Project-jordan/artifacts')#update directory
+
 df = pd.read_csv('mexican_reviews.csv')
-Food_lexicons = pd.read_csv('food.csv',header=None,names=['food']) 
+Food_lexicons = pd.read_csv('data/food.csv',header=None,names=['food']) 
 
 FOOD_LEXICONS = Food_lexicons.food.values.tolist()
 FOOD_LEXICONS = set([x.lower() for x in FOOD_LEXICONS])
@@ -62,13 +62,13 @@ df['subjectivity'] = df['cleaned_review'].apply(lambda x: TextBlob(x).sentiment[
 
 # Filter neceassry columns for csv
 df2 = df.loc[:,['restaurant_name','number','cleaned_review','polarity','subjectivity']]
-df2.to_csv("Cleaned_reviews&SentimentScore.csv",index=False)
+df2.to_csv("artifacts/sentiment_score_by_review.csv",index=False)
 
 # Polarity by restaurant
 Rest_score = pd.DataFrame()
 Rest_score['Restaurant_name'] = df.groupby(['restaurant_name','id'])['restaurant_name'].unique()
 Rest_score['Polarity'] = df.groupby(['restaurant_name','id'])['polarity'].mean()
-Rest_score.to_csv("SentimentScore_by_Rest.csv",index=False)
+Rest_score.to_csv("artifacts/sentiment_score_by_rest.csv",index=False)
 
 
 
