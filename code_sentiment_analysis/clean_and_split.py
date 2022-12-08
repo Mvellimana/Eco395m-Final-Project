@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 #read the csv and reduce the sample size to focus on 10 categories that we manually chose based on frequency
+#we focus on food categories of some popular mexican cuisine since we narrowed down to mexican food
 review_data_original=pd.read_csv('artifacts/mexican_reviews_cleaned.csv')
 
 list1=['taco','tortilla','chicken','enchilada','fajita','burrito','fish','shrimp','quesadilla','steak',
