@@ -72,7 +72,7 @@ if choice=="Sentiment Analysis":
 	)
 
 	df=pd.read_csv("SentimentScore_by_Rest.csv")
-	score=ss.slider("All the restaurants above the sentiment score you select",min_value=-0.30,max_value=0.50,value=0.00,step=0.001)
+	score=ss.slider("All the restaurants above the sentiment score you select",min_value=-1.0,max_value=1.0,value=0.00,step=0.001)
 	df_made=df.loc[df["Polarity"]>=score]
 	ss.dataframe(df_made)
 	ss.image("https://s3-media1.fl.yelpcdn.com/bphoto/Fg2LTmPtlDLo3eCFw_V6Cw/o.jpg",width=520)
