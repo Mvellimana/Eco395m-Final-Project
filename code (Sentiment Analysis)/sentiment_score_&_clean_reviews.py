@@ -136,6 +136,8 @@ cleaned_review_list = ''.join(cleaned_review_raw2)
 wordcloud_reviews = WordCloud(width = 3000, height = 2000,random_state=1).generate(cleaned_review_list)
 plt.imshow(wordcloud_reviews)
 plt.axis("off")
+plt.savefig(f'artifacts/wordcloud_reviews.png',
+            dpi = 300)
 plt.show()
 
 # WordCloud for food
@@ -143,5 +145,7 @@ plt.show()
 wordcloud_food = WordCloud(width = 3000, height = 2000,random_state=1).generate_from_frequencies(food_dict)
 plt.imshow(wordcloud_food)
 plt.axis("off")
+plt.savefig(f'artifacts/wordcloud_food.png',
+            dpi = 300)
 plt.show()
 
