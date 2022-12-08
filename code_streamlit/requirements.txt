@@ -10,7 +10,4 @@ wordcloud==1.8.2.2
 requests==2.27.1
 bs4==0.0.1
 beautifulsoup4==4.11.1
-dotenv==0.0.5
-sqlalchemy==1.4.43
-psycopg2==2.9.5
-lxml==4.8.0
+
