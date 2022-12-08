@@ -25,7 +25,7 @@ with st.sidebar:
 	choice=option_menu(
 		menu_title="Final Project",
 		options=["Overview","Word Clouds","Sentiment Analysis","Choose Your Restaurants","Food Map"],
-		icons=["house","word","analysis","book","map"],
+		icons=["house","book","list","list-task","map"],
 		menu_icon="cast",
 		default_index=0,
 		)
