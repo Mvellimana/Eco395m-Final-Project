@@ -31,21 +31,10 @@ from sklearn.metrics import confusion_matrix
 
 
 """Import the Dataset"""
-df = pd.read_csv(r'/Users/rajsitee/Downloads/Eco395m-Final-Project-jordan/artifacts/mexican_reviews.csv')
+df = pd.read_csv('mexican_reviews.csv')
 
 """Drop rows with no ratings. """
 yelp_d = df[df.rating != 'no rating']
-
-"""Create two new dataframes to hold all the positive and negative samples. We do this because the positive samples are
-much higher than the nehative samples. So we randomly sample the no. of positive reviews to match the no. of negative reviews. 
-We then create a new dataframe to hold these 2 dfs (using concatenate)."""
-df_positive = yelp_d[yelp_d['rating_binary'] == 1]
-df_positive_sample = df_positive.sample(n=21386)
-
-df_negative = yelp_d[yelp_d["rating_binary"] == 0]
-df_negative_sample = df_negative.sample(n=21386)
-
-yelp_data = pd.concat([df_positive_sample, df_negative_sample], axis=0)
 
 """One-hot-encoding. 
 For all ratings <= 3, rating_binary = 0. For all ratings >= 4, rating_binary = 1. """
@@ -63,7 +52,19 @@ def star_rating(x):
         return 1
     else:
         return 0
-yelp_data['rating_binary'] = yelp_data.apply(star_rating,axis = 1)
+yelp_d['rating_binary'] = yelp_d.apply(star_rating,axis = 1)
+
+"""Create two new dataframes to hold all the positive and negative samples. We do this because the positive samples are
+much higher than the nehative samples. So we randomly sample the no. of positive reviews to match the no. of negative reviews. 
+We then create a new dataframe to hold these 2 dfs (using concatenate)."""
+df_positive = yelp_d[yelp_d['rating_binary'] == 1]
+df_positive_sample = df_positive.sample(n=21386)
+
+df_negative = yelp_d[yelp_d["rating_binary"] == 0]
+df_negative_sample = df_negative.sample(n=21386)
+
+yelp_data = pd.concat([df_positive_sample, df_negative_sample], axis=0)
+
 
 """Train-test split + random state"""   
 X = yelp_data.review
@@ -153,6 +154,8 @@ nb_tf_f1 = f1_accuracyw
 nb_tf_f1m = f1_accuracym
 nb_tf_f1w = f1_accuracyw
 
+# Gradient Boosted Classifier: Count Vectorizer
+
 """Model Validation"""
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import GradientBoostingClassifier
@@ -198,6 +201,8 @@ gbc_cv_acc = test_accuracy
 gbc_cv_f1 = f1_accuracy
 gbc_cv_f1m = f1_accuracym
 gbc_cv_f1w = f1_accuracyw
+
+# Gradient Boosted Classifier: TF IDF
 
 """Model Validation"""
 steps = [('vec', TfidfVectorizer(stop_words = 'english', ngram_range = (1, 2))), 
