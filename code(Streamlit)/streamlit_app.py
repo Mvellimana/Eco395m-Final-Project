@@ -2,18 +2,30 @@ import ast
 import json
 import numpy as np
 import pandas as pd
-import streamlit as ss
+import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 from annotated_text import annotated_text
+import os
 
 
-with ss.sidebar:
-	ss.image("https://s3-media2.fl.yelpcdn.com/bphoto/HHyTr44O1_Xp8sYuTpKU8g/o.jpg")
+
+PATH5 = os.path.join("artifacts", "yelp_map_data.csv")
+
+df5 = (
+	pd.read_csv(PATH5)
+	)
+
+
+
+
+
+with st.sidebar:
+	st.image("https://s3-media2.fl.yelpcdn.com/bphoto/HHyTr44O1_Xp8sYuTpKU8g/o.jpg")
 	choice=option_menu(
 		menu_title="Final Project",
 		options=["Overview","Word Clouds","Sentiment Analysis","Choose Your Restaurants","Food Map"],
-		icons=["house","book","envelope","book","envelope"],
+		icons=["house","book","list","list-task","map"],
 		menu_icon="cast",
 		default_index=0,
 		)
@@ -39,7 +51,14 @@ if choice=="Overview":
 	)
 
 
+
+PATH3 = os.path.join("artifacts", "wordcloud_food.png")
+PATH2 = os.path.join("artifacts", "wordcloud_reviews.png")
+
+
 if choice=="Word Clouds":
+
+	st.title("this is title")
 	lottie_coding=load_lottiefile("star.json")
 	st_lottie(
 		lottie_coding,
@@ -52,13 +71,33 @@ if choice=="Word Clouds":
 		key=None,
 	)
 
-	if ss.button("See Our Food Word Cloud"):
-		ss.image("wordcloud_food.png")
+	
+	st.subheader("this is subheader")
+	st.markdown("this is text to explain this part shortly")
 
-	if ss.button("See Our Reviews Word Cloud"):
-		ss.image("wordcloud_reviews.png")
+	if st.button("Top Mentioned Dishes"):
+		st.image(PATH3)
+
+	st.subheader("this is subheader")
+	st.markdown("this is text to explain this part shortly")
+
+	if st.button("Top Iterated Words Reviews"):
+		st.image(PATH2)
+
+	st.markdown("this is text to explain this part shortly")
+
+
+PATH4 = os.path.join("artifacts", "sentiment_score_by_rest.csv")
+
+df4 = (
+	pd.read_csv(PATH4)
+	)
+
 
 if choice=="Sentiment Analysis":
+
+	st.title("this is title")
+
 	lottie_coding=load_lottiefile("avocado.json")
 	st_lottie(
 		lottie_coding,
@@ -71,20 +110,31 @@ if choice=="Sentiment Analysis":
 		key=None,
 	)
 
-	df=pd.read_csv("SentimentScore_by_Rest.csv")
-	score=ss.slider("All the restaurants above the sentiment score you select",min_value=-1.0,max_value=1.0,value=0.00,step=0.001)
-	df_made=df.loc[df["Polarity"]>=score]
-	ss.dataframe(df_made)
-	ss.image("https://s3-media1.fl.yelpcdn.com/bphoto/Fg2LTmPtlDLo3eCFw_V6Cw/o.jpg",width=520)
+	st.header("this is header")
+	st.markdown("this is text to explain this part shortly")
+	col1, col2 = st.columns(2)
+	col1.metric("Pre-Built Algorthim", "89.67% Accuracy", "TextBlob")
+	col2.metric("Hand-Built Algorthim", "83.8% Accuracy", "Naive Bayes- TF IDF")
+	
 
+	st.header("this is header here")
+	st.subheader("Slide to your Favorite")
+	score=st.slider("All the restaurants above the sentiment score you select",min_value=-1.0,max_value=1.0,value=0.00,step=0.001)
+	df4_made=df4.loc[df4["Polarity"]>=score]
+	st.dataframe(df4_made)
+	st.image("https://s3-media1.fl.yelpcdn.com/bphoto/Fg2LTmPtlDLo3eCFw_V6Cw/o.jpg",width=520)
+
+
+PATH6 = os.path.join("artifacts", "mexican_restaurant_attributes.csv")
+PATH7 = os.path.join("artifacts", "mexican_restaurant_info.csv")
 	
 if choice=="Choose Your Restaurants":	
-	ss.image("https://s3-media4.fl.yelpcdn.com/bphoto/XkJSex0R3IgwnO8i4UG2AQ/o.jpg",width=200)
+	st.image("https://s3-media4.fl.yelpcdn.com/bphoto/XkJSex0R3IgwnO8i4UG2AQ/o.jpg",width=200)
 
-	attribute_choice=ss.multiselect("Tell us your choice",["Takes Reservations", "Offers Delivery","Offers Takeout", "Masks required"])
+	attribute_choice=st.multiselect("Tell us your choice",["Takes Reservations", "Offers Delivery","Offers Takeout", "Masks required"])
     
-	file_name = "mexican_restaurant_attributes.csv"
-	df = pd.read_csv(file_name)
+	
+	df6 = pd.read_csv(PATH6)
 
 	def contain_selected_attributes(attributes, attribute_choice_set):
 		"""Check if selected attributes are contained, if so, return True, otherwise, return False."""
@@ -96,21 +146,19 @@ if choice=="Choose Your Restaurants":
 		return attribute_choice_set.issubset(set(attributes_list))
 
 
-	mask = df["attributes"].apply(
+	mask = df6["attributes"].apply(
 	    contain_selected_attributes, args=(set(attribute_choice),)
 	)
 
-	ss.dataframe(df[mask])
+	st.dataframe(df6[mask])
 	
 	
-	a,b=ss.columns([3,1])
+	a,b=st.columns([3,1])
 	money_choice=a.selectbox("Price Range",[" ","$$$","$$","$"]) 
 	rating_choice = b.number_input("Rating Above", step=0.5)
 
 
-	info_file = 'mexican_restaurant_info.csv'
-
-	df_info = pd.read_csv(info_file)
+	df_info = pd.read_csv(PATH7)
 
 	def price_check(price, price_choice):
 		'''get the boolean values for price.'''
@@ -132,12 +180,17 @@ if choice=="Choose Your Restaurants":
 
 	df_limit_cols = df_info[['name', 'review_count', 'rating', 'price', 'display_phone']]
 
-	ss.dataframe(df_limit_cols[bool_select])
+	st.dataframe(df_limit_cols[bool_select])
+
+
 
 
 
 if choice=="Food Map":
-	ss.balloons()
+	st.header("Choose the Minimum Rating for your Favorite Mexican Restaurants")
+	rating = st.slider("Rating", 1.0, float(df5["rating"].max()), 4.5, step = 0.5)
+	st.map(df5.query("rating >= @rating")[["latitude", "longitude"]])
+	st.markdown('jkdfkjf')
 
 
 
