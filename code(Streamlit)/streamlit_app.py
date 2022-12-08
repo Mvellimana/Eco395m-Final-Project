@@ -25,7 +25,7 @@ with st.sidebar:
 	choice=option_menu(
 		menu_title="Final Project",
 		options=["Overview","Word Clouds","Sentiment Analysis","Choose Your Restaurants","Food Map"],
-		icons=["house","book","envelope","book","envelope"],
+		icons=["house","word","analysis","book","map"],
 		menu_icon="cast",
 		default_index=0,
 		)
@@ -51,7 +51,14 @@ if choice=="Overview":
 	)
 
 
+
+PATH3 = os.path.join("artifacts", "wordcloud_food.png")
+PATH2 = os.path.join("artifacts", "wordcloud_reviews.png")
+
+
 if choice=="Word Clouds":
+
+	st.title("this is title")
 	lottie_coding=load_lottiefile("star.json")
 	st_lottie(
 		lottie_coding,
@@ -64,11 +71,20 @@ if choice=="Word Clouds":
 		key=None,
 	)
 
+	
+	st.subheader("this is subheader")
+	st.markdown("this is text to explain this part shortly")
+
 	if st.button("Top Mentioned Dishes"):
-		st.image("wordcloud_food.png")
+		st.image(PATH3)
+
+	st.subheader("this is subheader")
+	st.markdown("this is text to explain this part shortly")
 
 	if st.button("Top Iterated Words Reviews"):
-		st.image("wordcloud_reviews.png")
+		st.image(PATH2)
+
+	st.markdown("this is text to explain this part shortly")
 
 
 PATH4 = os.path.join("artifacts", "sentiment_score_by_rest.csv")
@@ -81,6 +97,19 @@ df4 = (
 if choice=="Sentiment Analysis":
 
 	st.title("this is title")
+
+	lottie_coding=load_lottiefile("avocado.json")
+	st_lottie(
+		lottie_coding,
+		speed=1,
+		reverse=False,
+		loop=True,
+		quality="low",
+		height=250,
+		width=350,
+		key=None,
+	)
+
 	st.header("this is header")
 	st.markdown("this is text to explain this part shortly")
 	col1, col2 = st.columns(2)
@@ -96,14 +125,16 @@ if choice=="Sentiment Analysis":
 	st.image("https://s3-media1.fl.yelpcdn.com/bphoto/Fg2LTmPtlDLo3eCFw_V6Cw/o.jpg",width=520)
 
 
+PATH6 = os.path.join("artifacts", "mexican_restaurant_attributes.csv")
+PATH7 = os.path.join("artifacts", "mexican_restaurant_info.csv")
 	
 if choice=="Choose Your Restaurants":	
 	st.image("https://s3-media4.fl.yelpcdn.com/bphoto/XkJSex0R3IgwnO8i4UG2AQ/o.jpg",width=200)
 
 	attribute_choice=st.multiselect("Tell us your choice",["Takes Reservations", "Offers Delivery","Offers Takeout", "Masks required"])
     
-	file_name = "mexican_restaurant_attributes.csv"
-	df = pd.read_csv(file_name)
+	
+	df6 = pd.read_csv(PATH6)
 
 	def contain_selected_attributes(attributes, attribute_choice_set):
 		"""Check if selected attributes are contained, if so, return True, otherwise, return False."""
@@ -115,21 +146,19 @@ if choice=="Choose Your Restaurants":
 		return attribute_choice_set.issubset(set(attributes_list))
 
 
-	mask = df["attributes"].apply(
+	mask = df6["attributes"].apply(
 	    contain_selected_attributes, args=(set(attribute_choice),)
 	)
 
-	st.dataframe(df[mask])
+	st.dataframe(df6[mask])
 	
 	
-	a,b=ss.columns([3,1])
+	a,b=st.columns([3,1])
 	money_choice=a.selectbox("Price Range",[" ","$$$","$$","$"]) 
 	rating_choice = b.number_input("Rating Above", step=0.5)
 
 
-	info_file = 'mexican_restaurant_info.csv'
-
-	df_info = pd.read_csv(info_file)
+	df_info = pd.read_csv(PATH7)
 
 	def price_check(price, price_choice):
 		'''get the boolean values for price.'''
