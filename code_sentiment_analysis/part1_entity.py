@@ -1,12 +1,23 @@
+import pandas as pd
+import numpy as np
+from google.cloud import language_v1
+
+
+#we call the funtion from api calls 
+#the below is commented so that yoou dont accidentally run the code as it consumes credits heavily 
+#we split the files into 4 parts so that we can distribute usage amongst us
 #review_data_part1['dfs']=review_data_part1.apply(lambda x: get_res(x),axis=1)
 
 review_data_entity_part1=pd.DataFrame()
 for i in range(review_data_part1.shape[0]):
     review_data_entity_part1=pd.concat([review_data_entity_part1, review_data_part1.dfs.iloc[i]], axis=0)
+#the file is daved through below so as to not lsoe the data and therefore avoiding the need to place api calls
 # review_data_entity_part1.to_csv('code_Sentiment_Analysis/working_csvs/review_data_entity_part1.csv')
 
 review_data_entity_part1=pd.read_csv('code_Sentiment_Analysis/working_csvs/review_data_entity_part1.csv')
 
+#due to the large size of the split file to perform some wrangling activities
+#i do this because running the filtering of entities on one dataset would take long anf crash my system
 review_data_entity_part1_split = np.array_split(review_data_entity_part1, 8)
 
 review_data_entity_part1_subsection1 = review_data_entity_part1_split[0]
@@ -18,6 +29,7 @@ review_data_entity_part1_subsection6 = review_data_entity_part1_split[5]
 review_data_entity_part1_subsection7 = review_data_entity_part1_split[6]
 review_data_entity_part1_subsection8 = review_data_entity_part1_split[7]
 
+#this functions helps bring uniformity to food entity names for example breakfast tacos would be taco
 def get_cleanname(x):
     a=''
     for i in list2:
@@ -27,6 +39,7 @@ def get_cleanname(x):
 
 list2=['taco','tortilla','chicken','enchilada','fajita','burrito','fish','shrimp','quesadilla','steak']
 
+#on every subsection we filter and keep only the entities we need, make the names uniform, group the mean of sentiment score for every restuarant and food combination
 review_data_entity_part1_subsection1['check']=review_data_entity_part1_subsection1.entity_name.apply(lambda x: 1 if any(substring in x for substring in list1)==True else 0).astype(int)
 review_data_entity_part1_subsection1 = review_data_entity_part1_subsection1[review_data_entity_part1_subsection1['check']==1].sort_values(by=['entity_sentiment_score'],ascending=False)
 review_data_entity_part1_subsection1['cleaan_entity_name']= review_data_entity_part1_subsection1.entity_name.apply(lambda x: get_cleanname(x))
