@@ -1,0 +1,51 @@
+,cleaan_entity_name,restaurant_name,entity_sentiment_score
+0,burrito,La Tunita 512,0.8999999761581421
+1,burrito,Radio Coffee & Beer,0.8999999761581421
+2,burrito,Tacos Guerrero,0.8999999761581421
+3,burrito,Cisco's Restaurant Bakery & Bar,0.7000000178813934
+4,burrito,Papalote Taco House,0.699999988079071
+5,chicken,Bennu Coffee,0.8999999761581421
+6,chicken,Yucatan Tacos And More,0.7000000178813934
+7,chicken,Sabor Tapatio,0.6499999910593033
+8,chicken,Lazarus Brewing,0.5826086988267691
+9,chicken,Flavia's Kitchen,0.5666666676600774
+10,enchilada,Pollo Regio,0.8999999761581421
+11,enchilada,Suerte,0.8999999761581421
+12,enchilada,Burrito Factory,0.699999988079071
+13,enchilada,Lazarus Brewing,0.699999988079071
+14,enchilada,Las Trancas,0.6000000238418579
+15,fajita,El Naranjo South Lamar,0.8999999761581421
+16,fajita,Pueblo Viejo,0.8999999761581421
+17,fajita,Sabor Tapatio,0.800000011920929
+18,fajita,Taquito Aviles,0.7999999821186066
+19,fajita,El Pollo Rico,0.5666666502753893
+20,fish,Tierra Linda Taqueria,0.8499999940395355
+21,fish,Taco Brother,0.6799999833106994
+22,fish,Lazarus Brewing,0.611111107799742
+23,fish,Taquito Aviles,0.5999999965230624
+24,fish,Baby Acapulco,0.5374999949708581
+25,quesadilla,Simar Seafood Cocina,0.8999999761581421
+26,quesadilla,Taqueria Morelos,0.8999999761581421
+27,quesadilla,Radio Coffee & Beer,0.75
+28,quesadilla,Baby Acapulco,0.712499987334013
+29,quesadilla,Buenos Sabores,0.699999988079071
+30,shrimp,El Pollo Rico,0.8999999761581421
+31,shrimp,T-Loc's Sonora Hot Dogs,0.8999999761581421
+32,shrimp,Taco Brother,0.800000011920929
+33,shrimp,Trippy Tacos,0.7000000029802322
+34,shrimp,Cheko’s,0.6749999970197678
+35,steak,Lazarus Brewing,0.7666666706403097
+36,steak,Casa Maria,0.7666666507720947
+37,steak,Paprika ATX,0.6799999952316285
+38,steak,Tierra Linda Taqueria,0.6000000238418579
+39,steak,Ken's Subs Tacos & More,0.5692307705489489
+40,taco,Flavia's Kitchen,0.5318584054444744
+41,taco,Buenos Sabores,0.5173076878373439
+42,taco,Taco Brother,0.5058823508374831
+43,taco,Fonda San Miguel,0.4924999976530671
+44,taco,Nissi VegMex Vegan Mexican Cuisine,0.48545454361222007
+45,tortilla,Cuantos Tacos,0.5846153820554415
+46,tortilla,Radio Coffee & Beer,0.550000011920929
+47,tortilla,Las Perlas,0.5399999921520551
+48,tortilla,Flavia's Kitchen,0.5382352914003765
+49,tortilla,Sabor Tapatio,0.5149999998509884

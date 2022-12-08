@@ -1,0 +1,423 @@
+,cleaan_entity_name,restaurant_name,entity_sentiment_score
+53,tortilla,Rosita's al Pastor,0.38484848719654663
+50,tortilla,El Primo,0.3311111079321967
+48,tortilla,Azul Tequila,0.29687500023283064
+52,tortilla,Paco's Tacos,0.2826446281238036
+49,tortilla,Donut 7,0.2545454563065009
+51,tortilla,La Condesa,0.06176470621835952
+54,tortilla,Tyson's Tacos,-0.016216218874261185
+42,taco,Donut 7,0.4405498277792816
+46,taco,Rosita's al Pastor,0.3497076021038998
+43,taco,El Primo,0.3479238748421512
+45,taco,Paco's Tacos,0.3175230568007361
+47,taco,Tyson's Tacos,0.2380952388048172
+44,taco,La Condesa,0.21564625857435926
+41,taco,Azul Tequila,0.1222222244573964
+37,steak,El Primo,0.30000001192092896
+36,steak,Donut 7,0.30000000074505806
+39,steak,Paco's Tacos,0.17000000104308127
+40,steak,Tyson's Tacos,0.13333333904544512
+35,steak,Azul Tequila,0.10000000149011612
+38,steak,La Condesa,0.010256407352594228
+32,shrimp,La Condesa,0.40000000392848795
+33,shrimp,Paco's Tacos,0.34848484803329816
+31,shrimp,Azul Tequila,0.17692307440134195
+34,shrimp,Tyson's Tacos,0.17499999391535917
+30,quesadilla,Rosita's al Pastor,0.47999998927116394
+27,quesadilla,El Primo,0.3500000052154064
+29,quesadilla,Paco's Tacos,0.31428570992180277
+26,quesadilla,Azul Tequila,0.30000000447034836
+28,quesadilla,La Condesa,0.06000000052154064
+22,fish,La Condesa,0.33571428193577696
+21,fish,Azul Tequila,0.22666666557391485
+25,fish,Tyson's Tacos,0.1999999995936047
+23,fish,Paco's Tacos,0.180000002682209
+24,fish,Rosita's al Pastor,0.04285714136702674
+16,fajita,Donut 7,0.42307692479628783
+18,fajita,Paco's Tacos,0.33076923397871166
+19,fajita,Rosita's al Pastor,0.1916666670391957
+15,fajita,Azul Tequila,0.06842105129831716
+20,fajita,Tyson's Tacos,0.0
+17,fajita,La Condesa,-0.06666667014360428
+11,enchilada,Azul Tequila,0.24999999779242058
+14,enchilada,Paco's Tacos,0.2000000045767852
+12,enchilada,El Primo,0.0
+13,enchilada,La Condesa,-0.20000000298023224
+4,chicken,Azul Tequila,0.30000000103161883
+6,chicken,El Primo,0.23076923076923078
+8,chicken,Paco's Tacos,0.12272727489471436
+7,chicken,La Condesa,0.09305555559694767
+10,chicken,Tyson's Tacos,0.022222219241989985
+5,chicken,Donut 7,-0.10000000149011612
+9,chicken,Rosita's al Pastor,-0.17499999981373549
+1,burrito,El Primo,0.3727272716774182
+3,burrito,Rosita's al Pastor,0.333333329608043
+2,burrito,Paco's Tacos,0.28125000139698386
+0,burrito,Azul Tequila,-0.10000000149011612
+46,tortilla,La Cocina de Consuelo,0.5217391249278317
+45,tortilla,Gabriela's Downtown,0.38437499897554517
+47,tortilla,Mi Tradición,0.34098360919561543
+48,tortilla,Rosita's al Pastor,0.32916666749709594
+43,tortilla,Comedor,0.2518518527072889
+44,tortilla,Curra's Grill,0.15531914871423802
+37,taco,Comedor,0.3572222209225098
+41,taco,Mi Tradición,0.32813852906098095
+42,taco,Rosita's al Pastor,0.3099009898060451
+39,taco,Gabriela's Downtown,0.2797297307264966
+40,taco,La Cocina de Consuelo,0.21538461228975883
+38,taco,Curra's Grill,0.20973451224576056
+34,steak,Gabriela's Downtown,0.3071428579943521
+35,steak,Mi Tradición,0.23199999779462815
+36,steak,Rosita's al Pastor,0.20000000298023224
+32,steak,Comedor,0.12142857110926084
+33,steak,Curra's Grill,0.020000003278255463
+30,shrimp,Gabriela's Downtown,0.3499999940395355
+29,shrimp,Curra's Grill,0.31111111491918564
+28,shrimp,Comedor,0.29090909456664865
+31,shrimp,Rosita's al Pastor,-0.30000001192092896
+23,quesadilla,Comedor,0.23508772123278232
+26,quesadilla,Mi Tradición,0.22452830157752307
+27,quesadilla,Rosita's al Pastor,0.21249998733401299
+25,quesadilla,Gabriela's Downtown,0.125
+24,quesadilla,Curra's Grill,0.0
+20,fish,Comedor,0.23695652267855147
+21,fish,Curra's Grill,0.12564102694010124
+22,fish,Gabriela's Downtown,0.0
+19,fajita,Rosita's al Pastor,0.22666666333874066
+17,fajita,Curra's Grill,0.0954545411196622
+18,fajita,Gabriela's Downtown,-0.06666665772596995
+11,enchilada,Comedor,0.5333333313465118
+15,enchilada,Mi Tradición,0.4999999888241291
+14,enchilada,La Cocina de Consuelo,0.46250000037252903
+13,enchilada,Gabriela's Downtown,0.39599999934434893
+12,enchilada,Curra's Grill,0.27903225663448533
+16,enchilada,Rosita's al Pastor,0.19166666766007742
+8,chicken,La Cocina de Consuelo,0.4400000050663948
+7,chicken,Gabriela's Downtown,0.36000000052154063
+9,chicken,Mi Tradición,0.3074074086767656
+5,chicken,Comedor,0.08571428539497512
+10,chicken,Rosita's al Pastor,0.08499999791383743
+6,chicken,Curra's Grill,0.06428571400188264
+2,burrito,La Cocina de Consuelo,0.5583333310981592
+1,burrito,Curra's Grill,0.1733333354194959
+3,burrito,Mi Tradición,0.0
+0,burrito,Comedor,-0.10000000149011612
+4,burrito,Rosita's al Pastor,-0.10000000521540642
+34,tortilla,Cuantos Tacos,0.5846153820554415
+35,tortilla,La Cocina de Consuelo,0.4688073377885403
+36,tortilla,Taco More,0.18840579785730527
+37,tortilla,Torchy's Tacos,0.15142856921468462
+38,tortilla,Z'Tejas - Austin 6 STREET,0.11052631645610458
+29,taco,Cuantos Tacos,0.40858725817497416
+30,taco,La Cocina de Consuelo,0.336666666633553
+32,taco,Torchy's Tacos,0.29907529635780555
+31,taco,Taco More,0.2879310338918505
+33,taco,Z'Tejas - Austin 6 STREET,0.2765957427785752
+27,steak,Torchy's Tacos,0.44999999180436134
+28,steak,Z'Tejas - Austin 6 STREET,0.25833333614799714
+26,steak,Taco More,0.194444446100129
+25,steak,La Cocina de Consuelo,0.07500000111758709
+24,shrimp,Z'Tejas - Austin 6 STREET,0.35135134812947866
+23,shrimp,Torchy's Tacos,0.3459459448585639
+22,shrimp,Taco More,0.32142857036420275
+21,quesadilla,Z'Tejas - Austin 6 STREET,0.5153846196257151
+19,quesadilla,Taco More,0.3157894752527538
+17,quesadilla,Cuantos Tacos,0.3142857175497782
+18,quesadilla,La Cocina de Consuelo,0.03333333548572329
+20,quesadilla,Torchy's Tacos,-0.25
+15,fish,Torchy's Tacos,0.46666666203074986
+16,fish,Z'Tejas - Austin 6 STREET,0.30909090827811847
+14,fish,Taco More,0.03333332637945811
+10,fajita,La Cocina de Consuelo,0.3187499977648258
+11,fajita,Taco More,0.23214285953768662
+13,fajita,Z'Tejas - Austin 6 STREET,0.1821428598569972
+12,fajita,Torchy's Tacos,0.10333333536982536
+7,enchilada,La Cocina de Consuelo,0.38541666356225807
+9,enchilada,Z'Tejas - Austin 6 STREET,0.2550000001490116
+8,enchilada,Taco More,-0.033333333830038704
+3,chicken,La Cocina de Consuelo,0.3315789462312272
+6,chicken,Z'Tejas - Austin 6 STREET,0.240243902021065
+4,chicken,Taco More,0.20930233008639756
+5,chicken,Torchy's Tacos,0.10571428877966745
+0,burrito,La Cocina de Consuelo,0.31790123397001513
+2,burrito,Z'Tejas - Austin 6 STREET,0.14285714285714285
+1,burrito,Torchy's Tacos,0.13749999925494194
+62,tortilla,Taco More,0.4999999888241291
+60,tortilla,La Tunita 512,0.45454545149748976
+63,tortilla,Tacos Guerrero,0.44545454554485553
+61,tortilla,Nixta Taqueria,0.42083333453370464
+58,tortilla,Con Madre Kitchen,0.3803921542769554
+65,tortilla,Vaquero Taquero,0.37815125956505286
+57,tortilla,Burrito Factory,0.33076923799056274
+59,tortilla,Güero's Taco Bar,0.25357142756027834
+64,tortilla,Torchy's Tacos,0.1467741946539571
+53,taco,Taco More,0.5119047615499723
+54,taco,Tacos Guerrero,0.41010452877042186
+51,taco,La Tunita 512,0.38338870216049625
+56,taco,Vaquero Taquero,0.3650485429261784
+52,taco,Nixta Taqueria,0.36480582556099567
+49,taco,Con Madre Kitchen,0.3435897429147337
+48,taco,Burrito Factory,0.3240000022947788
+55,taco,Torchy's Tacos,0.29700239764736425
+50,taco,Güero's Taco Bar,0.2402985074849271
+44,steak,Taco More,0.8999999761581421
+41,steak,Con Madre Kitchen,0.5124999899417162
+42,steak,Güero's Taco Bar,0.47142856887408663
+45,steak,Tacos Guerrero,0.4000000059604645
+40,steak,Burrito Factory,0.35714286140033175
+47,steak,Vaquero Taquero,0.32142857515386175
+43,steak,Nixta Taqueria,0.0
+46,steak,Torchy's Tacos,-0.15000000596046448
+39,shrimp,Torchy's Tacos,0.38478260503514955
+38,shrimp,Nixta Taqueria,0.3250000048428774
+37,shrimp,Güero's Taco Bar,0.2272727293047038
+36,shrimp,Con Madre Kitchen,0.20000000670552254
+29,quesadilla,Burrito Factory,0.4000000059604645
+32,quesadilla,La Tunita 512,0.35000000707805157
+35,quesadilla,Vaquero Taquero,0.3392857134874378
+30,quesadilla,Con Madre Kitchen,0.23333333184321722
+33,quesadilla,Nixta Taqueria,0.1666666633552975
+34,quesadilla,Torchy's Tacos,-0.05000000074505806
+31,quesadilla,Güero's Taco Bar,-0.125
+27,fish,Torchy's Tacos,0.24444444643126595
+28,fish,Vaquero Taquero,0.10000000149011612
+26,fish,Nixta Taqueria,0.09999998845160007
+25,fish,Güero's Taco Bar,0.038888888640536204
+19,fajita,Burrito Factory,0.4666666587193807
+24,fajita,Torchy's Tacos,0.33428571224212644
+23,fajita,Tacos Guerrero,0.2999999992549419
+20,fajita,Con Madre Kitchen,0.11764705794699051
+21,fajita,Güero's Taco Bar,0.01666666070620219
+22,fajita,Taco More,-0.20000000298023224
+14,enchilada,Burrito Factory,0.699999988079071
+16,enchilada,Güero's Taco Bar,0.2652173929888269
+15,enchilada,Con Madre Kitchen,0.2599999994039536
+18,enchilada,Nixta Taqueria,0.18333333440952831
+17,enchilada,La Tunita 512,-0.10000000149011612
+9,chicken,La Tunita 512,0.5
+10,chicken,Nixta Taqueria,0.4250000063329935
+13,chicken,Vaquero Taquero,0.3391304359487865
+7,chicken,Con Madre Kitchen,0.19375000055879354
+6,chicken,Burrito Factory,0.16000000461935998
+8,chicken,Güero's Taco Bar,0.14999999962747096
+11,chicken,Tacos Guerrero,0.11250000167638063
+12,chicken,Torchy's Tacos,0.09830508595806058
+3,burrito,La Tunita 512,0.8999999761581421
+4,burrito,Tacos Guerrero,0.8999999761581421
+0,burrito,Burrito Factory,0.4351145060917803
+1,burrito,Con Madre Kitchen,0.3525925909479459
+5,burrito,Torchy's Tacos,0.16470588393071117
+2,burrito,Güero's Taco Bar,0.15
+41,tortilla,Joe's Bakery & Coffee Shop,0.41812080554914155
+39,tortilla,Güero's Taco Bar,0.39310344719681245
+43,tortilla,Taco Flats,0.30414201125238066
+42,tortilla,Polvos South,0.27745097897508564
+40,tortilla,Iron Cactus Mexican Restaurant and Margarita Bar,0.13157894952516808
+35,taco,Iron Cactus Mexican Restaurant and Margarita Bar,0.3190476200765088
+36,taco,Joe's Bakery & Coffee Shop,0.3180064315102108
+38,taco,Taco Flats,0.26940700772276144
+37,taco,Polvos South,0.2385714302105563
+34,taco,Güero's Taco Bar,0.22197802352545026
+33,steak,Taco Flats,0.30714285905872074
+32,steak,Polvos South,0.2818181812763214
+31,steak,Iron Cactus Mexican Restaurant and Margarita Bar,0.2590909112583507
+30,steak,Güero's Taco Bar,0.03750000521540642
+27,shrimp,Iron Cactus Mexican Restaurant and Margarita Bar,0.2698113170434844
+29,shrimp,Taco Flats,0.20238095184876806
+26,shrimp,Güero's Taco Bar,0.16111110978656346
+28,shrimp,Polvos South,0.1454545451384602
+23,quesadilla,Joe's Bakery & Coffee Shop,0.34999999962747097
+25,quesadilla,Taco Flats,0.33888888938559425
+24,quesadilla,Polvos South,0.21500000394880772
+22,quesadilla,Iron Cactus Mexican Restaurant and Margarita Bar,0.17272727123715662
+21,quesadilla,Güero's Taco Bar,-0.05000000074505806
+19,fish,Polvos South,0.24318182062019
+20,fish,Taco Flats,0.21500000022351742
+18,fish,Iron Cactus Mexican Restaurant and Margarita Bar,0.18750000031044087
+17,fish,Güero's Taco Bar,0.16666666915019354
+12,fajita,Güero's Taco Bar,0.32666666160027186
+15,fajita,Polvos South,0.276282051912485
+16,fajita,Taco Flats,0.26363636417822406
+13,fajita,Iron Cactus Mexican Restaurant and Margarita Bar,0.21020408263620066
+14,fajita,Joe's Bakery & Coffee Shop,0.05000000074505806
+10,enchilada,Joe's Bakery & Coffee Shop,0.26206896505479155
+8,enchilada,Güero's Taco Bar,0.2551020411204319
+11,enchilada,Polvos South,0.1999999986667382
+9,enchilada,Iron Cactus Mexican Restaurant and Margarita Bar,0.14090908860618417
+3,chicken,Güero's Taco Bar,0.28000000444325535
+5,chicken,Joe's Bakery & Coffee Shop,0.15000000099341074
+6,chicken,Polvos South,0.14047619256944882
+7,chicken,Taco Flats,0.09811320619763068
+4,chicken,Iron Cactus Mexican Restaurant and Margarita Bar,0.09393939330722346
+1,burrito,Iron Cactus Mexican Restaurant and Margarita Bar,0.3500000014901161
+0,burrito,Güero's Taco Bar,0.15555554876724878
+2,burrito,Polvos South,0.12000000327825547
+42,tortilla,Dos Batos,0.35000000247622237
+44,tortilla,Julio's Café,0.3035714279061982
+41,tortilla,Casa Chapala Mexican Cuisine & Tequila Bar,0.1524390241176617
+45,tortilla,Torchy's Tacos,0.09351851922218446
+43,tortilla,Iron Cactus Mexican Restaurant and Margarita Bar,0.040000005066394805
+40,taco,Torchy's Tacos,0.32191235018203934
+39,taco,Julio's Café,0.27017543870106075
+37,taco,Dos Batos,0.2571884980454993
+38,taco,Iron Cactus Mexican Restaurant and Margarita Bar,0.23571428709796496
+36,taco,Casa Chapala Mexican Cuisine & Tequila Bar,0.1624999992888082
+31,steak,Casa Chapala Mexican Cuisine & Tequila Bar,0.3615384649198789
+32,steak,Dos Batos,0.34047619129220646
+33,steak,Iron Cactus Mexican Restaurant and Margarita Bar,0.30999999716877935
+34,steak,Julio's Café,0.22499999403953552
+35,steak,Torchy's Tacos,-0.03999999910593033
+30,shrimp,Torchy's Tacos,0.3584158402120713
+29,shrimp,Iron Cactus Mexican Restaurant and Margarita Bar,0.3357142891202654
+27,shrimp,Casa Chapala Mexican Cuisine & Tequila Bar,0.18636363558471203
+28,shrimp,Dos Batos,-0.1599999964237213
+25,quesadilla,Julio's Café,0.2790697648428207
+26,quesadilla,Torchy's Tacos,0.22500000335276127
+23,quesadilla,Dos Batos,0.18571428848164423
+24,quesadilla,Iron Cactus Mexican Restaurant and Margarita Bar,0.17777777794334623
+22,quesadilla,Casa Chapala Mexican Cuisine & Tequila Bar,0.09999999945813959
+18,fish,Casa Chapala Mexican Cuisine & Tequila Bar,0.32222222067691664
+21,fish,Torchy's Tacos,0.264285712902035
+20,fish,Iron Cactus Mexican Restaurant and Margarita Bar,0.15384614983430275
+19,fish,Dos Batos,-0.016666663189729054
+13,fajita,Casa Chapala Mexican Cuisine & Tequila Bar,0.2774647890891827
+15,fajita,Iron Cactus Mexican Restaurant and Margarita Bar,0.26249999770273763
+16,fajita,Julio's Café,0.25384615476314837
+17,fajita,Torchy's Tacos,0.21860465199448342
+14,fajita,Dos Batos,-0.30000001192092896
+12,enchilada,Julio's Café,0.39029125854806995
+10,enchilada,Casa Chapala Mexican Cuisine & Tequila Bar,0.2962499991990626
+11,enchilada,Iron Cactus Mexican Restaurant and Margarita Bar,0.1823529397301814
+8,chicken,Julio's Café,0.39741935261314915
+6,chicken,Dos Batos,0.3474999999627471
+9,chicken,Torchy's Tacos,0.2439560441525428
+5,chicken,Casa Chapala Mexican Cuisine & Tequila Bar,0.2027027012931334
+7,chicken,Iron Cactus Mexican Restaurant and Margarita Bar,0.13333333200878567
+3,burrito,Julio's Café,0.44999998807907104
+4,burrito,Torchy's Tacos,0.3000000033241052
+0,burrito,Casa Chapala Mexican Cuisine & Tequila Bar,0.16818182102658533
+1,burrito,Dos Batos,0.1666666716337204
+2,burrito,Iron Cactus Mexican Restaurant and Margarita Bar,-0.20000000298023224
+60,tortilla,Flavia's Kitchen,0.5382352914003765
+58,tortilla,Discada,0.42857143016798155
+61,tortilla,Paprika ATX,0.42222221609618926
+64,tortilla,ñoños tacos,0.41481481340748294
+56,tortilla,Chuy's,0.3269230749171514
+59,tortilla,Dos Batos,0.3126436769962311
+57,tortilla,De Nada Cantina,0.28048780269739104
+62,tortilla,Tacodeli,0.17619047509062857
+63,tortilla,Torchy's Tacos,0.043661971851973465
+51,taco,Flavia's Kitchen,0.5318584054444744
+52,taco,Paprika ATX,0.4186915899409312
+55,taco,ñoños tacos,0.40499999895691874
+48,taco,De Nada Cantina,0.3458333324211148
+53,taco,Tacodeli,0.3447619045419352
+49,taco,Discada,0.3370629359114837
+50,taco,Dos Batos,0.2923240944552523
+47,taco,Chuy's,0.27200000286102294
+54,taco,Torchy's Tacos,0.1881188106060534
+43,steak,Paprika ATX,0.6799999952316285
+44,steak,Tacodeli,0.47647058700813966
+46,steak,ñoños tacos,0.42499999701976776
+45,steak,Torchy's Tacos,0.3749999962747097
+41,steak,Dos Batos,0.3140000033378601
+40,steak,Chuy's,0.23333333184321722
+42,steak,Flavia's Kitchen,0.20000000298023224
+38,shrimp,Tacodeli,0.5916666636864344
+39,shrimp,Torchy's Tacos,0.45166666495303315
+36,shrimp,De Nada Cantina,0.40399999856948854
+35,shrimp,Chuy's,0.3666666630241606
+37,shrimp,Paprika ATX,0.30000000074505806
+30,quesadilla,Chuy's,0.4199999958276749
+31,quesadilla,De Nada Cantina,0.383673470695408
+33,quesadilla,Paprika ATX,0.3599999986588955
+32,quesadilla,Dos Batos,0.05000000074505806
+34,quesadilla,Tacodeli,0.0
+25,fish,Chuy's,0.5833333283662796
+28,fish,Tacodeli,0.46666666451427674
+29,fish,Torchy's Tacos,0.399999996026357
+27,fish,Dos Batos,0.33636363731189206
+26,fish,De Nada Cantina,0.2900000013411045
+22,fajita,Tacodeli,0.800000011920929
+21,fajita,Flavia's Kitchen,0.5499999970197678
+19,fajita,Discada,0.5
+20,fajita,Dos Batos,0.34999999590218067
+18,fajita,Chuy's,0.3222222208148903
+24,fajita,ñoños tacos,0.24285713796104705
+23,fajita,Torchy's Tacos,0.03043478241433268
+17,enchilada,Flavia's Kitchen,0.550000011920929
+14,enchilada,Chuy's,0.25571428856679373
+15,enchilada,De Nada Cantina,0.0
+16,enchilada,Dos Batos,-0.10000000149011612
+10,chicken,Flavia's Kitchen,0.5666666676600774
+7,chicken,De Nada Cantina,0.48749999795109034
+11,chicken,Tacodeli,0.3176470635568394
+6,chicken,Chuy's,0.30714285817174686
+9,chicken,Dos Batos,0.2178571421120848
+13,chicken,ñoños tacos,0.21481481580822556
+12,chicken,Torchy's Tacos,0.1224489806562054
+8,chicken,Discada,0.0
+5,burrito,ñoños tacos,0.41333333055178323
+3,burrito,Tacodeli,0.4000000059604645
+2,burrito,Dos Batos,0.3333333432674408
+0,burrito,Chuy's,0.23846153341806853
+4,burrito,Torchy's Tacos,0.18999999836087228
+1,burrito,De Nada Cantina,0.0
+57,tortilla,Veracruz All Natural,0.37419354835505125
+53,tortilla,El Borrego De Oro,0.3067307671388754
+54,tortilla,Fresa's - South 1st,0.24423077043432456
+52,tortilla,Chuy's,0.22702702698675362
+56,tortilla,Tamale House East,0.17580644966613862
+55,tortilla,Gloria’s Latin Cuisine,0.1636363643814217
+50,taco,Tamale House East,0.3272727266607987
+51,taco,Veracruz All Natural,0.31507798879563914
+46,taco,Chuy's,0.299999996398886
+47,taco,El Borrego De Oro,0.27222222255335915
+48,taco,Fresa's - South 1st,0.19141104346586882
+49,taco,Gloria’s Latin Cuisine,0.12187500204890966
+45,steak,Veracruz All Natural,0.5291666621342301
+42,steak,Fresa's - South 1st,0.45263157863365977
+43,steak,Gloria’s Latin Cuisine,0.37499999968955916
+40,steak,Chuy's,0.17499999701976776
+44,steak,Tamale House East,-0.050000011920928955
+41,steak,El Borrego De Oro,-0.1
+35,shrimp,El Borrego De Oro,0.42222221940755844
+37,shrimp,Gloria’s Latin Cuisine,0.33829787183315196
+39,shrimp,Veracruz All Natural,0.32222222371233833
+34,shrimp,Chuy's,0.2000000011175871
+36,shrimp,Fresa's - South 1st,0.19999999340091432
+38,shrimp,Tamale House East,-0.8999999761581421
+33,quesadilla,Veracruz All Natural,0.42999999672174455
+32,quesadilla,Tamale House East,0.399999987334013
+28,quesadilla,Chuy's,0.2800000041723251
+29,quesadilla,El Borrego De Oro,0.25833333532015484
+30,quesadilla,Fresa's - South 1st,0.22812499711290002
+31,quesadilla,Gloria’s Latin Cuisine,0.17894736834262548
+26,fish,Tamale House East,0.48181818346634053
+27,fish,Veracruz All Natural,0.2522727293385701
+22,fish,Chuy's,0.18999999910593032
+25,fish,Gloria’s Latin Cuisine,0.13636363365433432
+24,fish,Fresa's - South 1st,0.0
+23,fish,El Borrego De Oro,-0.02500000037252903
+17,fajita,Chuy's,0.5124999955296516
+21,fajita,Veracruz All Natural,0.42222222354676986
+19,fajita,Gloria’s Latin Cuisine,0.2781249997206032
+18,fajita,El Borrego De Oro,0.25937499827705324
+20,fajita,Tamale House East,-0.1
+15,enchilada,Gloria’s Latin Cuisine,0.33620689295489214
+12,enchilada,Chuy's,0.32105263136327267
+13,enchilada,El Borrego De Oro,0.29913043541752776
+16,enchilada,Tamale House East,0.16140350764780714
+14,enchilada,Fresa's - South 1st,-0.800000011920929
+7,chicken,El Borrego De Oro,0.30612244897959184
+11,chicken,Veracruz All Natural,0.27826086626104685
+8,chicken,Fresa's - South 1st,0.2775330380721239
+10,chicken,Tamale House East,0.26867469866950827
+6,chicken,Chuy's,0.26206896993620643
+9,chicken,Gloria’s Latin Cuisine,0.15000000042897282
+4,burrito,Tamale House East,0.44999998807907104
+1,burrito,El Borrego De Oro,0.41666666356225807
+0,burrito,Chuy's,0.3749999972060323
+3,burrito,Gloria’s Latin Cuisine,0.12307692204530422
+2,burrito,Fresa's - South 1st,-0.10000000149011612
+5,burrito,Veracruz All Natural,-0.699999988079071

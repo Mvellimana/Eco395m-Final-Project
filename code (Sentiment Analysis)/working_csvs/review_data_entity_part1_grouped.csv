@@ -1,0 +1,333 @@
+,cleaan_entity_name,restaurant_name,entity_sentiment_score
+33,tortilla,T-Loc's Sonora Hot Dogs,0.4933333345585399
+34,tortilla,Veracruz All Natural,0.4171717192488487
+31,tortilla,Granny's Tacos,0.35217391097027323
+32,tortilla,Juan In A Million,0.14858490706614727
+27,taco,Granny's Tacos,0.4253398048356899
+29,taco,T-Loc's Sonora Hot Dogs,0.3897959161169675
+30,taco,Veracruz All Natural,0.3530512615019854
+28,taco,Juan In A Million,0.3002272742207755
+25,steak,T-Loc's Sonora Hot Dogs,0.3913043487979018
+26,steak,Veracruz All Natural,0.33623188280540967
+24,steak,Juan In A Million,0.27999999225139616
+23,steak,Granny's Tacos,0.26756756652045893
+21,shrimp,T-Loc's Sonora Hot Dogs,0.8999999761581421
+22,shrimp,Veracruz All Natural,0.4749999977648258
+20,shrimp,Granny's Tacos,0.3063492029905319
+18,quesadilla,T-Loc's Sonora Hot Dogs,0.43999999860922495
+16,quesadilla,Granny's Tacos,0.38965516820036133
+19,quesadilla,Veracruz All Natural,0.33599999934434893
+17,quesadilla,Juan In A Million,0.16666666294137636
+15,fish,Veracruz All Natural,0.3719999992251396
+14,fish,T-Loc's Sonora Hot Dogs,0.20000000298023224
+13,fish,Granny's Tacos,0.10000000149011612
+9,fajita,Granny's Tacos,0.25714285565274103
+10,fajita,Juan In A Million,0.2227272685955871
+12,fajita,Veracruz All Natural,0.18750000093132257
+11,fajita,T-Loc's Sonora Hot Dogs,0.10000000149011612
+8,enchilada,Juan In A Million,0.31707317273064356
+7,chicken,Veracruz All Natural,0.33846153934987694
+4,chicken,Granny's Tacos,0.2480000002682209
+5,chicken,Juan In A Million,0.1190476194024086
+6,chicken,T-Loc's Sonora Hot Dogs,0.0
+0,burrito,Granny's Tacos,0.39999999819944304
+2,burrito,T-Loc's Sonora Hot Dogs,0.37849462428881275
+1,burrito,Juan In A Million,0.1851851871168172
+3,burrito,Veracruz All Natural,0.10000000211099784
+40,tortilla,Suerte,0.43587786215179747
+38,tortilla,Eldorado Cafe,0.40000000125483465
+37,tortilla,Cabo Bob's Burritos,0.38550724830604405
+39,tortilla,Juan In A Million,0.20000000049670538
+41,tortilla,Tacodeli,0.16666666564403795
+33,taco,Eldorado Cafe,0.41467889822130904
+35,taco,Suerte,0.34352678612672854
+36,taco,Tacodeli,0.3235537185418335
+34,taco,Juan In A Million,0.24687499925494194
+32,taco,Cabo Bob's Burritos,0.24285714426538446
+28,steak,Cabo Bob's Burritos,0.34482758723456286
+30,steak,Suerte,0.29999999329447746
+31,steak,Tacodeli,0.26000000139077506
+29,steak,Eldorado Cafe,-0.10000000298023223
+27,shrimp,Tacodeli,0.25199999928474426
+26,shrimp,Suerte,0.21578947376263768
+24,shrimp,Cabo Bob's Burritos,0.0
+25,shrimp,Eldorado Cafe,0.0
+21,quesadilla,Juan In A Million,0.8999999761581421
+20,quesadilla,Eldorado Cafe,0.5777777781089147
+22,quesadilla,Suerte,0.2964285710560424
+19,quesadilla,Cabo Bob's Burritos,0.0
+23,quesadilla,Tacodeli,0.0
+18,fish,Tacodeli,0.37333333012130526
+15,fish,Cabo Bob's Burritos,0.35704697908571104
+16,fish,Eldorado Cafe,0.2499999925494194
+17,fish,Suerte,0.24047619175343288
+11,fajita,Cabo Bob's Burritos,0.6000000238418579
+13,fajita,Juan In A Million,0.10000000149011612
+14,fajita,Tacodeli,0.09999999900658925
+12,fajita,Eldorado Cafe,0.06666666766007741
+10,enchilada,Suerte,0.8999999761581421
+9,enchilada,Juan In A Million,0.800000011920929
+8,enchilada,Eldorado Cafe,0.36267605334730213
+6,chicken,Suerte,0.2974358997665919
+5,chicken,Eldorado Cafe,0.2924528306104102
+4,chicken,Cabo Bob's Burritos,0.29062499897554517
+7,chicken,Tacodeli,0.25172413500218555
+3,burrito,Tacodeli,0.5142857006617955
+0,burrito,Cabo Bob's Burritos,0.291949152315067
+1,burrito,Eldorado Cafe,0.1799999974668026
+2,burrito,Juan In A Million,-0.20000000298023224
+29,tortilla,Cabo Bob's Burritos,0.38833992168484
+31,tortilla,Las Trancas,0.3095744690520966
+32,tortilla,Tacodeli,0.2478260906494182
+30,tortilla,El Alma,0.21153846340110669
+27,taco,Las Trancas,0.4165781079756846
+25,taco,Cabo Bob's Burritos,0.35879397115216183
+28,taco,Tacodeli,0.3194805203545919
+26,taco,El Alma,0.25539215855008246
+21,steak,Cabo Bob's Burritos,0.402857140983854
+23,steak,Las Trancas,0.24687500204890966
+22,steak,El Alma,0.13846153364731714
+24,steak,Tacodeli,0.07499999459832907
+19,shrimp,El Alma,0.3563218378815158
+20,shrimp,Tacodeli,0.27999999932944775
+17,quesadilla,El Alma,0.6599999964237213
+18,quesadilla,Las Trancas,0.4085106353493447
+16,quesadilla,Cabo Bob's Burritos,-0.19999999552965164
+13,fish,Cabo Bob's Burritos,0.39239436620977564
+14,fish,El Alma,0.2694444451481104
+15,fish,Tacodeli,0.22941176374168956
+11,fajita,Cabo Bob's Burritos,0.4166666662527455
+12,fajita,Las Trancas,0.2000000048428774
+10,enchilada,Las Trancas,0.6000000238418579
+9,enchilada,El Alma,0.3543689337748926
+8,enchilada,Cabo Bob's Burritos,0.20000000298023224
+7,chicken,Tacodeli,0.4117647111415863
+4,chicken,Cabo Bob's Burritos,0.3535714259903346
+5,chicken,El Alma,0.33548386851626055
+6,chicken,Las Trancas,0.2790322580164479
+2,burrito,Las Trancas,0.35588235408067703
+0,burrito,Cabo Bob's Burritos,0.3282407423320376
+3,burrito,Tacodeli,0.0
+1,burrito,El Alma,-0.5
+32,tortilla,FoodHeads,0.34999999838570756
+31,tortilla,Fonda San Miguel,0.31038961095082296
+33,tortilla,Lazarus Brewing,0.2823529458221267
+34,tortilla,Tacodeli,0.13898305001400285
+27,taco,Fonda San Miguel,0.4924999976530671
+29,taco,Lazarus Brewing,0.47443819975250223
+28,taco,FoodHeads,0.33829787421099683
+30,taco,Tacodeli,0.3307692304537603
+25,steak,Lazarus Brewing,0.7666666706403097
+26,steak,Tacodeli,0.3757575788732731
+23,steak,Fonda San Miguel,0.3300000041723251
+24,steak,FoodHeads,0.2777777777777778
+20,shrimp,Fonda San Miguel,0.40200000032782557
+22,shrimp,Tacodeli,0.3363636349412528
+21,shrimp,Lazarus Brewing,0.0
+18,quesadilla,Lazarus Brewing,0.6399999916553497
+17,quesadilla,Fonda San Miguel,0.48333332998057205
+19,quesadilla,Tacodeli,0.0
+15,fish,Lazarus Brewing,0.611111107799742
+16,fish,Tacodeli,0.3879310356388832
+13,fish,Fonda San Miguel,0.28709677486650403
+14,fish,FoodHeads,0.2607843119139765
+10,fajita,Fonda San Miguel,0.12352941053755143
+11,fajita,Lazarus Brewing,0.0
+12,fajita,Tacodeli,-0.020000000298023225
+8,enchilada,Lazarus Brewing,0.699999988079071
+6,enchilada,Fonda San Miguel,0.2743119261817101
+9,enchilada,Tacodeli,0.10000000149011612
+7,enchilada,FoodHeads,0.0
+4,chicken,Lazarus Brewing,0.5826086988267691
+3,chicken,FoodHeads,0.3243902455863914
+2,chicken,Fonda San Miguel,0.31399999544024465
+5,chicken,Tacodeli,0.26250000142802793
+1,burrito,Tacodeli,0.09999999552965164
+0,burrito,Fonda San Miguel,-0.4000000059604645
+42,tortilla,Taco Joint,0.4475935815888293
+41,tortilla,Pueblo Viejo,0.2585365834032617
+40,tortilla,Chuy's,0.2507462650537491
+44,tortilla,Torchy's Tacos,0.21428571442763011
+43,tortilla,Tacodeli,0.1529411726138171
+37,taco,Taco Joint,0.4038619551388279
+38,taco,Tacodeli,0.33636363648404977
+36,taco,Pueblo Viejo,0.3308441550894217
+39,taco,Torchy's Tacos,0.31737413645702667
+35,taco,Chuy's,0.2999999978040394
+32,steak,Taco Joint,0.37857143048729214
+34,steak,Torchy's Tacos,0.35999999940395355
+31,steak,Pueblo Viejo,0.2857142886945179
+33,steak,Tacodeli,0.20000000298023224
+30,steak,Chuy's,0.1942857101559639
+28,shrimp,Tacodeli,0.6444444391462538
+27,shrimp,Taco Joint,0.4199999988079071
+29,shrimp,Torchy's Tacos,0.2910256389624033
+26,shrimp,Chuy's,0.22500000149011612
+21,quesadilla,Chuy's,0.4857142833726747
+23,quesadilla,Taco Joint,0.3199999928474426
+25,quesadilla,Torchy's Tacos,0.20000000298023224
+22,quesadilla,Pueblo Viejo,0.1866666704416275
+24,quesadilla,Tacodeli,0.0
+18,fish,Taco Joint,0.4296052643146954
+19,fish,Tacodeli,0.39999999292194843
+20,fish,Torchy's Tacos,0.3652173954507579
+17,fish,Pueblo Viejo,0.2888888886405362
+16,fish,Chuy's,0.186666668454806
+13,fajita,Chuy's,0.3024390268980003
+14,fajita,Taco Joint,0.19444444278875986
+15,fajita,Torchy's Tacos,0.11000000312924385
+12,enchilada,Taco Joint,0.6499999910593033
+11,enchilada,Pueblo Viejo,0.31333333204189934
+10,enchilada,Chuy's,0.30671140721580326
+6,chicken,Pueblo Viejo,0.454545449804176
+9,chicken,Torchy's Tacos,0.32542373037944405
+7,chicken,Taco Joint,0.28499999828636646
+5,chicken,Chuy's,0.19729729772016807
+8,chicken,Tacodeli,0.16666666294137636
+3,burrito,Tacodeli,0.4000000059604645
+4,burrito,Torchy's Tacos,0.2857142835855484
+2,burrito,Taco Joint,0.23333332439263663
+0,burrito,Chuy's,0.22558139767064606
+1,burrito,Pueblo Viejo,0.16250000335276127
+42,tortilla,Taco Joint,0.34129032136932497
+39,tortilla,Habanero Mexican Cafe,0.3373626370678891
+41,tortilla,Pueblo Viejo,0.30545454580675474
+40,tortilla,Papalote Taco House,0.1600000023841858
+43,tortilla,Torchy's Tacos,0.08749999961053784
+37,taco,Taco Joint,0.41675392597601674
+36,taco,Pueblo Viejo,0.3724540895183815
+35,taco,Papalote Taco House,0.3701923076206675
+34,taco,Habanero Mexican Cafe,0.3542288563663687
+38,taco,Torchy's Tacos,0.29592298990535304
+32,steak,Taco Joint,0.42857142708131246
+30,steak,Habanero Mexican Cafe,0.3793103450845028
+31,steak,Pueblo Viejo,0.27121212073799333
+33,steak,Torchy's Tacos,-0.03999999612569809
+26,shrimp,Habanero Mexican Cafe,0.30000000819563866
+29,shrimp,Torchy's Tacos,0.24821428661899908
+27,shrimp,Papalote Taco House,0.1999999936670065
+28,shrimp,Taco Joint,0.19310344781341224
+22,quesadilla,Habanero Mexican Cafe,0.4571428522467613
+25,quesadilla,Torchy's Tacos,0.3500000014901161
+23,quesadilla,Pueblo Viejo,0.30000000447034836
+24,quesadilla,Taco Joint,0.20000000670552254
+18,fish,Papalote Taco House,0.4999999888241291
+20,fish,Taco Joint,0.4217391279728516
+17,fish,Habanero Mexican Cafe,0.3428571415799005
+19,fish,Pueblo Viejo,0.2968750020954758
+21,fish,Torchy's Tacos,0.19999999925494194
+14,fajita,Pueblo Viejo,0.8999999761581421
+13,fajita,Habanero Mexican Cafe,0.32837209285691726
+16,fajita,Torchy's Tacos,0.2851851866753013
+15,fajita,Taco Joint,0.15000000552219503
+10,enchilada,Pueblo Viejo,0.7750000059604645
+11,enchilada,Taco Joint,0.4666666587193807
+9,enchilada,Habanero Mexican Cafe,0.3340425530963756
+12,enchilada,Torchy's Tacos,0.0
+6,chicken,Pueblo Viejo,0.3230769240225737
+7,chicken,Taco Joint,0.2774193558481432
+4,chicken,Habanero Mexican Cafe,0.2199999990788373
+5,chicken,Papalote Taco House,0.20000000298023224
+8,chicken,Torchy's Tacos,0.18787879033973723
+1,burrito,Pueblo Viejo,0.424999987706542
+2,burrito,Taco Joint,0.375000006519258
+0,burrito,Habanero Mexican Cafe,0.2777777777777778
+3,burrito,Torchy's Tacos,-0.10000000149011612
+42,tortilla,Hula Hut,0.5499999945362409
+44,tortilla,Papalote Taco House,0.28390804558307275
+41,tortilla,ATX Cocina,0.2749999993377262
+43,tortilla,Licha's Cantina,0.24761904799748982
+45,tortilla,Velvet Taco,0.1195402292684577
+37,taco,Hula Hut,0.42499999701976776
+35,taco,ATX Cocina,0.37187499937135726
+39,taco,Papalote Taco House,0.36873508417236495
+40,taco,Velvet Taco,0.3141791044261807
+38,taco,Licha's Cantina,0.30068493103736066
+36,taco,Bennu Coffee,0.28095238389713423
+34,steak,Velvet Taco,0.35161290558115127
+33,steak,Papalote Taco House,0.2950000032782555
+31,steak,Hula Hut,0.250000008692344
+32,steak,Licha's Cantina,0.1884615418429558
+30,steak,ATX Cocina,0.17499999478459358
+26,shrimp,Hula Hut,0.5799999948590994
+27,shrimp,Licha's Cantina,0.49090909280560235
+29,shrimp,Velvet Taco,0.39384615421295166
+25,shrimp,ATX Cocina,0.26785714152668205
+28,shrimp,Papalote Taco House,0.19999999925494194
+22,quesadilla,Hula Hut,0.4699999921023846
+21,quesadilla,ATX Cocina,0.4454545480283824
+23,quesadilla,Licha's Cantina,0.38909090987660666
+24,quesadilla,Velvet Taco,0.0
+17,fish,Hula Hut,0.3874999973922968
+19,fish,Papalote Taco House,0.31999999433755877
+20,fish,Velvet Taco,0.30169491457231973
+16,fish,ATX Cocina,0.28333333300219643
+18,fish,Licha's Cantina,0.24444444187813336
+12,fajita,ATX Cocina,0.4000000059604645
+15,fajita,Papalote Taco House,0.399999996026357
+13,fajita,Hula Hut,0.24705882633433623
+14,fajita,Licha's Cantina,0.23333332935969034
+11,enchilada,Licha's Cantina,0.42499999701976776
+10,enchilada,Hula Hut,0.2749999997516473
+9,enchilada,ATX Cocina,0.0
+4,chicken,Bennu Coffee,0.8999999761581421
+5,chicken,Hula Hut,0.5157894711745413
+3,chicken,ATX Cocina,0.36800000131130217
+8,chicken,Velvet Taco,0.3217857135725873
+7,chicken,Papalote Taco House,0.273913047235945
+6,chicken,Licha's Cantina,0.24999999866953918
+2,burrito,Papalote Taco House,0.699999988079071
+0,burrito,ATX Cocina,0.0
+1,burrito,Licha's Cantina,-0.10000000149011612
+49,tortilla,Radio Coffee & Beer,0.550000011920929
+48,tortilla,Matt's El Rancho,0.31111111113476375
+46,tortilla,El Tacorrido,0.195555556151602
+47,tortilla,Hula Hut,0.17368420997732564
+51,tortilla,Velvet Taco,0.10454545661129734
+50,tortilla,Tyson's Tacos,0.03818181644786488
+43,taco,Radio Coffee & Beer,0.37401960823027525
+45,taco,Velvet Taco,0.3652106077989996
+40,taco,El Tacorrido,0.32826086948191896
+42,taco,Matt's El Rancho,0.314388489658884
+41,taco,Hula Hut,0.3135135125469517
+44,taco,Tyson's Tacos,0.2547126437141292
+36,steak,Matt's El Rancho,0.4374999979045242
+39,steak,Velvet Taco,0.2750000022351742
+35,steak,Hula Hut,0.2000000039115548
+38,steak,Tyson's Tacos,0.15555555456214482
+34,steak,El Tacorrido,0.05000000074505806
+37,steak,Radio Coffee & Beer,0.0
+33,shrimp,Velvet Taco,0.3774999981746078
+32,shrimp,Tyson's Tacos,0.2760869548048662
+30,shrimp,Hula Hut,0.2111111107799742
+31,shrimp,Matt's El Rancho,0.16666666347356068
+27,quesadilla,Radio Coffee & Beer,0.75
+29,quesadilla,Velvet Taco,0.399999987334013
+26,quesadilla,Matt's El Rancho,0.22727272896604103
+24,quesadilla,El Tacorrido,0.14615384546610025
+25,quesadilla,Hula Hut,0.05599999785423279
+28,quesadilla,Tyson's Tacos,0.0
+20,fish,Matt's El Rancho,0.3852941211970413
+21,fish,Radio Coffee & Beer,0.29999999205271405
+18,fish,El Tacorrido,0.21999999582767488
+23,fish,Velvet Taco,0.15862068842197286
+19,fish,Hula Hut,0.14838709562055527
+22,fish,Tyson's Tacos,-0.23333333060145378
+15,fajita,Matt's El Rancho,0.26261682035488504
+14,fajita,Hula Hut,0.1952380956638427
+13,fajita,El Tacorrido,0.1428571417927742
+17,fajita,Tyson's Tacos,0.13749999925494194
+16,fajita,Radio Coffee & Beer,0.0
+12,enchilada,Matt's El Rancho,0.2929292945097191
+11,enchilada,Hula Hut,0.15789473644996943
+10,chicken,Velvet Taco,0.4619718295272807
+7,chicken,Matt's El Rancho,0.3210526347944611
+6,chicken,Hula Hut,0.26888889008098177
+9,chicken,Tyson's Tacos,0.1827586182746394
+8,chicken,Radio Coffee & Beer,0.0
+5,chicken,El Tacorrido,-0.020000000298023225
+2,burrito,Radio Coffee & Beer,0.8999999761581421
+4,burrito,Velvet Taco,0.45000000670552254
+0,burrito,Hula Hut,0.2444444422920545
+1,burrito,Matt's El Rancho,0.1684210531805691
+3,burrito,Tyson's Tacos,-0.10000000149011612

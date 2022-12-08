@@ -1,0 +1,639 @@
+,cleaan_entity_name,restaurant_name,entity_sentiment_score
+56,tortilla,Veracruz All Natural,0.4999999995617306
+52,tortilla,Nissi VegMex Vegan Mexican Cuisine,0.4399999976158142
+55,tortilla,Taquero Mucho,0.1592592610805123
+49,tortilla,Austin Taco Project,0.13750000088475645
+50,tortilla,El Taquito,0.10777777607242266
+54,tortilla,Taco Pegaso,0.0333333412806193
+53,tortilla,Pepe’s Tacos,0.02857143219028197
+51,tortilla,Hecho En Mexico,0.007692306517408449
+44,taco,Nissi VegMex Vegan Mexican Cuisine,0.48545454361222007
+48,taco,Veracruz All Natural,0.40287081362528093
+42,taco,El Taquito,0.32601744131466676
+45,taco,Pepe’s Tacos,0.29999999908937347
+41,taco,Austin Taco Project,0.2645418326337024
+46,taco,Taco Pegaso,0.2611111133462853
+43,taco,Hecho En Mexico,0.22763157930029065
+47,taco,Taquero Mucho,0.18242424306544391
+40,steak,Veracruz All Natural,0.4909090921282768
+36,steak,El Taquito,0.34000000208616254
+39,steak,Taquero Mucho,0.23333332625528178
+37,steak,Hecho En Mexico,0.21052631657374532
+35,steak,Austin Taco Project,0.20000000018626451
+38,steak,Nissi VegMex Vegan Mexican Cuisine,0.0
+34,shrimp,Taquero Mucho,0.24999999739229678
+32,shrimp,Austin Taco Project,0.1826086941620578
+33,shrimp,Hecho En Mexico,0.14583333022892475
+31,quesadilla,Veracruz All Natural,0.8999999761581421
+29,quesadilla,Taco Pegaso,0.6000000089406967
+26,quesadilla,El Taquito,0.32631578845413106
+28,quesadilla,Pepe’s Tacos,0.257142858845847
+27,quesadilla,Hecho En Mexico,0.1066666677594185
+25,quesadilla,Austin Taco Project,0.06000000387430191
+30,quesadilla,Taquero Mucho,-0.1000000014901161
+24,fish,Veracruz All Natural,0.5238095202616283
+22,fish,Austin Taco Project,0.2969696971051621
+23,fish,Hecho En Mexico,0.18275861878847255
+21,fajita,Veracruz All Natural,0.7799999952316284
+19,fajita,Nissi VegMex Vegan Mexican Cuisine,0.41428571407284054
+17,fajita,El Taquito,0.24153846169893559
+20,fajita,Taquero Mucho,0.20000000298023224
+18,fajita,Hecho En Mexico,0.17037037125340215
+15,enchilada,Hecho En Mexico,0.2562500022468157
+16,enchilada,Taquero Mucho,0.18999999687075614
+14,enchilada,El Taquito,0.13888888909584945
+10,chicken,Nissi VegMex Vegan Mexican Cuisine,0.5666666626930237
+13,chicken,Veracruz All Natural,0.4199999928474426
+11,chicken,Taco Pegaso,0.4000000059604645
+7,chicken,Austin Taco Project,0.20930232852697372
+9,chicken,Hecho En Mexico,0.16249999817874697
+8,chicken,El Taquito,0.09310344401104696
+12,chicken,Taquero Mucho,0.03225806331442249
+6,burrito,Taquero Mucho,0.699999988079071
+3,burrito,Nissi VegMex Vegan Mexican Cuisine,0.5500000039381641
+0,burrito,Austin Taco Project,0.43333332737286884
+5,burrito,Taco Pegaso,0.12500000186264515
+1,burrito,El Taquito,0.10000000894069672
+2,burrito,Hecho En Mexico,0.100000003973643
+4,burrito,Pepe’s Tacos,0.0
+66,tortilla,Tierra Linda Taqueria,0.4782608708609705
+63,tortilla,Lupe Tortilla,0.3171568610066292
+67,tortilla,Veracruz All Natural,0.31525423529289537
+64,tortilla,Pepe’s Tacos,0.2833333319673936
+60,tortilla,Baby Acapulco,0.1870967724150227
+65,tortilla,Taco-Mex,0.14358974362795168
+61,tortilla,El Chile Café Y Cantina,0.1300000037997961
+62,tortilla,Ken's Subs Tacos & More,0.10256410046265675
+58,taco,Tierra Linda Taqueria,0.4512195120134005
+56,taco,Pepe’s Tacos,0.38313953465847084
+51,taco,Baby Acapulco,0.3549999980876843
+53,taco,Ken's Subs Tacos & More,0.3264765783598127
+59,taco,Veracruz All Natural,0.32595281344846894
+57,taco,Taco-Mex,0.29322033954815846
+55,taco,Lupe Tortilla,0.2303030305739605
+52,taco,El Chile Café Y Cantina,0.1718749979045242
+54,taco,Las Abuelas,-0.07499999925494194
+49,steak,Tierra Linda Taqueria,0.6000000238418579
+46,steak,Ken's Subs Tacos & More,0.5692307705489489
+48,steak,Taco-Mex,0.44999999552965164
+50,steak,Veracruz All Natural,0.44090909002856776
+47,steak,Lupe Tortilla,0.3816666637857755
+45,steak,El Chile Café Y Cantina,0.3166666701436043
+44,steak,Baby Acapulco,0.1000000014901161
+42,shrimp,Taco-Mex,0.6000000238418579
+43,shrimp,Veracruz All Natural,0.4249999990686774
+40,shrimp,El Chile Café Y Cantina,0.2916666691501935
+41,shrimp,Lupe Tortilla,0.2152777761220932
+39,shrimp,Baby Acapulco,0.01538462191820143
+32,quesadilla,Baby Acapulco,0.712499987334013
+38,quesadilla,Veracruz All Natural,0.533333328862985
+36,quesadilla,Taco-Mex,0.5000000074505806
+35,quesadilla,Pepe’s Tacos,0.42727272652766923
+33,quesadilla,El Chile Café Y Cantina,0.24444444311989677
+37,quesadilla,Tierra Linda Taqueria,0.2000000029802322
+34,quesadilla,Lupe Tortilla,0.1599999986588955
+30,fish,Tierra Linda Taqueria,0.8499999940395355
+25,fish,Baby Acapulco,0.5374999949708581
+28,fish,Lupe Tortilla,0.5
+27,fish,Ken's Subs Tacos & More,0.44999999552965164
+29,fish,Taco-Mex,0.39687500009313226
+31,fish,Veracruz All Natural,0.3656249982304871
+26,fish,El Chile Café Y Cantina,0.23157894493717895
+24,fajita,Tierra Linda Taqueria,0.33846153490818465
+21,fajita,Ken's Subs Tacos & More,0.3250000039115548
+22,fajita,Lupe Tortilla,0.3079670320705071
+19,fajita,Baby Acapulco,0.2871794857275792
+23,fajita,Taco-Mex,0.22272727299820294
+20,fajita,El Chile Café Y Cantina,-0.016666668156782766
+18,enchilada,Lupe Tortilla,0.27777778002477826
+17,enchilada,Ken's Subs Tacos & More,0.21818181736902756
+16,enchilada,El Chile Café Y Cantina,0.20909091119061818
+15,enchilada,Baby Acapulco,0.1093749983701855
+9,chicken,Las Abuelas,0.5067669143690202
+8,chicken,Ken's Subs Tacos & More,0.47142856461661203
+14,chicken,Veracruz All Natural,0.32857142787958893
+7,chicken,El Chile Café Y Cantina,0.2736842102910343
+10,chicken,Lupe Tortilla,0.22857142654912813
+6,chicken,Baby Acapulco,0.18620689881258998
+12,chicken,Taco-Mex,0.1500000059604645
+13,chicken,Tierra Linda Taqueria,0.13333333532015482
+11,chicken,Pepe’s Tacos,-0.1000000014901161
+5,burrito,Veracruz All Natural,0.44999998807907104
+4,burrito,Tierra Linda Taqueria,0.44615384726188123
+3,burrito,Taco-Mex,0.4000000059604645
+1,burrito,Ken's Subs Tacos & More,0.3666666685825303
+2,burrito,Lupe Tortilla,0.19600000321865083
+0,burrito,Baby Acapulco,0.0
+83,tortilla,Sabor Tapatio,0.5149999998509884
+87,tortilla,Trippy Tacos,0.4733333299557368
+88,tortilla,Yucatan Tacos And More,0.3585365876192
+79,tortilla,El Chile Café Y Cantina,0.267857141393636
+82,tortilla,Pollo Regio,0.25094339701364626
+85,tortilla,Simar Seafood Cocina,0.23333333598242867
+84,tortilla,Sazón,0.233333330684238
+80,tortilla,Grizzelda's,0.21999999910593032
+78,tortilla,Cisco's Restaurant Bakery & Bar,0.1087912088567084
+86,tortilla,Tacodeli,0.015384620198836685
+81,tortilla,Oz. Tap House,-0.1000000014901161
+76,taco,Trippy Tacos,0.48194444210578996
+72,taco,Sabor Tapatio,0.44742267813111086
+77,taco,Yucatan Tacos And More,0.4379888246429033
+70,taco,Oz. Tap House,0.42307691791882884
+75,taco,Tacodeli,0.3343195265831327
+73,taco,Sazón,0.3255319149887308
+71,taco,Pollo Regio,0.2875000016763806
+67,taco,Cisco's Restaurant Bakery & Bar,0.27611940337428403
+74,taco,Simar Seafood Cocina,0.25
+69,taco,Grizzelda's,0.21904761748654503
+68,taco,El Chile Café Y Cantina,0.19859154900194895
+65,steak,Tacodeli,0.42000000178813934
+66,steak,Trippy Tacos,0.3333333383003871
+63,steak,Pollo Regio,0.30000000447034836
+64,steak,Simar Seafood Cocina,0.3000000019868215
+60,steak,El Chile Café Y Cantina,0.2812499972060323
+61,steak,Grizzelda's,0.24137931060174417
+62,steak,Oz. Tap House,0.1750000063329935
+59,steak,Cisco's Restaurant Bakery & Bar,0.11052631037799936
+57,shrimp,Trippy Tacos,0.7000000029802322
+56,shrimp,Simar Seafood Cocina,0.38717948282376313
+55,shrimp,Sazón,0.35555556002590394
+51,shrimp,El Chile Café Y Cantina,0.29787234137666985
+52,shrimp,Grizzelda's,0.29473684492864105
+53,shrimp,Oz. Tap House,0.0
+54,shrimp,Sabor Tapatio,0.0
+58,shrimp,Yucatan Tacos And More,-0.5
+48,quesadilla,Simar Seafood Cocina,0.8999999761581421
+43,quesadilla,Grizzelda's,0.38571429146187647
+46,quesadilla,Sabor Tapatio,0.34999999882919447
+47,quesadilla,Sazón,0.3200000062584877
+44,quesadilla,Oz. Tap House,0.2749999947845936
+45,quesadilla,Pollo Regio,0.2571428545883724
+50,quesadilla,Yucatan Tacos And More,0.25
+42,quesadilla,El Chile Café Y Cantina,0.13999999761581422
+41,quesadilla,Cisco's Restaurant Bakery & Bar,0.1000000014901161
+49,quesadilla,Tacodeli,0.0
+40,fish,Yucatan Tacos And More,0.5
+34,fish,Oz. Tap House,0.488888890379005
+39,fish,Tacodeli,0.3000000119209289
+37,fish,Sazón,0.2590909078717232
+32,fish,El Chile Café Y Cantina,0.25106382829711793
+33,fish,Grizzelda's,0.23157894768212972
+38,fish,Simar Seafood Cocina,0.17111110985279082
+35,fish,Pollo Regio,0.0
+36,fish,Sabor Tapatio,0.0
+28,fajita,Sabor Tapatio,0.800000011920929
+29,fajita,Sazón,0.46153846039221835
+31,fajita,Yucatan Tacos And More,0.45555556151602006
+30,fajita,Trippy Tacos,0.37499999813735485
+26,fajita,Grizzelda's,0.2349999997764826
+24,fajita,Cisco's Restaurant Bakery & Bar,0.14833333591620126
+25,fajita,El Chile Café Y Cantina,0.11153846119458859
+27,fajita,Pollo Regio,0.0
+22,enchilada,Pollo Regio,0.8999999761581421
+23,enchilada,Sazón,0.30845070462411556
+20,enchilada,El Chile Café Y Cantina,0.2681818168441003
+21,enchilada,Grizzelda's,0.19166667014360428
+19,enchilada,Cisco's Restaurant Bakery & Bar,0.15714285930707342
+18,chicken,Yucatan Tacos And More,0.7000000178813934
+13,chicken,Sabor Tapatio,0.6499999910593033
+11,chicken,Oz. Tap House,0.38571429146187647
+12,chicken,Pollo Regio,0.32254335159338965
+17,chicken,Trippy Tacos,0.3142857125827244
+8,chicken,Cisco's Restaurant Bakery & Bar,0.19411764776005463
+14,chicken,Sazón,0.18085106382978725
+9,chicken,El Chile Café Y Cantina,0.1622222226527002
+10,chicken,Grizzelda's,0.042857145269711815
+16,chicken,Tacodeli,0.007692303795080919
+15,chicken,Simar Seafood Cocina,-0.050000004470348344
+0,burrito,Cisco's Restaurant Bakery & Bar,0.7000000178813934
+1,burrito,El Chile Café Y Cantina,0.399999996026357
+7,burrito,Yucatan Tacos And More,0.35714286246470045
+3,burrito,Pollo Regio,0.27500000409781933
+4,burrito,Sabor Tapatio,0.22222222056653765
+2,burrito,Grizzelda's,0.1000000014901161
+6,burrito,Simar Seafood Cocina,0.0
+5,burrito,Sazón,-0.05000000074505805
+71,tortilla,La Fruta Feliz,0.3942857114332063
+69,tortilla,El Nuevo Mexico- Austin,0.32222222205665374
+74,tortilla,Tacodeli,0.29999999536408317
+67,tortilla,Amaya's Taco Village,0.24533333336313565
+72,tortilla,La Mancha,0.19999999839525956
+70,tortilla,El Pollo Rico,0.18412698568805816
+68,tortilla,Azul Tequila,0.17111111134290696
+73,tortilla,Pelons Tex-Mex,-0.005263160129911021
+66,taco,Tacodeli,0.39849624004130973
+63,taco,La Fruta Feliz,0.3918604655841062
+59,taco,Amaya's Taco Village,0.2543766572083339
+62,taco,El Pollo Rico,0.21219512166046514
+61,taco,El Nuevo Mexico- Austin,0.20461538445491056
+60,taco,Azul Tequila,0.17083333432674408
+65,taco,Pelons Tex-Mex,0.16635513793085224
+64,taco,La Mancha,0.16388889071014193
+53,steak,Azul Tequila,0.42000000476837157
+57,steak,Pelons Tex-Mex,0.40833332886298496
+56,steak,La Fruta Feliz,0.35714285714285715
+52,steak,Amaya's Taco Village,0.31666666890184086
+55,steak,El Pollo Rico,-0.1000000014901161
+58,steak,Tacodeli,-0.19999999925494194
+54,steak,El Nuevo Mexico- Austin,-0.2000000029802322
+48,shrimp,El Pollo Rico,0.8999999761581421
+47,shrimp,El Nuevo Mexico- Austin,0.3818181881850416
+49,shrimp,La Mancha,0.17222222147716415
+46,shrimp,Azul Tequila,0.16818182170391083
+50,shrimp,Pelons Tex-Mex,0.11724137874512837
+51,shrimp,Tacodeli,0.1000000014901161
+41,quesadilla,El Pollo Rico,0.559999993443489
+45,quesadilla,Tacodeli,0.5
+39,quesadilla,Azul Tequila,0.44999999925494194
+40,quesadilla,El Nuevo Mexico- Austin,0.4000000038317272
+44,quesadilla,Pelons Tex-Mex,0.29999999900658925
+43,quesadilla,La Mancha,0.2083333327124516
+38,quesadilla,Amaya's Taco Village,0.17142856866121292
+42,quesadilla,La Fruta Feliz,0.1000000014901161
+31,fish,Azul Tequila,0.4821428558123963
+30,fish,Amaya's Taco Village,0.4260869547724724
+37,fish,Tacodeli,0.3600000008940697
+32,fish,El Nuevo Mexico- Austin,0.2000000029802322
+36,fish,Pelons Tex-Mex,0.11538461452493301
+33,fish,El Pollo Rico,0.0
+34,fish,La Fruta Feliz,0.0
+35,fish,La Mancha,-0.011111109620994992
+25,fajita,El Pollo Rico,0.5666666502753893
+24,fajita,El Nuevo Mexico- Austin,0.3133333350221316
+27,fajita,La Mancha,0.25172413692905987
+23,fajita,Azul Tequila,0.24333333397905033
+26,fajita,La Fruta Feliz,0.2000000006877459
+28,fajita,Pelons Tex-Mex,0.19999999974084937
+22,fajita,Amaya's Taco Village,0.18124999975164732
+29,fajita,Tacodeli,0.0
+20,enchilada,Pelons Tex-Mex,0.3091743133210261
+16,enchilada,El Nuevo Mexico- Austin,0.30405405224175064
+14,enchilada,Amaya's Taco Village,0.26827956872281206
+15,enchilada,Azul Tequila,0.24534883679345595
+19,enchilada,La Mancha,0.23863636211238123
+18,enchilada,La Fruta Feliz,0.1999999973922968
+21,enchilada,Tacodeli,0.1000000014901161
+17,enchilada,El Pollo Rico,0.0
+9,chicken,El Pollo Rico,0.2721875002607703
+10,chicken,La Fruta Feliz,0.20000000298023224
+6,chicken,Amaya's Taco Village,0.19062499923165888
+12,chicken,Pelons Tex-Mex,0.16842105376877284
+7,chicken,Azul Tequila,0.15471698132888326
+11,chicken,La Mancha,0.0904761893408639
+13,chicken,Tacodeli,0.07999999970197677
+8,chicken,El Nuevo Mexico- Austin,0.07272727313366803
+5,burrito,Pelons Tex-Mex,0.33636363595724106
+4,burrito,La Mancha,0.3200000077486038
+0,burrito,Azul Tequila,0.16666666542490324
+2,burrito,El Pollo Rico,0.1400000050663948
+1,burrito,El Nuevo Mexico- Austin,0.1375000011175871
+3,burrito,La Fruta Feliz,0.1000000014901161
+59,tortilla,Texas Honey Ham Company,0.4666666666666667
+55,tortilla,Casa Maria,0.340816324462696
+58,tortilla,Taco Brother,0.3249999973922968
+54,tortilla,Buenos Sabores,0.1571428562913622
+56,tortilla,Fresa's Chicken al Carbon,0.1419354851047198
+57,tortilla,La Mancha,0.121739127713701
+61,tortilla,Wilder Wood Restaurant & Bar,0.06666667262713115
+60,tortilla,Torchy's Tacos,0.044262293787276155
+46,taco,Buenos Sabores,0.5173076878373439
+50,taco,Taco Brother,0.5058823508374831
+51,taco,Texas Honey Ham Company,0.4792156848545168
+53,taco,Wilder Wood Restaurant & Bar,0.31315789018806656
+47,taco,Casa Maria,0.27946428608681473
+49,taco,La Mancha,0.2459999968111515
+52,taco,Torchy's Tacos,0.23293051355464942
+48,taco,Fresa's Chicken al Carbon,0.18445945712360176
+40,steak,Casa Maria,0.7666666507720947
+42,steak,La Mancha,0.485714282308306
+43,steak,Taco Brother,0.4249999951571226
+45,steak,Wilder Wood Restaurant & Bar,0.3341463375382307
+39,steak,Buenos Sabores,0.3000000119209289
+41,steak,Fresa's Chicken al Carbon,0.05000000447034837
+44,steak,Torchy's Tacos,-0.1600000023841858
+36,shrimp,Taco Brother,0.800000011920929
+34,shrimp,Fresa's Chicken al Carbon,0.649999996026357
+35,shrimp,La Mancha,0.3941176406600896
+38,shrimp,Wilder Wood Restaurant & Bar,0.2652173891015675
+37,shrimp,Torchy's Tacos,0.13559321718195738
+33,shrimp,Casa Maria,0.033333333830038704
+27,quesadilla,Buenos Sabores,0.699999988079071
+28,quesadilla,Casa Maria,0.3000000104308128
+31,quesadilla,Taco Brother,0.30000000447034836
+30,quesadilla,La Mancha,0.17500000322858492
+32,quesadilla,Torchy's Tacos,0.09999999900658925
+29,quesadilla,Fresa's Chicken al Carbon,0.0
+24,fish,Taco Brother,0.6799999833106994
+22,fish,Casa Maria,0.45999999791383744
+23,fish,La Mancha,0.28000000566244126
+26,fish,Wilder Wood Restaurant & Bar,0.16999999806284904
+25,fish,Torchy's Tacos,0.11249999888241291
+19,fajita,Taco Brother,0.3750000009313226
+18,fajita,La Mancha,0.31296296376321053
+17,fajita,Fresa's Chicken al Carbon,0.27999999970197675
+16,fajita,Casa Maria,0.26000000182539224
+20,fajita,Torchy's Tacos,0.18636363744735718
+21,fajita,Wilder Wood Restaurant & Bar,0.07999999970197677
+15,enchilada,Wilder Wood Restaurant & Bar,0.3968750007916242
+14,enchilada,La Mancha,0.3360655713276785
+13,enchilada,Casa Maria,0.1909090909598903
+9,chicken,Taco Brother,0.45555555406543946
+5,chicken,Buenos Sabores,0.3909090919928117
+12,chicken,Wilder Wood Restaurant & Bar,0.3699999981692859
+7,chicken,Fresa's Chicken al Carbon,0.24251207673319297
+11,chicken,Torchy's Tacos,0.17499999806750566
+10,chicken,Texas Honey Ham Company,0.15000000596046445
+6,chicken,Casa Maria,-0.017857144719788002
+8,chicken,La Mancha,-0.07199999660253525
+2,burrito,La Mancha,0.575000012293458
+3,burrito,Taco Brother,0.2925925925374031
+4,burrito,Torchy's Tacos,0.27499999990686774
+0,burrito,Casa Maria,0.05714285905872073
+1,burrito,Fresa's Chicken al Carbon,0.0
+60,tortilla,Las Perlas,0.5399999921520551
+58,tortilla,Fresa's Chicken al Carbon,0.3562500001862645
+55,tortilla,Cabo Bob's Burritos,0.3275510226281322
+56,tortilla,Chuy's,0.23921568457986794
+61,tortilla,Manuel's,0.22121212349245042
+63,tortilla,Taco More,0.2205882377045996
+62,tortilla,Marcelino's,0.2125000054948032
+57,tortilla,El Tacorrido,0.09722222046305735
+59,tortilla,Kesos Tacos,0.010869562949823297
+53,taco,Marcelino's,0.4131147530479509
+51,taco,Las Perlas,0.36874999972060324
+54,taco,Taco More,0.3564705885800661
+50,taco,Kesos Tacos,0.27431192568614393
+48,taco,El Tacorrido,0.2621428564616612
+49,taco,Fresa's Chicken al Carbon,0.21578947533118098
+46,taco,Cabo Bob's Burritos,0.2093023261012033
+47,taco,Chuy's,0.167213112482282
+52,taco,Manuel's,-0.0181818160821091
+40,steak,Chuy's,0.5166666569809119
+43,steak,Manuel's,0.37499999813735485
+39,steak,Cabo Bob's Burritos,0.29473684492864105
+45,steak,Taco More,0.16923076602128836
+41,steak,El Tacorrido,0.011111111276679568
+44,steak,Marcelino's,0.0
+42,steak,Kesos Tacos,-0.022222220069832266
+38,shrimp,Taco More,0.625
+35,shrimp,Chuy's,0.5090909105810252
+36,shrimp,Kesos Tacos,0.3000000041837876
+37,shrimp,Manuel's,0.1818181828341701
+33,quesadilla,Manuel's,0.4333333323399226
+32,quesadilla,Las Perlas,0.4333333298563957
+29,quesadilla,Cabo Bob's Burritos,0.3750000074505806
+31,quesadilla,El Tacorrido,0.33888888027932906
+30,quesadilla,Chuy's,0.2500000024835269
+34,quesadilla,Taco More,0.22307692582790667
+25,fish,El Tacorrido,0.39032257348299026
+23,fish,Cabo Bob's Burritos,0.26533333202203113
+26,fish,Kesos Tacos,0.242857141154153
+27,fish,Manuel's,0.19285714227174008
+24,fish,Chuy's,0.0999999971439441
+28,fish,Taco More,-0.011111109620994992
+20,fajita,Kesos Tacos,0.36428571066686083
+18,fajita,Chuy's,0.2410256388859871
+21,fajita,Manuel's,0.19818181910298088
+19,fajita,El Tacorrido,0.176470589111833
+17,fajita,Cabo Bob's Burritos,0.13750000204890966
+22,fajita,Taco More,0.10555555505885018
+16,enchilada,Taco More,0.3499999940395355
+15,enchilada,Manuel's,0.29770114829485445
+14,enchilada,Chuy's,0.24482758642955757
+10,chicken,Las Perlas,0.4600000098347664
+12,chicken,Marcelino's,0.3600000038743019
+5,chicken,Cabo Bob's Burritos,0.3384615412125221
+8,chicken,Fresa's Chicken al Carbon,0.32380952248497613
+6,chicken,Chuy's,0.2360000003874302
+13,chicken,Taco More,0.20540540745934924
+7,chicken,El Tacorrido,0.19999999936782953
+9,chicken,Kesos Tacos,0.18333333565129173
+11,chicken,Manuel's,0.16779660963911122
+3,burrito,Manuel's,0.4000000059604645
+0,burrito,Cabo Bob's Burritos,0.3680327882776495
+4,burrito,Taco More,0.2
+1,burrito,Chuy's,0.09999999994861669
+2,burrito,Kesos Tacos,0.019999992847442628
+106,tortilla,Un Mundo De Sabor,0.4666666587193807
+99,tortilla,La Posada Mexican Restaurant,0.3672413784882118
+101,tortilla,Marcelino's,0.3315789468194309
+97,tortilla,El Naranjo South Lamar,0.3041666705782215
+96,tortilla,El Mesón,0.2851851850196167
+100,tortilla,Las Cazuelas Mexican Restaurant,0.2509803922445166
+104,tortilla,Pueblo Viejo Traila,0.17750000115484
+105,tortilla,Taqueria Arandas,0.1592592630121443
+98,tortilla,Granny's Tacos,0.13529411834828994
+103,tortilla,Pollo Regio,0.12000000402331353
+102,tortilla,Mr Natural,0.10769230585831863
+95,tortilla,Chupacabra Cantina Y Tacqueria,0.09473684194840883
+94,tortilla,Capital Taco,0.044444444278876
+93,taco,Un Mundo De Sabor,0.46428571417927744
+89,taco,Mr Natural,0.4365853612742773
+91,taco,Pueblo Viejo Traila,0.4347222218014024
+84,taco,El Naranjo South Lamar,0.3999999985098839
+81,taco,Capital Taco,0.3693548374839367
+88,taco,Marcelino's,0.3556451587787559
+86,taco,La Posada Mexican Restaurant,0.3531531510992093
+85,taco,Granny's Tacos,0.348666665405035
+92,taco,Taqueria Arandas,0.33103448165387944
+82,taco,Chupacabra Cantina Y Tacqueria,0.3154589360318898
+83,taco,El Mesón,0.24666666835546494
+87,taco,Las Cazuelas Mexican Restaurant,0.22918660247154785
+90,taco,Pollo Regio,0.17647058779702468
+75,steak,Marcelino's,0.800000011920929
+68,steak,Capital Taco,0.528571435383388
+73,steak,La Posada Mexican Restaurant,0.46666666120290756
+78,steak,Pueblo Viejo Traila,0.4238095265768823
+74,steak,Las Cazuelas Mexican Restaurant,0.28571428464991705
+72,steak,Granny's Tacos,0.1545454514297572
+76,steak,Mr Natural,0.12727272578261115
+77,steak,Pollo Regio,0.05000000074505805
+79,steak,Taqueria Arandas,-4.470348358154297e-09
+69,steak,Chupacabra Cantina Y Tacqueria,-0.0692307696892665
+80,steak,Un Mundo De Sabor,-0.25
+71,steak,El Naranjo South Lamar,-0.3000000119209289
+70,steak,El Mesón,-0.5
+67,shrimp,Un Mundo De Sabor,0.5
+61,shrimp,Capital Taco,0.4999999888241291
+62,shrimp,El Mesón,0.3250000048428774
+63,shrimp,El Naranjo South Lamar,0.31428571364709307
+65,shrimp,La Posada Mexican Restaurant,0.2000000019158636
+64,shrimp,Granny's Tacos,0.15000000316649675
+66,shrimp,Las Cazuelas Mexican Restaurant,0.08888888897167312
+51,quesadilla,Capital Taco,0.5
+59,quesadilla,Taqueria Arandas,0.42000000476837157
+53,quesadilla,El Mesón,0.3200000047683716
+58,quesadilla,Pueblo Viejo Traila,0.3055555592808459
+57,quesadilla,Las Cazuelas Mexican Restaurant,0.24000000208616257
+55,quesadilla,Granny's Tacos,0.22500000335276124
+60,quesadilla,Un Mundo De Sabor,0.20000000298023224
+54,quesadilla,El Naranjo South Lamar,0.2000000029802322
+56,quesadilla,La Posada Mexican Restaurant,4.470348358154297e-09
+52,quesadilla,Chupacabra Cantina Y Tacqueria,-0.04285713817392075
+44,fish,Chupacabra Cantina Y Tacqueria,0.457894736083976
+49,fish,Pueblo Viejo Traila,0.42083333525806665
+43,fish,Capital Taco,0.40909090638160706
+50,fish,Taqueria Arandas,0.3000000119209289
+46,fish,La Posada Mexican Restaurant,0.27500000037252903
+48,fish,Mr Natural,0.2666666607062022
+47,fish,Las Cazuelas Mexican Restaurant,0.2625000048428774
+45,fish,El Naranjo South Lamar,0.2500000074505806
+36,fajita,El Naranjo South Lamar,0.8999999761581421
+41,fajita,Pollo Regio,0.4750000089406967
+37,fajita,La Posada Mexican Restaurant,0.4260869528288427
+38,fajita,Las Cazuelas Mexican Restaurant,0.27777777639804063
+33,fajita,Capital Taco,0.26363636485554953
+42,fajita,Taqueria Arandas,0.12857142835855484
+34,fajita,Chupacabra Cantina Y Tacqueria,0.10000001173466444
+35,fajita,El Mesón,0.030000001937150956
+39,fajita,Marcelino's,0.0
+40,fajita,Mr Natural,-0.09999999850988388
+32,enchilada,Un Mundo De Sabor,0.5999999980131785
+26,enchilada,El Naranjo South Lamar,0.34210526002080816
+27,enchilada,La Posada Mexican Restaurant,0.29795918309566927
+30,enchilada,Pueblo Viejo Traila,0.2666666681567828
+28,enchilada,Las Cazuelas Mexican Restaurant,0.25999999925494194
+25,enchilada,El Mesón,0.2275862082325179
+29,enchilada,Mr Natural,0.17368420958518982
+31,enchilada,Taqueria Arandas,0.15454545684836127
+24,enchilada,Chupacabra Cantina Y Tacqueria,0.1323529411764706
+15,chicken,Granny's Tacos,0.4374999972060323
+14,chicken,El Naranjo South Lamar,0.4199999928474426
+23,chicken,Un Mundo De Sabor,0.29999999701976776
+20,chicken,Pollo Regio,0.2678048776053801
+13,chicken,El Mesón,0.25999999841054283
+17,chicken,Las Cazuelas Mexican Restaurant,0.2529411738847985
+21,chicken,Pueblo Viejo Traila,0.24347826449767404
+11,chicken,Capital Taco,0.2333333349476258
+19,chicken,Mr Natural,0.22500000335276127
+16,chicken,La Posada Mexican Restaurant,0.17777777939207023
+18,chicken,Marcelino's,0.15000000596046445
+12,chicken,Chupacabra Cantina Y Tacqueria,0.13333333461057573
+22,chicken,Taqueria Arandas,0.08421052639421664
+4,burrito,La Posada Mexican Restaurant,0.44999999552965164
+2,burrito,El Mesón,0.4000000059604645
+8,burrito,Pollo Regio,0.4000000059604645
+0,burrito,Capital Taco,0.3999999985098839
+1,burrito,Chupacabra Cantina Y Tacqueria,0.28536585046023855
+10,burrito,Taqueria Arandas,0.2100000001490116
+3,burrito,El Naranjo South Lamar,0.2000000029802322
+9,burrito,Pueblo Viejo Traila,0.1333333303531011
+7,burrito,Mr Natural,0.05833333730697631
+6,burrito,Marcelino's,0.0
+5,burrito,Las Cazuelas Mexican Restaurant,-0.0760000017285347
+113,tortilla,Taquito Aviles,0.3407407408511197
+107,tortilla,Taqueria Anyeli,0.3320000001788139
+114,tortilla,Tortillería Río Grande,0.3170370385602668
+111,tortilla,Taqueria Los Jaliscienses,0.3052631553850676
+109,tortilla,Taqueria Chapala,0.29583333153277636
+112,tortilla,Taqueria Morelos,0.25000000149011614
+108,tortilla,Taqueria Arandas,0.24333333546916644
+115,tortilla,Vazquez Restaurant,0.19374999636784196
+102,tortilla,Cheko’s,0.1893617032056159
+110,tortilla,Taqueria Los Altos,0.18461538335451713
+106,tortilla,Tacodeli,0.1692307654481668
+104,tortilla,Maudie's North Lamar,0.10526315926721222
+103,tortilla,El Caribe Mexican Restaurant,0.06071428608681474
+105,tortilla,South Austin Trailer Park & Eatery,4.470348358154297e-09
+93,taco,Taqueria Anyeli,0.4022727286951108
+94,taco,Taqueria Arandas,0.3670731710224617
+95,taco,Taqueria Chapala,0.363461539006004
+101,taco,Vazquez Restaurant,0.35686274632519366
+96,taco,Taqueria Los Altos,0.35362318860016007
+97,taco,Taqueria Los Jaliscienses,0.3400000039268942
+99,taco,Taquito Aviles,0.3396551702171564
+100,taco,Tortillería Río Grande,0.3284552841772878
+92,taco,Tacodeli,0.3235294113264364
+98,taco,Taqueria Morelos,0.32209302242412124
+91,taco,South Austin Trailer Park & Eatery,0.30769230670981357
+88,taco,Cheko’s,0.30540540562690915
+90,taco,Maudie's North Lamar,0.2910000019520521
+89,taco,El Caribe Mexican Restaurant,0.21632653109881342
+79,steak,Maudie's North Lamar,0.533333328862985
+77,steak,Cheko’s,0.4800000011920929
+82,steak,Taqueria Chapala,0.36666665971279144
+87,steak,Vazquez Restaurant,0.26666667064030963
+84,steak,Taqueria Los Jaliscienses,0.23333334177732468
+85,steak,Taqueria Morelos,0.17499999701976776
+80,steak,Tacodeli,0.1545454575256868
+78,steak,El Caribe Mexican Restaurant,0.15000000720222792
+86,steak,Tortillería Río Grande,0.016666666915019352
+83,steak,Taqueria Los Altos,0.0
+81,steak,Taqueria Arandas,-0.699999988079071
+69,shrimp,Cheko’s,0.6749999970197678
+75,shrimp,Taqueria Los Jaliscienses,0.6333333179354668
+73,shrimp,Tacodeli,0.6000000238418579
+70,shrimp,El Caribe Mexican Restaurant,0.5909090827811848
+74,shrimp,Taqueria Chapala,0.4499999973922968
+76,shrimp,Taquito Aviles,0.3
+71,shrimp,Maudie's North Lamar,0.21666666927436987
+72,shrimp,South Austin Trailer Park & Eatery,0.09999999105930328
+65,quesadilla,Taqueria Morelos,0.8999999761581421
+63,quesadilla,Taqueria Chapala,0.6499999910593033
+62,quesadilla,Taqueria Arandas,0.6000000238418579
+61,quesadilla,South Austin Trailer Park & Eatery,0.5
+64,quesadilla,Taqueria Los Jaliscienses,0.3700000002980232
+59,quesadilla,El Caribe Mexican Restaurant,0.2499999850988388
+60,quesadilla,Maudie's North Lamar,0.12666666607062022
+58,quesadilla,Cheko’s,0.11666667088866232
+68,quesadilla,Vazquez Restaurant,0.05000000074505805
+66,quesadilla,Taquito Aviles,0.04285714243139539
+67,quesadilla,Tortillería Río Grande,0.0
+57,fish,Taquito Aviles,0.5999999965230624
+51,fish,El Caribe Mexican Restaurant,0.5000000074505806
+53,fish,South Austin Trailer Park & Eatery,0.4000000059604645
+56,fish,Taqueria Morelos,0.2000000029802322
+52,fish,Maudie's North Lamar,0.15000000223517418
+54,fish,Taqueria Chapala,0.1000000014901161
+55,fish,Taqueria Los Jaliscienses,-0.6000000238418579
+49,fajita,Taquito Aviles,0.7999999821186066
+46,fajita,Taqueria Los Altos,0.47777777661879856
+48,fajita,Taqueria Morelos,0.47499999683350325
+44,fajita,Taqueria Arandas,0.42499999701976776
+50,fajita,Vazquez Restaurant,0.3862068917730759
+41,fajita,Maudie's North Lamar,0.3215384599107962
+47,fajita,Taqueria Los Jaliscienses,0.23529411589398103
+40,fajita,El Caribe Mexican Restaurant,0.21851851873927647
+45,fajita,Taqueria Chapala,0.1944444456862079
+42,fajita,South Austin Trailer Park & Eatery,0.16666666666666666
+39,fajita,Cheko’s,0.1368421045573134
+43,fajita,Taqueria Anyeli,-0.07500000298023225
+34,enchilada,Taqueria Los Jaliscienses,0.40999999791383746
+36,enchilada,Taquito Aviles,0.35555556002590394
+37,enchilada,Tortillería Río Grande,0.352631576359272
+29,enchilada,El Caribe Mexican Restaurant,0.3272727277468551
+33,enchilada,Taqueria Los Altos,0.3230769273180228
+28,enchilada,Cheko’s,0.312068961046893
+30,enchilada,Maudie's North Lamar,0.2896825395051449
+38,enchilada,Vazquez Restaurant,0.24090908975763756
+35,enchilada,Taqueria Morelos,0.24000000357627868
+31,enchilada,Taqueria Arandas,0.19199999928474426
+32,enchilada,Taqueria Chapala,0.09374999953433871
+19,chicken,Taqueria Anyeli,0.399999987334013
+25,chicken,Taquito Aviles,0.375
+27,chicken,Vazquez Restaurant,0.3399999916553497
+15,chicken,El Caribe Mexican Restaurant,0.3119047608758722
+26,chicken,Tortillería Río Grande,0.2850000001490116
+17,chicken,South Austin Trailer Park & Eatery,0.27142856802259174
+24,chicken,Taqueria Morelos,0.2599999964237213
+16,chicken,Maudie's North Lamar,0.20000000186264516
+23,chicken,Taqueria Los Jaliscienses,0.17777777959903082
+21,chicken,Taqueria Chapala,0.1666666648040215
+14,chicken,Cheko’s,0.14166666784634194
+20,chicken,Taqueria Arandas,0.10714285980377879
+22,chicken,Taqueria Los Altos,-0.13333332911133766
+18,chicken,Tacodeli,-0.4333333298563957
+0,burrito,Cheko’s,0.3933333337306976
+13,burrito,Vazquez Restaurant,0.3333333333333333
+4,burrito,Tacodeli,0.30000001192092896
+8,burrito,Taqueria Los Altos,0.30000000521540643
+1,burrito,El Caribe Mexican Restaurant,0.28333333424395984
+7,burrito,Taqueria Chapala,0.24285714221852167
+11,burrito,Taquito Aviles,0.20000000794728598
+9,burrito,Taqueria Los Jaliscienses,0.19545454565774312
+10,burrito,Taqueria Morelos,0.15000000223517418
+2,burrito,Maudie's North Lamar,0.07142857036420278
+6,burrito,Taqueria Arandas,0.04210526653026279
+3,burrito,South Austin Trailer Park & Eatery,0.0
+5,burrito,Taqueria Anyeli,0.0
+12,burrito,Tortillería Río Grande,0.0
