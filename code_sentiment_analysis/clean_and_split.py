@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-review_data_original=pd.read_csv('mexican_reviews_cleaned.csv')
+review_data_original=pd.read_csv('artifacts/mexican_reviews_cleaned.csv')
 
 list1=['taco','tortilla','chicken','enchilada','fajita','burrito','fish','shrimp','quesadilla','steak',
 'tacos','tortillas','chickens','enchiladas','fajitas','burritos','fishs','shrimps','quesadillas','steaks',
