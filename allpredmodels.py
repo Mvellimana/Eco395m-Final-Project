@@ -8,6 +8,7 @@
 
 """Import Packages"""
 import pandas as pd
+import os
 import pickle
 import sklearn
 import numpy as np
@@ -31,7 +32,8 @@ from sklearn.metrics import confusion_matrix
 
 
 """Import the Dataset"""
-df = pd.read_csv('mexican_reviews.csv')
+PATH_IN = os.path.join("artifacts", "mexican_reviews.csv")
+df = pd.read_csv(PATH_IN)
 
 """Drop rows with no ratings. """
 yelp_d = df[df.rating != 'no rating']
