@@ -12,5 +12,8 @@ bs4==0.0.1
 beautifulsoup4==4.11.1
 st-annotated-text==3.0.0
 google.cloud==18.0.0
-
+dotenv==0.0.5
+sqlalchemy==1.4.43
+psycopg2==2.9.5
+lxml==4.8.0
 
