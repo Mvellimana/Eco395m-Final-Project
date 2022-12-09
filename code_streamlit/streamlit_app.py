@@ -31,7 +31,7 @@ if choice=="Overview":
 
 	st.title("Opinions Mining of Yelp Reviews")
 	
-	lottie_coding=load_lottiefile("animation.json")
+	lottie_coding=load_lottiefile("./artifacts/animation.json")
 	st_lottie(
 		lottie_coding,
 		speed=1,
@@ -117,7 +117,7 @@ PATH2 = os.path.join("artifacts", "wordcloud_reviews.png")
 if choice=="Top Mentioned Words":
 
 	st.title("Top Words/Dishes")
-	lottie_coding=load_lottiefile("star.json")
+	lottie_coding=load_lottiefile("./artifacts/star.json")
 	st_lottie(
 		lottie_coding,
 		speed=1,
@@ -180,21 +180,22 @@ if choice=="Choose Your Restaurants":
 		return attribute_choice_set.issubset(set(attributes_list))
 
 
-	mask = df6["attributes"].apply(
+	find = df6["attributes"].apply(
 	    contain_selected_attributes, args=(set(attribute_choice),)
 	)
 
-	st.dataframe(df6[mask])
+	st.dataframe(df6[find])
 	
 	
 	a,b=st.columns([3,1])
+	st.subheader("Select your Favorite Restaurants Based on Price and Rating")
 	money_choice=a.selectbox("Price Range",[" ","$$$","$$","$"]) 
 	rating_choice = b.number_input("Minimum Rating", step=0.5)
 
 
 	df_info = pd.read_csv(PATH7)
 
-	st.subheader("Select your Favorite Restaurants Based on Price and Rating")
+	
 
 	def price_check(price, price_choice):
 		'''get the boolean values for price.'''
@@ -227,7 +228,7 @@ if choice=="Sentiment Analysis":
 
 	st.title("Sentiment Analysis")
 
-	lottie_coding=load_lottiefile("avocado.json")
+	lottie_coding=load_lottiefile("./artifacts/avocado.json")
 	st_lottie(
 		lottie_coding,
 		speed=1,
@@ -273,11 +274,15 @@ if choice=="Sentiment Analysis":
 	    food_bool = [False] * len(df_best.index)
 	elif dish != ' ':
 	    food_bool_best = df_best['cleaan_entity_name'].apply(food_check, args=(dish, ))
-	    food_bool_worst = df_best['cleaan_entity_name'].apply(food_check, args=(dish, ))
+	    food_bool_worst = df_worst['cleaan_entity_name'].apply(food_check, args=(dish, ))
 	    df_1 = df_best[food_bool_best]
 	    df_2 = df_worst[food_bool_worst]
-	    df_comb = df_1.append(df_2)
-	    st.dataframe(df_comb)
+	    #df_comb = df_1.append(df_2)
+	    #st.dataframe(df_comb)
+	    st.info("The top best 5")
+	    st.dataframe(df_1)
+	    st.info("The top worst 5")
+	    st.dataframe(df_2)
 
 
 
