@@ -2,14 +2,15 @@
 
 """Imports"""
 import pandas as pd
-import pandas as pd
+import os
 import nltk
 nltk.download('punkt')
 from textblob.classifiers import NaiveBayesClassifier
 from sklearn.model_selection import train_test_split
 
 """Import the Dataset"""
-df = pd.read_csv("/Users/rajsitee/Desktop/VS Code trial copy/Eco395m-Final-Project/Cleaned_reviews.csv")
+PATH_IN = os.path.join("artifacts", "Cleaned_reviews.csv")
+df = pd.read_csv(PATH_IN)
 
 """One-hot-encoding"""
 temp_array = list(df.polarity)
