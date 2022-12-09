@@ -261,7 +261,8 @@ if choice=="Overview":
 	st.subheader("Sentiment Analysis Validations")
 	st.markdown("For the classification models, two different CSVs have been used. \
 	*The TextBlob Analyzer* uses the `sentiment_score_by_review.csv` and *The Naïve Bayes TF IDF* uses the `mexican_reviews.csv`. \
-	The codes can be found in the home directory with names `allpredmodels.py` and `textblobanalyzer.py`.")
+	The codes can be found in the `code_sentiment_analysis` directory with names `allpredmodels.py` and `textblobanalyzer.py`. \
+	On the other hand, the csv files could be found in the `artifacts` directory.")
 
 	st.subheader("Streamlit App")
 	st.markdown("In order to produce the streamlit app. We have used different types of packages which could be found in the `requirments.txt` under the `code_streamlit` \
