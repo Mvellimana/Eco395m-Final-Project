@@ -4,15 +4,17 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_lottie import st_lottie
-from annotated_text import annotated_text
 import os
 
 
+# Preparing 5 pages for the app in the sidebar
+#Create a path for sidebar picture
 
+PATH1 = os.path.join("artifacts", "yelp_logo.png")
+PATH_polarity = os.path.join("artifacts", "polarity.png")
 
 with st.sidebar:
-	st.image("https://s3-media2.fl.yelpcdn.com/bphoto/HHyTr44O1_Xp8sYuTpKU8g/o.jpg")
+	st.image(PATH1)
 	choice=option_menu(
 		menu_title="Final Project",
 		options=["Overview","Restaurants Map", "Top Mentioned Words","Choose Your Restaurants", "Sentiment Analysis"],
@@ -22,26 +24,21 @@ with st.sidebar:
 		)
 
 
+#load function to add animation effect
+
 def load_lottiefile(filepath: str):
 	'''load lottifile to add animation effects.'''
 	with open(filepath, "r") as f:
 		return json.load(f)
 
+
+#Build the first page 
+
 if choice=="Overview":
 
 	st.title("Opinions Mining of Yelp Reviews")
 	
-	lottie_coding=load_lottiefile("animation.json")
-	st_lottie(
-		lottie_coding,
-		speed=1,
-		reverse=False,
-		loop=True,
-		quality="low",
-		height=None,
-		width=None,
-		key=None,
-	)
+	st.image(PATH_polarity)
 
 	st.header("Introduction")
 	st.markdown("This project aims to conduct an opinions mining analysis based on yelp reviews. The projects includes the use of Google Cloud Platform, \
@@ -270,83 +267,89 @@ if choice=="Overview":
 	It’s worth mentioning that we have deployed the app by creating an account in streamlit and connecting the Github page with the account. ")
 
 
+#Build the path for the map data
 
-PATH5 = os.path.join("artifacts", "yelp_map_data.csv")
 
-df5 = (
-	pd.read_csv(PATH5)
+PATH2 = os.path.join("artifacts", "yelp_map_data.csv")
+PATH_MAP_ICON = os.path.join("artifacts", "map_icon.png")
+
+map_df = (
+	pd.read_csv(PATH2)
 	)
+
 
 if choice=="Restaurants Map":
 	st.header("Locate the Highest Ratings Mexican Restaurants in Austin")
+
+	st.image(PATH_MAP_ICON, )
+
 	st.markdown('Choose the minimum rating.')
 
-	rating = st.slider("Rating", 1.0, float(df5["rating"].max()), 4.5, step = 0.5)
-	st.map(df5.query("rating >= @rating")[["latitude", "longitude"]])
+	rating = st.slider("Rating", 1.0, float(map_df["rating"].max()), 4.5, step = 0.5)
+	st.map(map_df.query("rating >= @rating")[["latitude", "longitude"]])
 	
 
-
-PATH3 = os.path.join("artifacts", "wordcloud_food.png")
-PATH2 = os.path.join("artifacts", "wordcloud_reviews.png")
+#Build the path for the wordcloud pic
 
 
+PATH3 = os.path.join("artifacts", "mexican_food.png")
+PATH4 = os.path.join("artifacts", "wordcloud_food.png")
+PATH5 = os.path.join("artifacts", "wordcloud_reviews.png")
 
+
+#Design the 3rd page in the app
 
 if choice=="Top Mentioned Words":
 
 	st.title("Top Words/Dishes")
-	lottie_coding=load_lottiefile("star.json")
-	st_lottie(
-		lottie_coding,
-		speed=1,
-		reverse=False,
-		loop=True,
-		quality="low",
-		height=250,
-		width=350,
-		key=None,
-	)
+	st.image(PATH3)
 
-	st.markdown("This analysis is conducted based on scrapped yelp reviews on Mexican restaurants in Austin. Click on the buttons below to explore them. :smile:")
-	st.subheader("Top Mentioned Dishes")
+
+	st.markdown("This analysis is conducted based on the highest iterated text from the scrapped yelp reviews on Mexican restaurants in Austin. \
+		Click on the buttons below to explore them. :smile:")
+	st.subheader("Top Iterated Dishes")
 	
 
-	if st.button("Top Mentioned Dishes"):
-		st.image(PATH3)
+	if st.button("Top Iterated Dishes"):
+		st.image(PATH4)
 
 	st.subheader("Top Iterated Words Reviews")
 	
 
 	if st.button("Top Iterated Words Reviews"):
-		st.image(PATH2)
+		st.image(PATH5)
 
 	
 
-
-PATH4 = os.path.join("artifacts", "sentiment_score_by_rest.csv")
-
-df4 = (
-	pd.read_csv(PATH4)
-	)
+#Design the 4th page 
 
 
 
 
 PATH6 = os.path.join("artifacts", "mexican_restaurant_attributes.csv")
 PATH7 = os.path.join("artifacts", "mexican_restaurant_info.csv")
+PATH8 = os.path.join("artifacts", "food_choice.png")
 
+
+
+
+
+#1st part of the page
 
 
 if choice=="Choose Your Restaurants":
 	st.title("Choose Your Restaurants")
 
-	st.image("https://s3-media4.fl.yelpcdn.com/bphoto/XkJSex0R3IgwnO8i4UG2AQ/o.jpg",width=200)
+	st.image(PATH8)
 	st.subheader("Select your Favorite Restaurants Based on Attributes")
 
 	attribute_choice=st.multiselect("Filter by attributes",["Takes Reservations", "Offers Delivery","Offers Takeout", "Masks required"])
     
 	
-	df6 = pd.read_csv(PATH6)
+
+	df_att = pd.read_csv(PATH6)
+	
+	
 
 	def contain_selected_attributes(attributes, attribute_choice_set):
 		"""Check if selected attributes are contained, if so, return True, otherwise, return False."""
@@ -358,13 +361,15 @@ if choice=="Choose Your Restaurants":
 		return attribute_choice_set.issubset(set(attributes_list))
 
 
-	mask = df6["attributes"].apply(
+	selected_att = df_att["attributes"].apply(
 	    contain_selected_attributes, args=(set(attribute_choice),)
 	)
 
-	st.dataframe(df6[mask])
+	st.dataframe(df_att[selected_att])
 	
 	
+#2nd part of the page
+
 	a,b=st.columns([3,1])
 	money_choice=a.selectbox("Price Range",[" ","$$$","$$","$"]) 
 	rating_choice = b.number_input("Minimum Rating", step=0.5)
@@ -397,25 +402,22 @@ if choice=="Choose Your Restaurants":
 	st.dataframe(df_limit_cols[bool_select])
 
 
-PATH8 = os.path.join("artifacts", "best_rest.csv")
-PATH9 = os.path.join("artifacts", "worst_rest.csv")	
 
+#Build the last page app
+
+PATH9 = os.path.join("artifacts", "sentiment_score_by_rest.csv")
+PATH10 = os.path.join("artifacts", "best_rest.csv")
+PATH11 = os.path.join("artifacts", "worst_rest.csv")	
+PATH12 = os.path.join("artifacts", "sentiment.png")	
+
+
+	#first part
 
 if choice=="Sentiment Analysis":
 
 	st.title("Sentiment Analysis")
+	st.image(PATH12)
 
-	lottie_coding=load_lottiefile("avocado.json")
-	st_lottie(
-		lottie_coding,
-		speed=1,
-		reverse=False,
-		loop=True,
-		quality="low",
-		height=250,
-		width=350,
-		key=None,
-	)
 
 	st.header("Pre-Built Algorthim vs Hand-Built Algorthim")
 	st.markdown("We have conducted 2 different models to assess the sentiment analysis. The first model is a **TextBlob** model which is a *Pre-Built Algorthim* that uses\
@@ -425,37 +427,59 @@ if choice=="Sentiment Analysis":
 	col1.metric("Pre-Built Algorthim", "89.67% Accuracy", "TextBlob")
 	col2.metric("Hand-Built Algorthim", "83.8% Accuracy", "Naïve Bayes- TF IDF")
 	st.markdown("So, we are using the **TextBlob** model results to show them below.")
-	
 
+	#2nd part
+	
+	df_polarity = pd.read_csv(PATH9)
 	st.header("Find the Sentiment Score for Mexican Restaurants")
 	st.markdown("Slide right for restaurants with higher sentiment analysis, and left to include the lower.")
 	score=st.slider("Select the minimum sentiment score.",min_value=-1.0,max_value=1.0,value=0.00,step=0.001)
-	df4_made=df4.loc[df4["Polarity"]>=score]
-	st.dataframe(df4_made)
+	df_polarity2 =df_polarity.loc[df_polarity["Polarity"]>=score]
+	st.dataframe(df_polarity2)
 	
 	
+	#3rd part
 
 	st.header("Find the Best and the worst restaurants from the selectbox")
 	st.markdown("Pick a specific dish to find the top 5 and worst 5 restaurants based on Google Cloud NLP.")
-	df_best = pd.read_csv(PATH8)
-	df_worst = pd.read_csv(PATH9)
+	df_best = pd.read_csv(PATH10)
+	df_worst = pd.read_csv(PATH11)
 
+	st.subheader("Top 5 restaurants per food item based on sentiment analysis 👍")
 	dish = st.selectbox(
-	    "Choose dishes you want, Find the Best and Leave the Worst!",
+	    "Choose your fav dish",
 	    [' ','tortilla', 'burrito', 'quesadilla', 'steak','fish', 'enchilada', 'fajita', 'taco', 'chicken', 'shrimp'])
 	
-	def food_check(food, food_choice):
+
+	def food_best(food, food_choice):
 	    return str(food_choice) == str(food)
 
 	if dish == ' ':
 	    food_bool = [False] * len(df_best.index)
 	elif dish != ' ':
-	    food_bool_best = df_best['cleaan_entity_name'].apply(food_check, args=(dish, ))
-	    food_bool_worst = df_best['cleaan_entity_name'].apply(food_check, args=(dish, ))
-	    df_1 = df_best[food_bool_best]
-	    df_2 = df_worst[food_bool_worst]
-	    df_comb = df_1.append(df_2)
-	    st.dataframe(df_comb)
+	    food_bool_best = df_best['cleaan_entity_name'].apply(food_best, args=(dish, ))
+	    df_best2 = df_best[food_bool_best]
+	    st.dataframe(df_best2)
+
+
+	#Worst 5
+
+	st.subheader("Worst 5 restaurants per food item based on sentiment analysis 👎")
+
+	dish2 = st.selectbox(
+	    "Choose your fav dish",
+	    ['  ','tortilla', 'burrito', 'quesadilla', 'steak','fish', 'enchilada', 'fajita', 'taco', 'chicken', 'shrimp'])
+
+
+	def food_worst(food_worst, food_choice_bad):
+	    return str(food_choice_bad) == str(food_worst)
+
+	if dish2 == '  ':
+	    food_bool2 = [False] * len(df_worst.index)
+	elif dish2 != ' ':
+	    food_bool_worst = df_worst['cleaan_entity_name'].apply(food_worst, args=(dish2, ))
+	    df_worst2 = df_worst[food_bool_worst]
+	    st.dataframe(df_worst2)
 
 
 
