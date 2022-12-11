@@ -269,7 +269,7 @@ if choice=="Overview":
 	st.markdown("Big thanks to the contributers below:")
 	st.markdown("**Ahmed Almezail**: [Github](www.github.com/Mezalay)")
 	st.markdown("**Jordan Despian**: [Github](www.github.com/JordanDespain)")
-	st.markdown("**Maithreyi Vellimana**: [Github](www.github.com/Mvellimana)")
+	st.markdown("**Maithreyi Vellimana**: [Github](https://github.com/Mvellimana)")
 	st.markdown("**Rajsitee Dhavale**: [Github](www.github.com/Rajsitee)")
 	st.markdown("**Sonali Mishra**: [Github](www.github.com/Sonali4794)")
 	st.markdown("**Tyler Nicholson**: [Github](www.github.com/Tnich1995)")
