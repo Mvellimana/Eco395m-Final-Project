@@ -267,13 +267,13 @@ if choice=="Overview":
 	It’s worth mentioning that we have deployed the app by creating an account in streamlit and connecting the Github page with the account. ")
 
 	st.markdown("Big thanks to the contributers below:")
-	st.markdown("**Ahmed Almezail**: [Github](www.github.com/Mezalay)")
-	st.markdown("**Jordan Despian**: [Github](www.github.com/JordanDespain)")
+	st.markdown("**Ahmed Almezail**: [Github](https://github.com/Mezalay)")
+	st.markdown("**Jordan Despian**: [Github](https://github.com/JordanDespain)")
 	st.markdown("**Maithreyi Vellimana**: [Github](https://github.com/Mvellimana)")
-	st.markdown("**Rajsitee Dhavale**: [Github](www.github.com/Rajsitee)")
-	st.markdown("**Sonali Mishra**: [Github](www.github.com/Sonali4794)")
-	st.markdown("**Tyler Nicholson**: [Github](www.github.com/Tnich1995)")
-	st.markdown("**Lu Zhang**: [Github](www.github.com/MeetLuna)")
+	st.markdown("**Rajsitee Dhavale**: [Github](https://github.com/Rajsitee)")
+	st.markdown("**Sonali Mishra**: [Github](https://github.com/sonali4794)")
+	st.markdown("**Tyler Nicholson**: [Github](https://github.com/Tnich1995)")
+	st.markdown("**Lu Zhang**: [Github](https://github.com/MeetLuna)")
 
 
 
