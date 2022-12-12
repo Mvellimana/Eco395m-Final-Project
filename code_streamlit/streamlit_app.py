@@ -275,6 +275,8 @@ if choice=="Overview":
 	st.markdown("**Sonali Mishra**: [Github](https://github.com/sonali4794) [Linkedin](https://www.linkedin.com/in/smishra-xyz)")
 	st.markdown("**Tyler Nicholson**: [Github](https://github.com/Tnich1995)")
 
+	st.markdown("If you are intrested in looking at the code, pease visit the link below. Please note all rights are reserved to the authors.")
+	st.markdown("[Project Repo](https://github.com/Mezalay/Eco395m-Final-Project)")
 
 
 
