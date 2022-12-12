@@ -273,7 +273,7 @@ if choice=="Overview":
 	st.markdown("**Maithreyi Vellimana**: [Github](https://github.com/Mvellimana) [Linkedin](https://www.linkedin.com/in/maithreyi-vellimana-e-i-t-2514a8115)")
 	st.markdown("**Rajsitee Dhavale**: [Github](https://github.com/Rajsitee) [Linkedin](https://www.linkedin.com/in/rajsitee)")
 	st.markdown("**Sonali Mishra**: [Github](https://github.com/sonali4794) [Linkedin](https://www.linkedin.com/in/smishra-xyz)")
-	st.markdown("**Tyler Nicholson**: [Github](https://github.com/Tnich1995)")
+	st.markdown("**Tyler Nicholson**: [Github](https://github.com/Tnich1995) [Linkedin](https://www.linkedin.com/in/tyler-nicholson-34300a1a9)")
 
 	st.markdown("If you are intrested in looking at the code, you can click on the link below. Please note all rights are reserved to the authors.")
 	st.markdown("[Project Repo](https://github.com/Mezalay/Eco395m-Final-Project)")
