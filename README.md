@@ -42,38 +42,41 @@ We used the sentiment property from the TexBlob package to approximate whether t
 #### Data Cleaning
 To use this module, we firstly had to make sure that our reviews are in the correct format. This involved some data cleaning. The main steps for the data cleaning part are :
 
-Lowercase all words: To insure, consistency with list of stopwords, as well as to include capitalized words
-Remove punctuation
-Remove stop words: Some commonly occuring words have little to no meaning and removing them from the data makes sentiment analysis more efficent. The Natural Language Toolkit comes built in with a comprehensive stop words list. This list, which was imported from nltk.corpus library, was used to remove stop words from the Yelp reviews. Further removal was done by picking out trivial words from a visual check of top 50 most frequent occurring words assigned to all the words after which a final sentiment is calculated by some pooling operation.
-Lemmatization: Lemmatization is basically a method that switches any kind of a word to its base root mode. This cuts out the number of words that are available for analysis by combining similar forms into one base form.
+1. Lowercase all words: To insure, consistency with list of stopwords, as well as to include capitalized words
+2. Remove punctuation
+3. Remove stop words: Some commonly occuring words have little to no meaning and removing them from the data makes sentiment analysis more efficent. The Natural Language Toolkit comes built in with a comprehensive stop words list. This list, which was imported from nltk.corpus library, was used to remove stop words from the Yelp reviews. Further removal was done by picking out trivial words from a visual check of top 50 most frequent occurring words assigned to all the words after which a final sentiment is calculated by some pooling operation.
+4. Lemmatization: Lemmatization is basically a method that switches any kind of a word to its base root mode. This cuts out the number of words that are available for analysis by combining similar forms into one base form.
 
 ### 1. TextBlob Algorothim - Reviews Polarity Score
 Once the reviews were cleaned and formatted, the sentiment property from TextBlob was applied to every review to get its polarity. This polarity scores were averaged by each unique restaurant to get a restaurant level sentiment score.
 
 #### Limitations
-Averaging sentiment scores of all reviews by restaurant might not give an accurate representation of the restaurant’s reputation.
-Textblob ignores words that it does not know and will only consider words and phrases that it can assign polarity to. This could skew the polarity results if unknown words are many.
+- Averaging sentiment scores of all reviews by restaurant might not give an accurate representation of the restaurant’s reputation.
+
+- Textblob ignores words that it does not know and will only consider words and phrases that it can assign polarity to. This could skew the polarity results if unknown words are many.
 
 ### 2. Google Cloud NLP Algorothim - Entity Sentiment Analysis
 It would be interesting to find what the customers feel about certain aspects of importance from the reviews. That is if multiple reviews talk about tacos then what do yelpers in general feel about the tacos there (is it a must-go or must-avoid). We use Google Cloud NLP sentiment analysis here. Being one of the largest data aggregators of some form, Google is in an unparalleled position to perform some NLP exercises. Entity sentiment analyser in GCP is built to identify entities from large texts and also identify whether that entity is in positive or negative standing with respect to the whole review. It is also smart enough to know if multiple words/phrases refer to the same entity. It generates a lot of useful information like salience score, sentiment score, sentiment magnitude, number of mentions etc.
 
-Salience score tells us the relevance of the entity to the review
-Sentiment score tells us what the reviewer feels about the entity
-Magnitude tells us how emotional the review is (does it seem to be written by a bot ?)
+- Salience score tells us the relevance of the entity to the review
+- Sentiment score tells us what the reviewer feels about the entity
+- Magnitude tells us how emotional the review is (does it seem to be written by a bot ?)
+
 However, for the sake of this project, we focused only on sentiment score.
 
 Since our focus is on Mexican restaurants and its reviews by Yelpers. We looked at roughly 70k reviews which is a rich information for any form of text analysis. To avoid maxing out on free GCP credits, we emphasized on 10 popular food items from Mexican cuisine. We chose this list based on word cloud and n-grams frequency. The goal of this analysis is to get the top and worst 5 restaurants for each enetity (food item) according to the sentiment score results. The entity categories are:
 
-Tacos
-Tortillas
-Chicken
-Enchilada
-Fajita
-Burrito
-Fish
-Shrimp
-Quesadilla
-Steak
+1. Tacos
+2. Tortillas
+3. Chicken
+4. Enchilada
+5. Fajita
+6. Burrito
+7. Fish
+8. Shrimp
+9. Quesadilla
+10. Steak
+
 Post this filtering we end up with 45000 reviews which is still huge but a significant reduction. The one thing that connects the code to your GCP account is the API Key (which must be kept invisible to avoid fraudulent loss of credits). We then study the reviews to arrive at an entity sentiment score pivoted around the above-mentioned 10 categories and provide recommendations for top 5 and bottom 5 restaurants for a particular food item.
 
 Further explaination on how we established the popular food categories, we used a comprehensive domain specific food items lexicon corpus which is available in YelpNLG: Review Corpus for NLG. This lexicon library was used to extract food items from reviews. Through word cloud we knew the most frequent words/phrases. So we mapped and compared these two and identified only popular food items in the reviews. The only shortcoming we could think of for GCP NLP is that it's not free and not cheap as we do more analysis. They have very specific billing regulations and one must be careful especially while doing high computational analysis.
@@ -86,18 +89,18 @@ In this section, we have built classification models to help us gauge the accura
 #### Approach 1: Pre-Built Model
 We used a Custom-Built Sentiment Analyzer using Textblob Naïve Bayes Classifier. The highlights of the model are as follow:
 
-Textblob is a pre-built deep learning model that is trained on movie reviews. Hence, it might not work accurately for food reviews, leading to biased results.
-We used TextBlob to find the polarity score of the food reviews. To predict the accuracy of this polarity score, we built a sentiment analyzer using TextBlob’s Naïve Bayes classifier.
-We used the polarity score (where 0 = negative, 1 = positive) to build the model.
-This analyzer model achieved an accuracy of 89.69%.
+- Textblob is a pre-built deep learning model that is trained on movie reviews. Hence, it might not work accurately for food reviews, leading to biased results.
+- We used TextBlob to find the polarity score of the food reviews. To predict the accuracy of this polarity score, we built a sentiment analyzer using TextBlob’s Naïve Bayes classifier.
+- We used the polarity score (where 0 = negative, 1 = positive) to build the model.
+- This analyzer model achieved an accuracy of 89.69%.
 
 #### Approach 2: Hand-Built Model
 In this model, we created a Hand-Built Naïve Bayes TF IDF (Bag-of-Words) Model. The highlights as follow:
 
-We built a model from scratch to predict the accuracy with which a review is correctly classified as positive.
-We used ratings to classify the review as positive or negative. We use this as a proxy for the polarity score as that is an inferred score. Ratings, on the other hand, are provided by the individual writing the review, and so can be considered as ground data.
-We classify 1, 2 and 3-star ratings as negative (0) and 4 and 5-star ratings as positive (1) to build the model.
-This model achieved an accuracy of 83.8%.
+- We built a model from scratch to predict the accuracy with which a review is correctly classified as positive.
+- We used ratings to classify the review as positive or negative. We use this as a proxy for the polarity score as that is an inferred score. Ratings, on the other hand, are provided by the individual writing the review, and so can be considered as ground data.
+- We classify 1, 2 and 3-star ratings as negative (0) and 4 and 5-star ratings as positive (1) to build the model.
+- This model achieved an accuracy of 83.8%.
 
 ##### Winning Model
 Based on our predictions, we selected the TextBlob algorithm as it provides higher accuracy. However, we must consider the fact that this model builds on the polarity score that the pre-built model produces. So, if a review has wrongly been estimated as positive, then the algorithm might also end up classifying it as positive. However, in the interest of time and efficiency, we are looking at only accuracy. To get better results, we can look at metrics like the precision and recall scores, the F1 scores and the ROC-AUC Curve.
@@ -105,10 +108,11 @@ Based on our predictions, we selected the TextBlob algorithm as it provides high
 ##### Note
 We had built 4 hand-built models to test for the one that gave the best accuracy.
 
-Naïve Bayes: Count Vectorizer
-Naïve Bayes: TF IDF
-Gradient Boosted Classifier: Count Vectorizer
-Gradient Boosted Classifier: TF IDF
+1. Naïve Bayes: Count Vectorizer
+2. Naïve Bayes: TF IDF
+3. Gradient Boosted Classifier: Count Vectorizer
+4. Gradient Boosted Classifier: TF IDF
+
 While all of them gave nearly identical results, the Naïve Bayes TF IDF model performed slightly better than the other three. Hence, we picked that one as the best model for Approach 2. Most of the yelp reviews were positive, which caused the model to give biased results. To eliminate this imbalance, we reduced the number of positive reviews in the datasets to match the negative reviews.
 
 ### III. Streamlit App
