@@ -141,10 +141,4 @@ In order to produce the streamlit app. We have used different types of packages 
 
 Big thanks to the contributers below:
 
-Ahmed Almezail
-Jordan Despian
-Lu Zhang
-Maithreyi Vellimana
-Rajsitee Dhavale
-Sonali Mishra
-Tyler Nicholson
+Ahmed Almezail, Jordan Despian, Lu Zhang, Maithreyi Vellimana, Rajsitee Dhavale, Sonali Mishra, Tyler Nicholson
