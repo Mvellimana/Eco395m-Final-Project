@@ -139,3 +139,12 @@ For the classification models, two different CSVs have been used. The TextBlob A
 ### Streamlit App
 In order to produce the streamlit app. We have used different types of packages which could be found in the requirments.txt under the code_streamlit directory. In addition, the code could be found in the same directory with the name of streamlit_app.py. It’s worth mentioning that we have deployed the app by creating an account in streamlit and connecting the Github page with the account.
 
+Big thanks to the contributers below:
+
+Ahmed Almezail
+Jordan Despian
+Lu Zhang
+Maithreyi Vellimana
+Rajsitee Dhavale
+Sonali Mishra
+Tyler Nicholson
