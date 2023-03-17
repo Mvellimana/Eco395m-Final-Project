@@ -3,7 +3,6 @@
 Please refer to the link below to our streamlit Dashboard.
 https://mvellimana-eco395m-final-pro-code-streamlitstreamlit-app-63u55v.streamlit.app/
 
-
 ## Introduction
 This project aims to conduct an opinions mining analysis based on yelp reviews. The projects includes the use of Google Cloud Platform, SQL, scraping, sentiment analysis, and Streamlit. We were able to view the results of the sentiment analysis based on yelp reviews.
 
