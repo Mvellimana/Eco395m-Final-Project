@@ -13,7 +13,7 @@ To start this project, we began with using Yelp’s Fusion API system to gather 
 ### II. GCP Database
 For our database we used a PostgreSQL 13 server on the Google Cloud Platform with the following summary:
 
-Picture1.png
+![Picture1.png](https://i.postimg.cc/SsrDBzt4/Picture1.png)
 
 Which in hindsight might have been a little more powerful than we needed but the server was still cheaper than expected.
 
